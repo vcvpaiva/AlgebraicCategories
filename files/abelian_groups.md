@@ -1,12 +1,12 @@
 # Abelian groups
 
-Abbreviation: **AbGrp** [[wp>Abelian group]]
+Abbreviation: **AbGrp** [Abelian group](https://en.wikipedia.org/wiki/Abelian_group)
 
 ## Definition
 An ***abelian group*** is a structure $\mathbf{G}=\langle
 G,+,-,0\rangle$, where $+$ is an infix binary operation, called the 
-\emph{group addition}, $-$ is a prefix unary operation, called the 
-\emph{group negative} and $0$ is a constant (nullary operation), called the \emph{additive identity element}, such that
+***group addition***, $-$ is a prefix unary operation, called the 
+***group negative*** and $0$ is a constant (nullary operation), called the ***additive identity element***, such that
 
 $+$ is commutative:  $x+y=y+x$
 
@@ -38,10 +38,13 @@ The free abelian group on $n$ generators is $\mathbb Z^n$.
 Classification of finitely generated abelian groups: Every $n$-generated abelian group is isomorphic to a direct product of $\mathbb Z_{p_i^{k_i}}$ for $i=1,\ldots,m$ and $n-m$ copies of $\mathbb Z$, where the $p_i$ are (not necessarily distinct) primes and $m\ge 0$.
 
 
-### Properties
-^[[Classtype]]                       |variety |
+## Properties
 
-^[[Equational theory]]               |decidable in polynomial time |
+|Property|Value|
+|---|---|
+|Classtype                       |variety |
+
+|Equational theory               |decidable in polynomial time |
 
 ^[[Quasiequational theory]]          |decidable |
 
@@ -73,29 +76,27 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 
 
 ### Finite members
-^$n$       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
-
-^# of algs | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 3 | 2 |  1 |  1 |  2 |  1 |  1 |  1 |  5 |  1 |  2 |  1 | 1  |  1 |  1 |  1 |  3 |  2 |
-
-^# of si's | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |  0 |  1 |  0 |  1 |  0 |  0 |  1 |  1 |  0 |  1 | 0  |  0 |  0 |  1 |  0 |  1 |
+|$n$       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+|---       |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|# of algs | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 3 | 2 |  1 |  1 |  2 |  1 |  1 |  1 |  5 |  1 |  2 |  1 | 1  |  1 |  1 |  1 |  3 |  2 |
+|# of si's | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |  0 |  1 |  0 |  1 |  0 |  0 |  1 |  1 |  0 |  1 | 0  |  0 |  0 |  1 |  0 |  1 |
 
 see also http://www.research.att.com/projects/OEIS?Anum=A000688
 
 
 ### Subclasses
-[[Boolean groups]]
+[Boolean groups](boolean_groups.md)
 
-[[Commutative rings]]
+[Commutative rings](commutative_rings.md)
 
 
 ### Superclasses
-[[Groups]]
+[Groups]()
 
-[[Commutative monoids]]
+[Commutative monoids]()
 
 
 ### References
-
 W. Szmielew: Decision problem in group theory,
 Library of the Tenth International Congress of Philosophy, 
 Amsterdam, August 11--18, 1948, Vol.1, Proceedings of the Congress,
