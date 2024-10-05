@@ -42,37 +42,22 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 
 |Property|Value|
 |---|---|
-|Classtype                       |variety |
-
-|Equational theory               |decidable in polynomial time |
-
-^[[Quasiequational theory]]          |decidable |
-
-^[[First-order theory]]              |decidable [(Szmielew1949)] |
-
-^[[Locally finite]]                  |no |
-
-^[[Residual size]]                   |$\omega$ |
-
-^[[Congruence distributive]]         |no ($\mathbb{Z}_{2}\times \mathbb{Z}_{2}$) |
-
-^[[Congruence n-permutable]]         |yes, $n=2$, $p(x,y,z)=x-y+z$ |
-
-^[[Congruence regular]]              |yes, congruences are determined by subalgebras |
-
-^[[Congruence uniform]]              |yes |
-
-^[[Congruence types]]                |permutational |
-
-^[[Congruence extension property]]   |yes, if $K\le H\le G$ then $K\le G$ |
-
-^[[Definable principal congruences]] |no |
-
-^[[Equationally def. pr. cong.]]     |no |
-
-^[[Amalgamation property]]           |yes |
-
-^[[Strong amalgamation property]]    |yes |
+|[Classtype](Classtype.md)                       |variety |
+|[Equational theory](equational_theory.md)               |decidable in polynomial time |
+|[Quasiequational theory](quasiequational_theory.md)          |decidable |
+|[First-order theory](first-order_theory.md)]              |decidable |
+|[Locally finite](locally_finite.md)                  |no |
+|[Residual size](residual_size.md)                   |$\omega$ |
+|[Congruence distributive](congruence_distributive.md)         |no ($\mathbb{Z}_{2}\times \mathbb{Z}_{2}$) |
+|[Congruence n-permutable](congruence_n-permutable.md)         |yes, $n=2$, $p(x,y,z)=x-y+z$ |
+|[Congruence regular](congruence_regular.md)              |yes, congruences are determined by subalgebras |
+|[Congruence uniform](congruence_uniform.md)              |yes |
+|[Congruence types](congruence_types.md)                |permutational |
+|[Congruence extension property](congruence_extension_property.md)   |yes, if $K\le H\le G$ then $K\le G$ |
+|[Definable principal congruences](definable_principal_congruences.md) |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)     |no |
+|[Amalgamation property](amalgamation_property.md)           |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)    |yes |
 
 
 ### Finite members
@@ -91,9 +76,9 @@ see also http://www.research.att.com/projects/OEIS?Anum=A000688
 
 
 ### Superclasses
-[Groups]()
+[Groups](groups.md)
 
-[Commutative monoids]()
+[Commutative monoids](commutative_monoids.md)
 
 
 ### References
