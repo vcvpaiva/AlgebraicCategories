@@ -1,8 +1,8 @@
 # Algebraic Categories
 
-The pages collected here (mostly) list information about categories of
-algebraic structures. The aim is to have a central place to check
-what properties are known about these structures. 
+The pages collected here list information about concrete categories of
+algebraic structures (and some other related concrete categories). The aim is to have a central place to check
+what properties are known about these classes of algebraic structures. 
 
 The main content concerns mostly first-order classes of 
 structures and, more particularly, equationally defined classes of algebraic structures.
@@ -10,368 +10,368 @@ If you are familiar with some of these classes of structures and would like some
 
 **Boldface links** below display lists of finite algebras in a particular class (calculated locally in the browser).
 
-[[Acknowledgements]] | [[Notation and terminology]] | [[Properties]] | [[Tools]] | [[Online books and lecture notes]]
+[Acknowledgements](acknowledgements.md) | [Notation and terminology](Notation_and_terminology.md) | [Properties](Properties.md) | [Tools](Tools.md) | [Online books and lecture notes](Online_books_and_lecture_notes.md)
 
-[[Varieties]] | [[Quasivarieties]] | [[Universal classes]] | [[First-order classes]] | [[Second-order classes]] 
+[Varieties](Varieties.md) | [Quasivarieties](Quasivarieties.md) | [Universal classes](Universal_classes.md) | [First-order classes](First-order classes.md) | [Second-order classes](Second-order classes.md) 
 
-[[Algebras]] | [[Logics]] | [[Syntax]] | [[Terms]] | [[Equations]] | [[Horn formulas]] | [[Universal formulas]] | [[First-order formulas]] /*| [[Theories]]*/
+[Algebras](Algebras.md) | [Logics](Logics.md) | [Syntax](Syntax.md) | [Terms](Terms.md) | [Equations](Equations.md) | [Horn formulas](Horn_formulas.md) | [Universal formulas](Universal_formulas.md) | [First-order formulas](First-order formulas.md)
 
 ## Alphabetical list of all categories
-1. [[Abelian groups]]
-1. [[Abelian lattice-ordered groups]]
-1. [[Abelian ordered groups]]
-1. [[Abelian p-groups]]
-1. [[Abelian partially ordered groups]]
-1. [[Action algebras]]
-1. [[Action lattices]]
-1. [[Algebraic lattices]]
-1. [[Algebraic posets]]
-1. [[Algebraic semilattices]]
-1. [[Allegories]]
-1. [[Almost distributive lattices]]
-1. [[Associative algebras]]
-1. [[Bands]], **[[Finite bands]]**
-1. [[Basic logic algebras]]
-1. [[BCI-algebras]]
-1. [[BCK-algebras]]
-1. [[BCK-join-semilattices]]
-1. [[BCK-lattices]]
-1. [[BCK-meet-semilattices]]
-1. [[Bilattices]]
-1. [[Bilinear algebras]]
-1. [[Binars]], **[[Finite binars]], [[Finite binars with identity|with identity]], [[Finite binars with zero|with zero]], [[Finite binars with identity and zero|with identity and zero]]**, 
-1. [[Basic logic algebras|BL-algebras]]
-1. [[Boolean algebras]]
-1. [[Boolean algebras with operators]]
-1. [[Boolean groups]]
-1. [[Boolean lattices]]
-1. [[Boolean modules over a relation algebra]]
-1. [[Boolean monoids]]
-1. [[Boolean algebras|Boolean rings]]
-1. [[Boolean semigroups]]
-1. [[Boolean semilattices]]
-1. [[Boolean spaces]]
-1. [[Bounded distributive lattices]]
-1. [[Bounded lattices]]
-1. [[Bounded residuated lattices]]
-1. [[Brouwerian algebras]]
-1. [[Brouwerian semilattices]]
-1. [[wp>C*-algebras]]
-1. [[Cancellative commutative monoids]]
-1. [[Cancellative commutative semigroups]]
-1. [[Cancellative monoids]]
-1. [[Cancellative partial monoids]]
-1. [[Cancellative semigroups]]
-1. [[Cancellative residuated lattices]]
-1. [[Categories]]
-1. [[Chains]]
-1. [[Clifford semigroups]]
-1. [[wp>Clifford algebras]]
-1. [[Closure algebras]]
-1. [[Commutative BCK-algebras]]
-1. [[Commutative binars]], **[[Finite commutative binars]], [[Finite commutative binars with identity|with identity]], [[Finite commutative binars with zero|with zero]], [[Finite commutative binars with identity and zero|with identity and zero]]** 
-1. [[Commutative idempotent involutive residuated lattices]]
-1. [[Commutative integral ordered monoids]], **[[Finite commutative integral ordered monoids]]**
-1. [[Commutative inverse semigroups]]
-1. [[Commutative involutive FL-algebras]]
-1. [[Commutative involutive residuated posets]]
-1. [[Commutative lattice-ordered monoids]]
-1. [[Commutative lattice-ordered rings]]
-1. [[Commutative lattice-ordered semigroups]]
-1. [[Commutative monoids]], **[[Finite commutative monoids]], [[Finite commutative monoids with zero]]**
-1. [[Commutative ordered monoids]]
-1. [[Commutative ordered rings]]
-1. [[Commutative ordered semigroups]], **[[Finite commutative ordered semigroups]]**
-1. [[Commutative partially ordered monoids]]
-1. [[Commutative partially ordered semigroups]]
-1. [[Commutative regular rings]]
-1. [[Commutative residuated lattice-ordered semigroups]]
-1. [[Commutative residuated lattices]]
-1. [[Commutative residuated partially ordered monoids]]
-1. [[Commutative residuated partially ordered semigroups]]
-1. [[Commutative rings]]
-1. [[Commutative rings with identity]]
-1. [[Commutative semigroups]], **[[Finite commutative semigroups]], [[Finite commutative semigroups with zero|with zero]]**
-1. [[Compact topological spaces]]
-1. [[Boolean spaces|Compact zero-dimensional Hausdorff spaces]]
-1. [[Complemented lattices]]
-1. [[Boolean lattices|Complemented distributive lattices]]
-1. [[Complemented modular lattices]]
-1. [[Complete distributive lattices]]
-1. [[Complete lattices]]
-1. [[Complete semilattices]]
-1. [[Directed complete partial orders|Complete partial orders]]
-1. [[Completely regular Hausdorff spaces]]
-1. [[wp>Completely regular semigroups]]
-1. [[Conjugative binars]]
-1. [[Continuous lattices]]
-1. [[Continuous posets]]
-1. [[Cyclic involutive FL-algebras]]
-1. [[Cyclic involutive residuated posets]]
-1. [[Cylindric algebras]]
-1. [[De Morgan algebras]]
-1. [[De Morgan monoids]]
-1. [[Dedekind categories]]
-1. [[Dedekind domains]]
-1. [[Dense linear orders]]
-1. [[Digraph algebras]]
-1. [[Directed complete partial orders]]
-1. [[Directed partial orders]]
-1. [[Directed graphs]]
-1. [[Directoids]]
-1. [[Distributive allegories]]
-1. [[Distributive double p-algebras]]
-1. [[Distributive dual p-algebras]]
-1. [[Distributive involutive residuated lattices]]
-1. [[Distributive lattice expansions]]
-1. [[Distributive lattices]]
-1. [[Distributive lattices with operators]]
-1. [[Distributive lattice ordered semigroups]]
-1. [[Distributive p-algebras]]
-1. [[Distributive residuated lattices]]
-1. [[Division algebras]]
-1. [[Division rings]]
-1. [[Double Stone algebras]]
-1. [[Dunn monoids]]
-1. [[Dynamic algebras]]
-1. [[Effect algebras]]
-1. [[Medial groupoids|Entropic groupoids]]
-1. [[Equivalence algebras]]
-1. [[Equivalence relations]]
-1. [[Euclidean domains]]
-1. [[Function rings|f-rings]]
-1. [[Fields]]
-1. [[FL-algebras]]
-1. [[FLc-algebras]]
-1. [[Heyting algebras|FLcw-algebras]]
-1. [[FLe-algebras]]
-1. [[FLec-algebras]]
-1. [[Heyting Algebras|FLecw-algebras]]
-1. [[FLew-algebras]]
-1. [[FLi-algebras]]
-1. [[FLo-algebras]]
-1. [[FLw-algebras]]
-1. [[Frames]]
-1. [[Function rings]]
-1. [[G-sets]]
-1. [[Generalized BL-algebras]]
-1. [[Generalized Boolean algebras]]
-1. [[Generalized effect algebras]]
-1. [[Generalized MV-algebras]]
-1. [[Generalized orthoalgebras]]
-1. [[Generalized pseudo-effect algebras]]
-1. [[Generalized separation algebras]]
-1. [[Gödel algebras]]
-1. [[Graphs]]
-1. [[Groupoids]]
-1. [[Groups]]
-1. [[Hausdorff spaces]]
-1. [[Heyting algebras]]
-1. [[Hilbert algebras]]
-1. [[Hilbert spaces]]
-1. [[Hoops]]
-1. [[Idempotent residuated lattices]]
-1. [[Idempotent involutive residuated lattices]]
-1. [[Idempotent semirings]]
-1. [[Idempotent semirings with identity]]
-1. [[Idempotent semirings with identity and zero]]
-1. [[Idempotent semirings with zero]]
-1. [[Tarski algebras|Implication algebras]]
-1. [[Implicative lattices]]
-1. [[Integral domains]]
-1. [[Integral involutive FL-algebras]]
-1. [[Integral ordered monoids]], **[[finite integral ordered monoids]]**
-1. [[Integral relation algebras]]
-1. [[Integral residuated lattices]]
-1. [[Intuitionistic linear logic algebras]]
-1. [[Inverse semigroups]]
-1. [[Involutive FL-algebras]]
-1. [[Involutive lattices]]
-1. [[Involutive FL-algebras|Involutive residuated lattices]]
-1. [[Involutive residuated posets]]
-1. [[Join-semidistributive lattices]]
-1. [[Semilattices|Join-semilattices]]
-1. [[Jordan algebras]]
-1. [[Kleene algebras]]
-1. [[Kleene lattices]]
-1. [[Kleene logic algebras]]
-1. [[Residuated partially ordered semigroups|Lambek algebras]]
-1. [[Lattice effect algebras]]
-1. [[Lattice implication algebras]]
-1. [[Lattice-ordered groups]]
-1. [[Lattice-ordered monoids]]
-1. [[Lattice-ordered rings]]
-1. [[Lattice-ordered semigroups]]
-1. [[Lattices]]
-1. [[Left cancellative semigroups]]
-1. [[Left neofield]]
-1. [[Lie algebras]]
-1. [[Commutative residuated partially ordered monoids|Lineales]]
-1. [[Goedel algebras|Linear Heyting algebras]]
-1. [[Linear logic algebras]]
-1. [[Chains|Linear orders]]
-1. [[Frames|Locales]]
-1. [[wp>Locally compact topological spaces]]
-1. [[Loops]]
-1. [[Lukasiewicz algebras of order n]]
-1. [[M-sets]]
-1. [[Binars|Magmas]]
-1. [[Medial groupoids]]
-1. [[Medial quasigroups]]
-1. [[Meet-semidistributive lattices]]
-1. [[Semilattices|Meet-semilattices]]
-1. [[Metric spaces]]
-1. [[Modal algebras]]
-1. [[Modular lattices]]
-1. [[Modular ortholattices]]
-1. [[Modules over a ring]]
-1. [[Monadic algebras]]
-1. [[Monoidal t-norm logic algebras]]
-1. [[Monoids]], **[[Finite monoids]], [[Finite monoids with zero|with zero]]**
-1. [[Monounary algebras]]
-1. [[Moufang loops]]
-1. [[Moufang quasigroups]]
-1. [[Multiplicative additive linear logic algebras]]
-1. [[Multiplicative lattices]]
-1. [[Multiplicative semilattices]]
-1. [[Multisets]]
-1. [[MV-algebras]]
-1. [[MV-effect algebras]]
-1. [[m-zeroids]]
-1. [[Neardistributive lattices]]
-1. [[Near-rings]]
-1. [[Near-rings with identity]]
-1. [[Near-fields]]
-1. [[Neofields]]
-1. [[Nilpotent groups]]
-1. [[Nonassociative relation algebras]]
-1. [[Bilinear algebras|Nonassociative algebras]]
-1. [[Normal bands]]
-1. [[Normal valued lattice-ordered groups]]
-1. [[Normed vector spaces]]
-1. [[Ockham algebras]]
-1. [[Order algebras]]
-1. [[Ordered abelian groups]]
-1. [[Ordered fields]]
-1. [[Ordered groups]]
-1. [[Ordered monoids]]
-1. [[Ordered monoids with zero]]
-1. [[Ordered rings]]
-1. [[Ordered semigroups]], **[[Finite ordered semigroups]], [[Finite ordered semigroups with zero]]**
-1. [[Ordered semilattices]], **[[Finite ordered semilattices]]**
-1. [[Partially ordered sets|Ordered sets]]
-1. [[Ore domains]]
-1. [[Orthoalgebras]]
-1. [[Ortholattices]]
-1. [[Orthomodular lattices]]
-1. [[p-groups]]
-1. [[Partial groupoids]]
-1. [[Partial monoid]]
-1. [[Partial semigroups]]
-1. [[Partially ordered groups]]
-1. [[Partially ordered monoids]]
-1. [[Partially ordered semigroups]]
-1. [[Partially ordered sets]]
-1. [[Peirce algebras]]
-1. [[Pocrims]]
-1. [[FL-algebras|Pointed residuated lattices]]
-1. [[Polrims]]
-1. [[wp>Polyadic algebras]]
-1. [[Partially ordered sets|Posets]]
-1. [[Post algebras]]
-1. [[Preordered sets]]
-1. [[Priestley spaces]]
-1. [[Principal Ideal Domains]]
-1. [[Process algebras]]
-1. [[Pseudo basic logic algebras]]
-1. [[Pseudo-effect algebras]]
-1. [[Pseudo MTL-algebras]]
-1. [[Pseudo MV-algebras]]
-1. [[Pseudocomplemented distributive lattices]]
-1. [[Pure discriminator algebras]]
-1. [[Quandles]]
-1. [[Quantales]]
-1. [[Quasigroups]]
-1. [[Quasi-implication algebras]]
-1. [[Quasi-MV-algebra]]
-1. [[Preordered sets|Quasi-ordered sets]]
-1. [[Quasitrivial groupoids]]
-1. [[Rectangular bands]]
-1. [[Reflexive relations]]
-1. [[Regular rings]]
-1. [[Regular semigroups]]
-1. [[Relation algebras]]
-1. [[Relative Stone algebras]]
-1. [[Relativized relation algebras]]
-1. [[Representable cylindric algebras]]
-1. [[Representable lattice-ordered groups]]
-1. [[Representable relation algebras]]
-1. [[Representable residuated lattices]]
-1. [[Residuated idempotent semirings]]
-1. [[Residuated lattice-ordered semigroups]]
-1. [[Residuated lattices]]
-1. [[Residuated partially ordered monoids]]
-1. [[Residuated partially ordered semigroups]]
-1. [[Residuated partially ordered monoids|Residuated posets]]
-1. [[Right residuated binars]]
-1. [[Right hoops]]
-1. [[Right quasigroups]]
-1. [[Rings]]
-1. [[Rings with identity]]
-1. [[Schroeder categories]]
-1. [[Semiassociative relation algebras]]
-1. [[Semidistributive lattices]]
-1. [[Semifields]]
-1. [[Semigroups]], **[[Finite semigroups]]**
-1. [[Monoids|Semigroups with identity]]
-1. [[Semigroups with zero]], **[[Finite semigroups with zero]]**
-1. [[Semilattices]], **[[Finite semilattices]]**
-1. [[Semilattices with identity]], **[[Finite semilattices with identity]]**
-1. [[Semilattices with zero]]
-1. [[Semirings]]
-1. [[Semirings with identity]]
-1. [[Semirings with identity and zero]]
-1. [[Semirings with zero]]
-1. [[Separation algebras]]
-1. [[Sequential algebras]]
-1. [[Sets]]
-1. [[Shells]]
-1. [[Division rings|Skew-fields]]
-1. [[Skew lattices]]
-1. [[Small categories]]
-1. [[Sober T0-spaces]]
-1. [[Solvable groups]]
-1. [[Sqrt-quasi-MV-algebras]]
-1. [[Stably compact spaces]]
-1. [[Steiner quasigroups]]
-1. [[Stone algebras]]
-1. [[Sugihara algebras]]
-1. [[Sugihara monoids]]
-1. [[Symmetric relations]]
-1. [[T0-spaces]]
-1. [[T1-spaces]]
-1. [[Hausdorff spaces|T2-spaces]]
-1. [[Tarski algebras]]
-1. [[Tense algebras]]
-1. [[Temporal algebras]]
-1. [[Topological groups]]
-1. [[Topological spaces]]
-1. [[wp>Topological vector spaces]]
-1. [[Torsion groups]]
-1. [[Abelian ordered groups|Totally ordered abelian groups]]
-1. [[Ordered groups|Totally ordered groups]]
-1. [[Ordered monoids|Totally ordered monoids]]
-1. [[Transitive relations]]
-1. [[Trees]]
-1. [[Tournaments]]
-1. [[Unary algebras]]
-1. [[Unique factorization domains]]
-1. [[Rings with identity|Unital rings]]
-1. [[Vector spaces]]
-1. [[MV-algebras|Wajsberg algebras]]
-1. [[Wajsberg hoops]]
-1. [[Weakly associative lattices]]
-1. [[Weakly associative relation algebras]]
-1. [[Weakly representable relation algebras]]
+1. [Abelian groups](Abelian_groups.md)
+1. [Abelian lattice-ordered groups](Abelian_lattice-ordered_groups.md)
+1. [Abelian ordered groups](Abelian_ordered_groups.md)
+1. [Abelian p-groups](Abelian_p-groups.md)
+1. [Abelian partially ordered groups](Abelian_partially_ordered_groups.md)
+1. [Action algebras](Action_algebras.md)
+1. [Action lattices](Action_lattices.md)
+1. [Algebraic lattices](Algebraic_lattices.md)
+1. [Algebraic posets](Algebraic_posets.md)
+1. [Algebraic semilattices](Algebraic_semilattices.md)
+1. [Allegories](Allegories.md)
+1. [Almost distributive lattices](Almost_distributive_lattices.md)
+1. [Associative algebras](Associative_algebras.md)
+1. [Bands](Bands.md), **[Finite bands](Finite_bands.md)**
+1. [Basic logic algebras](Basic_logic_algebras.md)
+1. [BCI-algebras](BCI-algebras.md)
+1. [BCK-algebras](BCK-algebras.md)
+1. [BCK-join-semilattices](BCK-join-semilattices.md)
+1. [BCK-lattices](BCK-lattices.md)
+1. [BCK-meet-semilattices](BCK-meet-semilattices.md)
+1. [Bilattices](Bilattices.md)
+1. [Bilinear algebras](Bilinear_algebras.md)
+1. [Binars](Magmas.md), **[Finite binars](Finite_binars.md), [with identity](Finite_binars_with_identity.md), [with zero](Finite_binars_with_zero.md), [with identity and zero](Finite_binars_with_identity_and_zero.md)**, 
+1. [BL-algebras](Basic_logic_algebras.md)
+1. [Boolean algebras](Boolean_algebras.md)
+1. [Boolean algebras with operators](Boolean_algebras_with_operators.md)
+1. [Boolean groups](Boolean_groups.md)
+1. [Boolean lattices](Boolean_lattices.md)
+1. [Boolean modules over a relation algebra](Boolean_modules_over_a_relation_algebra.md)
+1. [Boolean monoids](Boolean_monoids.md)
+1. [Boolean rings](Boolean_algebras.md)
+1. [Boolean semigroups](Boolean_semigroups.md)
+1. [Boolean semilattices](Boolean_semilattices.md)
+1. [Boolean spaces](Boolean_spaces.md)
+1. [Bounded distributive lattices](Bounded_distributive_lattices.md)
+1. [Bounded lattices](Bounded_lattices.md)
+1. [Bounded residuated lattices](Bounded_residuated_lattices.md)
+1. [Brouwerian algebras](Brouwerian_algebras.md)
+1. [Brouwerian semilattices](Brouwerian_semilattices.md)
+1. [C*-algebras](Cstar-algebras.md)
+1. [Cancellative commutative monoids](Cancellative_commutative_monoids.md)
+1. [Cancellative commutative semigroups](Cancellative_commutative_semigroups.md)
+1. [Cancellative monoids](Cancellative_monoids.md)
+1. [Cancellative partial monoids](Cancellative_partial_monoids.md)
+1. [Cancellative semigroups](Cancellative_semigroups.md)
+1. [Cancellative residuated lattices](Cancellative_residuated_lattices.md)
+1. [Categories](Categories.md)
+1. [Chains](Chains.md)
+1. [Clifford semigroups](Clifford_semigroups.md)
+1. [wp>Clifford algebras](wp>Clifford algebras.md)
+1. [Closure algebras](Closure_algebras.md)
+1. [Commutative BCK-algebras](Commutative_BCK-algebras.md)
+1. [Commutative binars](Commutative_binars.md), **[Finite commutative binars](Finite_commutative_binars.md), [with identity](Finite_commutative_binars_with_identity.md), [with zero](Finite_commutative_binars_with_zero.md), [with identity and zero](Finite_commutative_binars_with_identity_and_zero.md)** 
+1. [Commutative idempotent involutive residuated lattices](Commutative_idempotent_involutive_residuated_lattices.md)
+1. [Commutative integral ordered monoids](Commutative_integral_ordered_monoids.md), **[Finite commutative integral ordered monoids](Finite_commutative_integral_ordered_monoids.md)**
+1. [Commutative inverse semigroups](Commutative_inverse_semigroups.md)
+1. [Commutative involutive FL-algebras](Commutative_involutive_FL-algebras.md)
+1. [Commutative involutive residuated posets](Commutative_involutive_residuated_posets.md)
+1. [Commutative lattice-ordered monoids](Commutative_lattice-ordered monoids.md)
+1. [Commutative lattice-ordered rings](Commutative_lattice-ordered rings.md)
+1. [Commutative lattice-ordered semigroups](Commutative_lattice-ordered semigroups.md)
+1. [Commutative monoids](Commutative_monoids.md), **[Finite commutative monoids](Finite_commutative_monoids.md), [Finite commutative monoids with zero](Finite_commutative_monoids_with_zero.md)**
+1. [Commutative ordered monoids](Commutative_ordered_monoids.md)
+1. [Commutative ordered rings](Commutative_ordered_rings.md)
+1. [Commutative ordered semigroups](Commutative_ordered_semigroups.md), **[Finite commutative ordered semigroups](Finite_commutative_ordered_semigroups.md)**
+1. [Commutative partially ordered monoids](Commutative_partially_ordered_monoids.md)
+1. [Commutative partially ordered semigroups](Commutative_partially_ordered_semigroups.md)
+1. [Commutative regular rings](Commutative_regular_rings.md)
+1. [Commutative residuated lattice-ordered semigroups](Commutative_residuated_lattice-ordered semigroups.md)
+1. [Commutative residuated lattices](Commutative_residuated_lattices.md)
+1. [Commutative residuated partially ordered monoids](Commutative_residuated_partially_ordered_monoids.md)
+1. [Commutative residuated partially ordered semigroups](Commutative_residuated_partially_ordered_semigroups.md)
+1. [Commutative rings](Commutative_rings.md)
+1. [Commutative rings with identity](Commutative_rings_with_identity.md)
+1. [Commutative semigroups](Commutative_semigroups.md), **[Finite commutative semigroups](Finite_commutative_semigroups.md), [with zero](Finite_commutative_semigroups_with_zero.md)**
+1. [Compact topological spaces](Compact_topological_spaces.md)
+1. [Compact zero-dimensional Hausdorff spaces](Boolean_spaces.md)
+1. [Complemented lattices](Complemented_lattices.md)
+1. [Complemented distributive lattices](Boolean_lattices.md)
+1. [Complemented modular lattices](Complemented_modular_lattices.md)
+1. [Complete distributive lattices](Complete_distributive_lattices.md)
+1. [Complete lattices](Complete_lattices.md)
+1. [Complete semilattices](Complete_semilattices.md)
+1. [Complete partial orders](Directed_complete_partial_orders.md)
+1. [Completely regular Hausdorff spaces](Completely_regular_Hausdorff_spaces.md)
+1. [wp>Completely regular semigroups](wp>Completely regular semigroups.md)
+1. [Conjugative binars](Conjugative_binars.md)
+1. [Continuous lattices](Continuous_lattices.md)
+1. [Continuous posets](Continuous_posets.md)
+1. [Cyclic involutive FL-algebras](Cyclic_involutive_FL-algebras.md)
+1. [Cyclic involutive residuated posets](Cyclic_involutive_residuated_posets.md)
+1. [Cylindric algebras](Cylindric_algebras.md)
+1. [De Morgan algebras](De_Morgan_algebras.md)
+1. [De Morgan monoids](De_Morgan_monoids.md)
+1. [Dedekind categories](Dedekind_categories.md)
+1. [Dedekind domains](Dedekind_domains.md)
+1. [Dense linear orders](Dense_linear_orders.md)
+1. [Digraph algebras](Digraph_algebras.md)
+1. [Directed complete partial orders](Directed_complete_partial_orders.md)
+1. [Directed partial orders](Directed_partial_orders.md)
+1. [Directed graphs](Directed_graphs.md)
+1. [Directoids](Directoids.md)
+1. [Distributive allegories](Distributive_allegories.md)
+1. [Distributive double p-algebras](Distributive_double_p-algebras.md)
+1. [Distributive dual p-algebras](Distributive_dual_p-algebras.md)
+1. [Distributive involutive residuated lattices](Distributive_involutive_residuated_lattices.md)
+1. [Distributive lattice expansions](Distributive_lattice_expansions.md)
+1. [Distributive lattices](Distributive_lattices.md)
+1. [Distributive lattices with operators](Distributive_lattices_with_operators.md)
+1. [Distributive lattice ordered semigroups](Distributive_lattice_ordered_semigroups.md)
+1. [Distributive p-algebras](Distributive_p-algebras.md)
+1. [Distributive residuated lattices](Distributive_residuated_lattices.md)
+1. [Division algebras](Division_algebras.md)
+1. [Division rings](Division_rings.md)
+1. [Double Stone algebras](Double_Stone_algebras.md)
+1. [Dunn monoids](Dunn_monoids.md)
+1. [Dynamic algebras](Dynamic_algebras.md)
+1. [Effect algebras](Effect_algebras.md)
+1. [Entropic groupoids](Medial_groupoids.md)
+1. [Equivalence algebras](Equivalence_algebras.md)
+1. [Equivalence relations](Equivalence_relations.md)
+1. [Euclidean domains](Euclidean_domains.md)
+1. [f-rings](Function_rings.md)
+1. [Fields](Fields.md)
+1. [FL-algebras](FL-algebras.md)
+1. [FLc-algebras](FLc-algebras.md)
+1. [FLcw-algebras](Heyting_algebras.md)
+1. [FLe-algebras](FLe-algebras.md)
+1. [FLec-algebras](FLec-algebras.md)
+1. [FLecw-algebras](Heyting_Algebras.md)
+1. [FLew-algebras](FLew-algebras.md)
+1. [FLi-algebras](FLi-algebras.md)
+1. [FLo-algebras](FLo-algebras.md)
+1. [FLw-algebras](FLw-algebras.md)
+1. [Frames](Frames.md)
+1. [Function rings](Function_rings.md)
+1. [G-sets](G-sets.md)
+1. [Generalized BL-algebras](Generalized_BL-algebras.md)
+1. [Generalized Boolean algebras](Generalized_Boolean_algebras.md)
+1. [Generalized effect algebras](Generalized_effect_algebras.md)
+1. [Generalized MV-algebras](Generalized_MV-algebras.md)
+1. [Generalized orthoalgebras](Generalized_orthoalgebras.md)
+1. [Generalized pseudo-effect algebras](Generalized_pseudo-effect algebras.md)
+1. [Generalized separation algebras](Generalized_separation_algebras.md)
+1. [Gödel algebras](Gödel algebras.md)
+1. [Graphs](Graphs.md)
+1. [Groupoids](Groupoids.md)
+1. [Groups](Groups.md)
+1. [Hausdorff spaces](Hausdorff_spaces.md)
+1. [Heyting algebras](Heyting_algebras.md)
+1. [Hilbert algebras](Hilbert_algebras.md)
+1. [Hilbert spaces](Hilbert_spaces.md)
+1. [Hoops](Hoops.md)
+1. [Idempotent residuated lattices](Idempotent_residuated_lattices.md)
+1. [Idempotent involutive residuated lattices](Idempotent_involutive_residuated_lattices.md)
+1. [Idempotent semirings](Idempotent_semirings.md)
+1. [Idempotent semirings with identity](Idempotent_semirings_with_identity.md)
+1. [Idempotent semirings with identity and zero](Idempotent_semirings_with_identity_and_zero.md)
+1. [Idempotent semirings with zero](Idempotent_semirings_with_zero.md)
+1. [Implication algebras](Tarski_algebras.md)
+1. [Implicative lattices](Implicative_lattices.md)
+1. [Integral domains](Integral_domains.md)
+1. [Integral involutive FL-algebras](Integral_involutive_FL-algebras.md)
+1. [Integral ordered monoids](Integral_ordered_monoids.md), **[finite integral ordered monoids](finite_integral_ordered_monoids.md)**
+1. [Integral relation algebras](Integral_relation_algebras.md)
+1. [Integral residuated lattices](Integral_residuated_lattices.md)
+1. [Intuitionistic linear logic algebras](Intuitionistic_linear_logic_algebras.md)
+1. [Inverse semigroups](Inverse_semigroups.md)
+1. [Involutive FL-algebras](Involutive_FL-algebras.md)
+1. [Involutive lattices](Involutive_lattices.md)
+1. [Involutive residuated lattices](Involutive_FL-algebras.md)
+1. [Involutive residuated posets](Involutive_residuated_posets.md)
+1. [Join-semidistributive lattices](Join-semidistributive lattices.md)
+1. [Join-semilattices](Semilattices.md)
+1. [Jordan algebras](Jordan_algebras.md)
+1. [Kleene algebras](Kleene_algebras.md)
+1. [Kleene lattices](Kleene_lattices.md)
+1. [Kleene logic algebras](Kleene_logic_algebras.md)
+1. [Lambek algebras](Residuated_partially_ordered_semigroups.md)
+1. [Lattice effect algebras](Lattice_effect_algebras.md)
+1. [Lattice implication algebras](Lattice_implication_algebras.md)
+1. [Lattice-ordered groups](Lattice-ordered groups.md)
+1. [Lattice-ordered monoids](Lattice-ordered monoids.md)
+1. [Lattice-ordered rings](Lattice-ordered rings.md)
+1. [Lattice-ordered semigroups](Lattice-ordered semigroups.md)
+1. [Lattices](Lattices.md)
+1. [Left cancellative semigroups](Left_cancellative_semigroups.md)
+1. [Left neofield](Left_neofield.md)
+1. [Lie algebras](Lie_algebras.md)
+1. [Lineales](Commutative_residuated_partially_ordered_monoids.md)
+1. [Linear Heyting algebras](Goedel_algebras.md)
+1. [Linear logic algebras](Linear_logic_algebras.md)
+1. [Linear orders](Chains.md)
+1. [Locales](Frames.md)
+1. [Locally compact topological spaces](locally_compact_topological_spaces.md)
+1. [Loops](Loops.md)
+1. [Lukasiewicz algebras of order n](Lukasiewicz_algebras_of_order_n.md)
+1. [M-sets](M-sets.md)
+1. [Magmas](Magmas.md)
+1. [Medial groupoids](Medial_groupoids.md)
+1. [Medial quasigroups](Medial_quasigroups.md)
+1. [Meet-semidistributive lattices](Meet-semidistributive lattices.md)
+1. [Meet-semilattices](Semilattices.md)
+1. [Metric spaces](Metric_spaces.md)
+1. [Modal algebras](Modal_algebras.md)
+1. [Modular lattices](Modular_lattices.md)
+1. [Modular ortholattices](Modular_ortholattices.md)
+1. [Modules over a ring](Modules_over_a_ring.md)
+1. [Monadic algebras](Monadic_algebras.md)
+1. [Monoidal t-norm logic algebras](Monoidal_t-norm logic algebras.md)
+1. [Monoids](Monoids.md), **[Finite monoids](Finite_monoids.md), [with zero](Finite_monoids_with_zero.md)**
+1. [Monounary algebras](Monounary_algebras.md)
+1. [Moufang loops](Moufang_loops.md)
+1. [Moufang quasigroups](Moufang_quasigroups.md)
+1. [Multiplicative additive linear logic algebras](Multiplicative_additive_linear_logic_algebras.md)
+1. [Multiplicative lattices](Multiplicative_lattices.md)
+1. [Multiplicative semilattices](Multiplicative_semilattices.md)
+1. [Multisets](Multisets.md)
+1. [MV-algebras](MV-algebras.md)
+1. [MV-effect algebras](MV-effect algebras.md)
+1. [m-zeroids](m-zeroids.md)
+1. [Neardistributive lattices](Neardistributive_lattices.md)
+1. [Near-rings](Near-rings.md)
+1. [Near-rings with identity](Near-rings with identity.md)
+1. [Near-fields](Near-fields.md)
+1. [Neofields](Neofields.md)
+1. [Nilpotent groups](Nilpotent_groups.md)
+1. [Nonassociative relation algebras](Nonassociative_relation_algebras.md)
+1. [Nonassociative algebras](Bilinear_algebras.md)
+1. [Normal bands](Normal_bands.md)
+1. [Normal valued lattice-ordered groups](Normal_valued_lattice-ordered groups.md)
+1. [Normed vector spaces](Normed_vector_spaces.md)
+1. [Ockham algebras](Ockham_algebras.md)
+1. [Order algebras](Order_algebras.md)
+1. [Ordered abelian groups](Ordered_abelian_groups.md)
+1. [Ordered fields](Ordered_fields.md)
+1. [Ordered groups](Ordered_groups.md)
+1. [Ordered monoids](Ordered_monoids.md)
+1. [Ordered monoids with zero](Ordered_monoids_with_zero.md)
+1. [Ordered rings](Ordered_rings.md)
+1. [Ordered semigroups](Ordered_semigroups.md), **[Finite ordered semigroups](Finite_ordered_semigroups.md), [Finite ordered semigroups with zero](Finite_ordered_semigroups_with_zero.md)**
+1. [Ordered semilattices](Ordered_semilattices.md), **[Finite ordered semilattices](Finite_ordered_semilattices.md)**
+1. [Ordered sets](Partially_ordered_sets.md)
+1. [Ore domains](Ore_domains.md)
+1. [Orthoalgebras](Orthoalgebras.md)
+1. [Ortholattices](Ortholattices.md)
+1. [Orthomodular lattices](Orthomodular_lattices.md)
+1. [p-groups](p-groups.md)
+1. [Partial groupoids](Partial_groupoids.md)
+1. [Partial monoid](Partial_monoid.md)
+1. [Partial semigroups](Partial_semigroups.md)
+1. [Partially ordered groups](Partially_ordered_groups.md)
+1. [Partially ordered monoids](Partially_ordered_monoids.md)
+1. [Partially ordered semigroups](Partially_ordered_semigroups.md)
+1. [Partially ordered sets](Partially_ordered_sets.md)
+1. [Peirce algebras](Peirce_algebras.md)
+1. [Pocrims](Pocrims.md)
+1. [Pointed residuated lattices](FL-algebras.md)
+1. [Polrims](Polrims.md)
+1. [wp>Polyadic algebras](wp>Polyadic algebras.md)
+1. [Posets](Partially_ordered_sets.md)
+1. [Post algebras](Post_algebras.md)
+1. [Preordered sets](Preordered_sets.md)
+1. [Priestley spaces](Priestley_spaces.md)
+1. [Principal Ideal Domains](Principal_Ideal_Domains.md)
+1. [Process algebras](Process_algebras.md)
+1. [Pseudo basic logic algebras](Pseudo_basic_logic_algebras.md)
+1. [Pseudo-effect algebras](Pseudo-effect algebras.md)
+1. [Pseudo MTL-algebras](Pseudo_MTL-algebras.md)
+1. [Pseudo MV-algebras](Pseudo_MV-algebras.md)
+1. [Pseudocomplemented distributive lattices](Pseudocomplemented_distributive_lattices.md)
+1. [Pure discriminator algebras](Pure_discriminator_algebras.md)
+1. [Quandles](Quandles.md)
+1. [Quantales](Quantales.md)
+1. [Quasigroups](Quasigroups.md)
+1. [Quasi-implication algebras](Quasi-implication algebras.md)
+1. [Quasi-MV-algebra](Quasi-MV-algebra.md)
+1. [Quasi-ordered sets](Preordered_sets.md)
+1. [Quasitrivial groupoids](Quasitrivial_groupoids.md)
+1. [Rectangular bands](Rectangular_bands.md)
+1. [Reflexive relations](Reflexive_relations.md)
+1. [Regular rings](Regular_rings.md)
+1. [Regular semigroups](Regular_semigroups.md)
+1. [Relation algebras](Relation_algebras.md)
+1. [Relative Stone algebras](Relative_Stone_algebras.md)
+1. [Relativized relation algebras](Relativized_relation_algebras.md)
+1. [Representable cylindric algebras](Representable_cylindric_algebras.md)
+1. [Representable lattice-ordered groups](Representable_lattice-ordered groups.md)
+1. [Representable relation algebras](Representable_relation_algebras.md)
+1. [Representable residuated lattices](Representable_residuated_lattices.md)
+1. [Residuated idempotent semirings](Residuated_idempotent_semirings.md)
+1. [Residuated lattice-ordered semigroups](Residuated_lattice-ordered semigroups.md)
+1. [Residuated lattices](Residuated_lattices.md)
+1. [Residuated partially ordered monoids](Residuated_partially_ordered_monoids.md)
+1. [Residuated partially ordered semigroups](Residuated_partially_ordered_semigroups.md)
+1. [Residuated posets](Residuated_partially_ordered_monoids.md)
+1. [Right residuated binars](Right_residuated_binars.md)
+1. [Right hoops](Right_hoops.md)
+1. [Right quasigroups](Right_quasigroups.md)
+1. [Rings](Rings.md)
+1. [Rings with identity](Rings_with_identity.md)
+1. [Schroeder categories](Schroeder_categories.md)
+1. [Semiassociative relation algebras](Semiassociative_relation_algebras.md)
+1. [Semidistributive lattices](Semidistributive_lattices.md)
+1. [Semifields](Semifields.md)
+1. [Semigroups](Semigroups.md), **[Finite semigroups](Finite_semigroups.md)**
+1. [Semigroups with identity](Monoids.md)
+1. [Semigroups with zero](Semigroups_with_zero.md), **[Finite semigroups with zero](Finite_semigroups_with_zero.md)**
+1. [Semilattices](Semilattices.md), **[Finite semilattices](Finite_semilattices.md)**
+1. [Semilattices with identity](Semilattices_with_identity.md), **[Finite semilattices with identity](Finite_semilattices_with_identity.md)**
+1. [Semilattices with zero](Semilattices_with_zero.md)
+1. [Semirings](Semirings.md)
+1. [Semirings with identity](Semirings_with_identity.md)
+1. [Semirings with identity and zero](Semirings_with_identity_and_zero.md)
+1. [Semirings with zero](Semirings_with_zero.md)
+1. [Separation algebras](Separation_algebras.md)
+1. [Sequential algebras](Sequential_algebras.md)
+1. [Sets](Sets.md)
+1. [Shells](Shells.md)
+1. [Skew-fields](Division_rings.md)
+1. [Skew lattices](Skew_lattices.md)
+1. [Small categories](Small_categories.md)
+1. [Sober T0-spaces](Sober_T0-spaces.md)
+1. [Solvable groups](Solvable_groups.md)
+1. [Sqrt-quasi-MV-algebras](Sqrt-quasi-MV-algebras.md)
+1. [Stably compact spaces](Stably_compact_spaces.md)
+1. [Steiner quasigroups](Steiner_quasigroups.md)
+1. [Stone algebras](Stone_algebras.md)
+1. [Sugihara algebras](Sugihara_algebras.md)
+1. [Sugihara monoids](Sugihara_monoids.md)
+1. [Symmetric relations](Symmetric_relations.md)
+1. [T0-spaces](T0-spaces.md)
+1. [T1-spaces](T1-spaces.md)
+1. [T2-spaces](Hausdorff_spaces.md)
+1. [Tarski algebras](Tarski_algebras.md)
+1. [Tense algebras](Tense_algebras.md)
+1. [Temporal algebras](Temporal_algebras.md)
+1. [Topological groups](Topological_groups.md)
+1. [Topological spaces](Topological_spaces.md)
+1. [wp>Topological vector spaces](wp>Topological vector spaces.md)
+1. [Torsion groups](Torsion_groups.md)
+1. [Totally ordered abelian groups](Abelian_ordered_groups.md)
+1. [Totally ordered groups](Ordered_groups.md)
+1. [Totally ordered monoids](Ordered_monoids.md)
+1. [Transitive relations](Transitive_relations.md)
+1. [Trees](Trees.md)
+1. [Tournaments](Tournaments.md)
+1. [Unary algebras](Unary_algebras.md)
+1. [Unique factorization domains](Unique_factorization_domains.md)
+1. [Unital rings](Rings_with_identity.md)
+1. [Vector spaces](Vector_spaces.md)
+1. [Wajsberg algebras](MV-algebras.md)
+1. [Wajsberg hoops](Wajsberg_hoops.md)
+1. [Weakly associative lattices](Weakly_associative_lattices.md)
+1. [Weakly associative relation algebras](Weakly_associative_relation_algebras.md)
+1. [Weakly representable relation algebras](Weakly_representable_relation_algebras.md)
 
-[[Template]]
+[Template](Template.md)
