@@ -1,0 +1,67 @@
+=====Rectangular bands=====
+
+Abbreviation: **RBand**
+====Definition====
+A \emph{rectangular band} is a [[bands]] $\mathbf{B}=\langle B,\cdot
+\rangle $ such that
+
+$\cdot $ is rectangular:  $x\cdot y\cdot x=x$.
+====Definition====
+A \emph{rectangular band} is a [[bands]] $\mathbf{B}=\langle B,\cdot
+\rangle $ such that
+
+$x\cdot y\cdot z=x\cdot z$.
+==Morphisms==
+Let $\mathbf{B}$ and $\mathbf{C}$ be rectangular bands. A morphism from $\mathbf{B}$
+to $\mathbf{C}$ is a function $h:B\rightarrow C$ that is a homomorphism: 
+
+$h(xy)=h(x)h(y)$
+
+====Examples====
+
+
+====Basic results====
+
+====Properties====
+^[[Classtype]]  |variety |
+^[[Equational theory]]  |decidable in polynomial time |
+^[[Quasiequational theory]]  | |
+^[[First-order theory]]  | |
+^[[Locally finite]]  |yes |
+^[[Residual size]]  | |
+^[[Congruence distributive]]  | |
+^[[Congruence modular]]  | |
+^[[Congruence n-permutable]]  | |
+^[[Congruence regular]]  | |
+^[[Congruence uniform]]  | |
+^[[Congruence extension property]]  | |
+^[[Definable principal congruences]]  | |
+^[[Equationally def. pr. cong.]]  | |
+^[[Amalgamation property]]  | |
+^[[Strong amalgamation property]]  | |
+^[[Epimorphisms are surjective]]  | |
+====Finite members====
+
+$\begin{array}{lr}
+f(1)= &1\\
+f(2)= &\\
+f(3)= &\\
+f(4)= &\\
+f(5)= &\\
+f(6)= &\\
+f(7)= &\\
+\end{array}$
+
+====Subclasses====
+[[Left-zero semigroups]] 
+
+[[Right-zero semigroups]] 
+
+====Superclasses====
+[[Normal bands]] 
+
+
+====References====
+
+[(Ln19xx>
+)]
