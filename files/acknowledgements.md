@@ -5,11 +5,11 @@ The idea for this database goes back to an influential paper
 E. W. Kiss, L. Márki, P. Pröhle, W. Tholen:
 Categorical algebraic properties. A compendium on amalgamation, congruence extension, epimorphisms, residual smallness, and injectivity, Studia Sci. Math. Hungar., 18, 1982, 79-140
 
-This paper lists the status of 8 properties for 100 classes of 
-mathematical structures (the [[amalgamation property]], intersection property of amalgamations, [[epimorphisms are surjective]], 
-the [[congruence extension property]], existence of a cogenerating set, [[residually size|residual smallness]], enough absolute retracts, 
+This paper lists the status of 8 properties for ~100 classes of 
+mathematical structures (the [amalgamation property](amalgamation_property.md), intersection property of amalgamations, [epimorphisms are surjective](epimorphisms_are_surjective.md), 
+the [congruence extension property](congruence_extension_property.md), existence of a cogenerating set, [residual smallness](residual_size.md), enough absolute retracts, 
 and the existence of injective hulls), as well as some mathematical background
-on these properties and their relationship to 3 others ([[strong amalgamation property]], transferability property, and enough injectives).
+on these properties and their relationship to 3 others ([strong amalgamation property](strong_amalgamation_property.md), transferability property, and enough injectives).
 
 This has been a valuable resource for many researchers, and it would be useful to have an expanded and updated version. There are few people whose expertise ranges over so many areas, so hopefully the present editable database provides a convenient setting for several researchers to contribute in a collaborative style.
 
@@ -30,4 +30,4 @@ Here is the text of a talk about the database, given at the Annual Meeting of th
 [An online database of classes of algebraic structures]()
 
 ## Many thanks to:
-[[http://www.chapman.edu|Chapman University]] for providing time and resources.
+[Chapman University](http://www.chapman.edu) for providing time and resources.
