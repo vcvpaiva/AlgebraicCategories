@@ -12,7 +12,7 @@ If you are familiar with some of these classes of structures and would like some
 
 [Acknowledgements](acknowledgements.md) | [Notation and terminology](notation_and_terminology.md) | [Properties](properties.md) | [Tools](tools.md) | [Online books and lecture notes](online_books_and_lecture_notes.md)
 
-[Varieties](varieties.md) | [Quasivarieties](quasivarieties.md) | [Universal classes](universal_classes.md) | [First-order classes](first-order classes.md) | [Second-order classes](second-order_classes.md) 
+[Varieties](varieties.md) | [Quasivarieties](quasivarieties.md) | [Universal classes](universal_classes.md) | [First-order classes](first-order_classes.md) | [Second-order classes](second-order_classes.md) 
 
 [Algebras](algebras.md) | [Logics](logics.md) | [Syntax](syntax.md) | [Terms](terms.md) | [Equations](equations.md) | [Horn formulas](horn_formulas.md) | [Universal formulas](universal_formulas.md) | [First-order formulas](first-order_formulas.md)
 
