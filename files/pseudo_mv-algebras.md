@@ -1,10 +1,10 @@
-=====Pseudo MV-algebras=====
+# Pseudo MV-algebras
 
 Abbreviation: **psMV**
 
 
-====Definition====
-A \emph{pseudo MV-algebra}[(GI2001)] (or \emph{psMV-algebra} for short) is a
+## Definition
+A ***pseudo MV-algebra***[GI2001] (or ***psMV-algebra*** for short) is a
 structure $\mathbf{A}=\langle A, \oplus, ^-, ^\sim, 0, 1\rangle$ such that
 
 $(x\oplus y)\oplus z = x\oplus(y\oplus z)$
@@ -23,69 +23,73 @@ $x^{-\sim}=x$
 
 $0^- = 1$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be pseudo MV-algebras. A morphism from $\mathbf{A}
 $ to $\mathbf{B}$ is a function $h:A\to B$ that is a homomorphism: 
 
 $h(x\oplus y)=h(x)\oplus h(y)$, $h(x^-)=h(x)^-$, $h(0)=0$ ($h(x^\sim)=h(x)^\sim$ and $h(1)=1$ follow from these).
 
 
-====Examples====
+## Examples
 
 
-====Basic results====
-$0+x=x$, $1+x=1$, $x^{\sim-}=x$, $0^\sim=1$ and axiom A7 in[(GI2001)] follow from the above axioms.
+## Basic results
+$0+x=x$, $1+x=1$, $x^{\sim-}=x$, $0^\sim=1$ and axiom A7 in[GI2001] follow from the above axioms.
 
-Pseudo MV-algebras are term-equivalent to divisible [[involutive residuated lattices]].
+Pseudo MV-algebras are term-equivalent to divisible [involutive residuated lattices](involutive_residuated_lattices.md).
 
-Every psMV-algebra is obtained from an interval in a [[lattice-ordered group]][(Dvu2002)].
+Every psMV-algebra is obtained from an interval in a [lattice-ordered group](lattice-ordered_groups.md)[Dvu2002].
 
 Every finite psMV-algebra is commutative.
 
-Every commutative psMV-algebra is an [[MV-algebra]].
+Every commutative psMV-algebra is an [MV-algebra](mv-algebras.md).
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  |undecidable |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes |
-^[[Congruence e-regular]]  |yes |
-^[[Congruence uniform]]  |yes |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  |  |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
+## Properties
 
 
-====Finite members====
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |undecidable |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes |
+|[Congruence e-regular](congruence_e-regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |yes |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  |  |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+
+
+## Finite members
 
 ^$n$       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 ^# of algs | 1 | 1 | 1 | 2 | 1 | 2 | 1 | 3 | 2 |  2 |  1 |  4 |  1 |  2 |  2 |  5 |  1 |  4 |  1 |  4 |  2 |  2 |  1 |  7 |  2 |
 ^# of si's | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |
 
-====Subclasses====
-[[MV-algebras]] 
+## Subclasses
+[MV-algebras](mv-algebras.md) 
 
 
-====Superclasses====
+## Superclasses
 
-[[Involutive residuated lattices]]
+[Involutive residuated lattices](involutive_residuated_lattices.md)
 
-====References====
+## References
 
-[(GI2001>
+
 S. Georgescu and A. Iorgulescu, 
-\emph{Pseudo-MV algebras}, 
-Multiple Valued Logic, \textbf{6}, 2001, 95--135)]
+***Pseudo-MV algebras***, 
+Multiple Valued Logic, **6**, 2001, 95--135
 
-[(Dvu2002>
+
 A. Dvurecenskij,
-\emph{Pseudo MV-algebras are intervals in $\ell$-groups}, Journal of the Australian Mathematical Soc.
+***Pseudo MV-algebras are intervals in $\ell$-groups***, Journal of the Australian Mathematical Soc.
 Ser. 72, (2002), 427-–445)]

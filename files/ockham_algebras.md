@@ -1,12 +1,12 @@
-=====Ockham algebras=====
+# Ockham algebras
 
 Abbreviation: **OckA**
-====Definition====
-An \emph{Ockham algebra} is a structure $\mathbf{A}=\langle A,\vee
-,0,\wedge ,1,'\rangle $ such that
+## Definition
+An ***Ockham algebra*** is a structure $\mathbf{A}=\langle A,\vee
+,0,\wedge ,1,'\rangle$ such that
 
 
-$\langle A,\vee ,0,\wedge ,1\rangle $ is a bounded distributive
+$\langle A,\vee ,0,\wedge ,1\rangle$ is a bounded distributive
 lattice
 
 
@@ -14,36 +14,40 @@ $'$ is a dual endomorphism:
 $(x\wedge y)' =x'\vee y'$, $
 (x\vee y)' =x'\wedge y'$, $
 0'=1$, $1'=0$
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be Ockham algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(x')=h(x)'$, $h(0)=0$, $h(1)=1$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |Variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Congruence distributive]]  |Yes |
-^[[Congruence modular]]  |Yes |
-^[[Congruence n-permutable]]  | |
-^[[Congruence regular]]  | |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-^[[Locally finite]]  | |
-^[[Residual size]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |Variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Congruence distributive](congruence_distributive.md)  |Yes |
+|[Congruence modular](congruence_modular.md)  |Yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  | |
+|[Congruence regular](congruence_regular.md)  | |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+|[Locally finite](locally_finite.md)  | |
+|[Residual size](residual_size.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -58,15 +62,15 @@ f(9)= &\\
 f(10)= &\\
 \end{array}$
 
-====Subclasses====
-[[De Morgan algebras]] 
+## Subclasses
+[De Morgan algebras](de_morgan_algebras.md) 
 
-====Superclasses====
-[[Bounded distributive lattices]] 
+## Superclasses
+[Bounded distributive lattices](bounded_distributive_lattices.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]\end{document}
 %</pre>

@@ -1,9 +1,9 @@
-=====Congruence uniformity=====
+# Congruence uniformity
 
-An algebra is \emph{congruence uniform} if for all congruence relations $\theta$ of the algebra it holds that
+An algebra is ***congruence uniform*** if for all congruence relations $\theta$ of the algebra it holds that
 all congruence classes of $\theta$ have the same cardinality.
 
-A class of algebras is \emph{congruence uniform} if each of its members is congruence uniform. 
+A class of algebras is ***congruence uniform*** if each of its members is congruence uniform. 
 
 Congruence uniformity holds for many 'classical' varieties such as groups, rings and vector spaces. 
 

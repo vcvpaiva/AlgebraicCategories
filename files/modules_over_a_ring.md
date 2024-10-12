@@ -1,11 +1,11 @@
-=====Modules over a ring=====
+# Modules over a ring
 
 Abbreviation: **RMod**
-====Definition====
-A \emph{module over a [[rings with identity]]} $\mathbf{R}$ is a structure $\mathbf{A}=\langle A,+,-,0,f_r\ (r\in R)\rangle$ such that
+## Definition
+A ***module over a [rings with identity](rings_with_identitys.md)*** $\mathbf{R}$ is a structure $\mathbf{A}=\langle A,+,-,0,f_r\ (r\in R)\rangle$ such that
 
 
-$\langle A,+,-,0\rangle $ is an [[abelian groups]]
+$\langle A,+,-,0\rangle$ is an [abelian groups](abelian_groups.md)
 
 
 $f_r$ preserves addition:  
@@ -21,38 +21,42 @@ $f_{r+s}(x))=f_r(x)+f_s(x)$
 $f_{r\circ s}(x)=f_r(f_s(x))$
 
 Remark: 
-$f_r$ is called \emph{scalar multiplication by $r$}, and $f_r(x)$ is usually written simply as $rx$.
+$f_r$ is called ***scalar multiplication by $r$***, and $f_r(x)$ is usually written simply as $rx$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be modules over a ring $\mathbf{R}$. 
 A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a group homomorphism and preserves all $f_r$:
 
 $h(f_r(x))=f_r(h(x))$
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence regular]]  |yes |
-^[[Congruence uniform]]  |yes |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |yes |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -63,15 +67,15 @@ f(5)= &\\
 f(6)= &\\
 \end{array}$
 
-====Subclasses====
-====Superclasses====
-[[Abelian groups]] 
+## Subclasses
+## Superclasses
+[Abelian groups](abelian_groups.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+
 
 
 

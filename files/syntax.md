@@ -1,12 +1,12 @@
-[[Syntax]] | [[Terms]] | [[Equations]] | [[Horn formulas]] | [[Universal formulas]] | [[First-order formulas]] | [[Theories]]
+[Syntax](syntaxs.md) | [Terms](terms.md) | [Equations](equations.md) | [Horn formulas](horn_formulas.md) | [Universal formulas](universal_formulas.md) | [First-order formulas](first-order_formulas.md) | [Theories](theories.md)
 
 
-==== Variables ====
+##  Variables 
 
 $x$ $y$ $z$ $u$ $v$ $w$ $x_0$ $x_1$ $x_2$ ...
 
 
-==== Operation symbols ====
+##  Operation symbols 
 
   ***Constant symbols**
     *$a$ $b$ $c$ $d$ $e$ $\bot$ $\top$ $\emptyset$ $\infty$ $0$-$9$ $\alpha-\omega$
@@ -39,7 +39,7 @@ $x$ $y$ $z$ $u$ $v$ $w$ $x_0$ $x_1$ $x_2$ ...
     *$\sum$ $\prod$ $\bigcap$ $\bigcup$ $\bigwedge$ $\bigvee$
 
 
-==== Relation symbols ====
+##  Relation symbols 
 
   ***0-ary relation symbols**
     *Propositions ⊥ ⊤ T F
@@ -64,7 +64,7 @@ $x$ $y$ $z$ $u$ $v$ $w$ $x_0$ $x_1$ $x_2$ ...
   ***∞-ary relation symbols**
 
 
-==== Connectives ====
+##  Connectives 
 
   ***0-ary connectives**
 
@@ -89,17 +89,17 @@ $x$ $y$ $z$ $u$ $v$ $w$ $x_0$ $x_1$ $x_2$ ...
   ***∞-ary connectives**
 
 
-==== Quantifiers ====
+##  Quantifiers 
 
     *∀ ∃
 
 
-==== Delimiters ====
+##  Delimiters 
 
     *( ) [ ] { } 〈 〉
 
 
-==== Signatures / Languages ====
+##  Signatures / Languages 
 
 A signature or language is a sequence of operation symbols, relation symbols and connectives.
 
