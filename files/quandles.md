@@ -1,56 +1,60 @@
-=====Quandles=====
+# Quandles
 
 Abbreviation: **Qnd**
 
-====Definition====
-A \emph{quandle} is a structure $\mathbf{Q}=\langle Q,\triangleright,\triangleleft\rangle$ of type $\langle 2,2\rangle$ such that
+## Definition
+A ***quandle*** is a structure $\mathbf{Q}=\langle Q,\triangleright,\triangleleft\rangle$ of type $\langle 2,2\rangle$ such that
 
-$\triangleright$ is \emph{left-selfdistributive}:  $x\triangleright(y\triangleright z)=(x\triangleright y)\triangleright(x\triangleright z)$
+$\triangleright$ is ***left-selfdistributive***:  $x\triangleright(y\triangleright z)=(x\triangleright y)\triangleright(x\triangleright z)$
 
-$\triangleleft$ is \emph{right-selfdistributive}:  $(x\triangleleft y)\triangleleft z=(x\triangleleft z)\triangleleft(y\triangleleft z)$
+$\triangleleft$ is ***right-selfdistributive***:  $(x\triangleleft y)\triangleleft z=(x\triangleleft z)\triangleleft(y\triangleleft z)$
 
 $(x\triangleright y)\triangleleft x=y$
 
 $x\triangleright (y\triangleleft x)=y$
 
-$\triangleright$ is \emph{idempotent}: $x\triangleright x=x$
+$\triangleright$ is ***idempotent***: $x\triangleright x=x$
 
-Remark: The last identity can equivalently be replaced by $\triangleleft$ is \emph{idempotent}: $x\triangleleft x=x$
+Remark: The last identity can equivalently be replaced by $\triangleleft$ is ***idempotent***: $x\triangleleft x=x$
 
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{Q}$ and $\mathbf{R}$ be quandles. A morphism from $\mathbf{Q}$ to $\mathbf{R}$ is a function $h:Q\rightarrow R$ that is a homomorphism: 
 $h(x \triangleright y)=h(x) \triangleright h(y)$ and $h(x \triangleleft y)=h(x) \triangleleft h(y)$.
 
-====Examples====
-Example 1: If $\langle G,\cdot,^{-1},1\rangle$ is a [[group]] and $x\triangleright y=xyx^{-1}$, $x\triangleleft y=x^{-1}yx$ (conjugation) then 
+## Examples
+Example 1: If $\langle G,\cdot,^{-1},1\rangle$ is a [group](groups.md) and $x\triangleright y=xyx^{-1}$, $x\triangleleft y=x^{-1}yx$ (conjugation) then 
 $\langle G,\triangleright,\triangleleft\rangle$ is a quandle.
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
 
-^[[Classtype]]                        | [[variety]] |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | No |
-^[[Congruence modular]]               | No |
-^[[Congruence $n$-permutable]]        | Yes, $n=2$ |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        | [variety](varietys.md) |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | No |
+|[Congruence modular](congruence_modular.md)               | No |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | Yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -66,20 +70,20 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-[[Involutory quandles]]
+## Subclasses
+[Involutory quandles](involutory_quandles.md)
 
-[[Symmetric quandles]]
+[Symmetric quandles](symmetric_quandles.md)
 
-[[Abelian quandles]]
+[Abelian quandles](abelian_quandles.md)
 
-====Superclasses====
-[[Racks]]
+## Superclasses
+[Racks](racks.md)
 
-====References====
+## References
 
-[(Lastname19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

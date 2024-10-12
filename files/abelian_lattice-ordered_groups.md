@@ -72,7 +72,7 @@ None
 
 ## References
 
-Stanley Burris, ***A simple proof of the hereditary undecidability of the theory of lattice-ordered abelian groups***,
+Stanley Burris, *A simple proof of the hereditary undecidability of the theory of lattice-ordered abelian groups*,
 Algebra Universalis,
 **20**, 1985, 400--401, http://www.math.uwaterloo.ca/~snburris/htdocs/MYWORKS/PAPERS/HerUndecLOAG.pdf
 

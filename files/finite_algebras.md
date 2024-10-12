@@ -1,4 +1,4 @@
-=====Small nonisomorphic semigroups=====
+# Small nonisomorphic semigroups
 <html>
 <style>
 td {padding-left:3px;padding-right:3px;}

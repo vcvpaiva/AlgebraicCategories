@@ -1,48 +1,52 @@
-=====Ordered semilattices=====
+# Ordered semilattices
 
 Abbreviation: **OSlat**
 
-====Definition====
-An \emph{ordered semilattice} is a [[ordered semigroup]] $\mathbf{A}=\langle A,\cdot,\le\rangle$ that is
+## Definition
+An ***ordered semilattice*** is a [ordered semigroup](ordered_semigroups.md) $\mathbf{A}=\langle A,\cdot,\le\rangle$ that is
 
-\emph{commutative}:  $x\cdot y = y\cdot x$ and
+***commutative***:  $x\cdot y = y\cdot x$ and
 
-\emph{idempotent}:  $x\cdot x = x$
+***idempotent***:  $x\cdot x = x$
 
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be ordered semigroups. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a orderpreserving homomorphism: 
 $h(x \cdot y)=h(x) \cdot h(y)$, 
 $x\le y\Longrightarrow h(x)\le h(y)$.
 
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 
-^[[Classtype]]                        |universal  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |universal  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 $\begin{array}{rr}
 f(1)=&1\\
 f(2)=&2\\
@@ -56,17 +60,17 @@ f(8)=&\\
 
 This sequence is the Catalan numbers http://oeis.org/A000108
 
-====Subclasses====
+## Subclasses
 
 
-====Superclasses====
-[[Commutative ordered semigroups]]
+## Superclasses
+[Commutative ordered semigroups](commutative_ordered_semigroups.md)
 
 
-====References====
+## References
 
-[(Lastname19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

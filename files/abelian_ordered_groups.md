@@ -25,7 +25,7 @@ Every ordered group with more than one element is infinite.
 
 |Property|Value|
 |---|---|
-[Classtype](classtype.md)                        |universal |
+|[Classtype](classtype.md)                        |universal |
 |[Equational theory](equational_theory.md)                |decidable |
 |[Quasiequational theory](quasiequational_theory.md)           |decidable |
 |[First-order theory](first-order_theory.md)               | |

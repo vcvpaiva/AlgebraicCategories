@@ -1,47 +1,51 @@
-=====Bounded lattices=====
+# Bounded lattices
 
 Abbreviation: **BLat**
 
-====Definition====
-A \emph{bounded lattice} is a structure $\mathbf{L}=\langle L,\vee,0,\wedge,1\rangle$ such that
+## Definition
+A ***bounded lattice*** is a structure $\mathbf{L}=\langle L,\vee,0,\wedge,1\rangle$ such that
 
-$\langle L,\vee,\wedge\rangle $ is a [[lattice]]
+$\langle L,\vee,\wedge\rangle$ is a [lattice](lattices.md)
 
 $0$ is the least element:  $0\leq x$
 
 $1$ is the greatest element:  $x\leq 1$
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be bounded lattices. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\rightarrow M$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(0)=0$, $h(1)=1$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  |decidable |
-^[[First-order theory]]  |undecidable |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |no |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  |yes |
-^[[Strong amalgamation property]]  |yes |
-^[[Epimorphisms are surjective]]  |yes |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
+## Properties
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |decidable |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |no |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |yes |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |yes |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -72,23 +76,23 @@ f(19)= &\\
 f(20)= &\\
 \end{array}$
 
-[(HeiRei2002)]
+[HeiRei2002]
 
 
-====Subclasses====
-[[Bounded modular lattices]] 
+## Subclasses
+[Bounded modular lattices](bounded_modular_lattices.md) 
 
-[[Complete lattices]] 
-
-
-====Superclasses====
-[[Lattices]] 
+[Complete lattices](complete_lattices.md) 
 
 
-====References====
+## Superclasses
+[Lattices](lattices.md) 
 
-[(HeiRei2002>
-Jobst Heitzig and J\"urgen Reinhold, \emph{Counting finite lattices},
+
+## References
+
+
+Jobst Heitzig and J\"urgen Reinhold, ***Counting finite lattices***,
 Algebra Universalis,
-\textbf{48}, 2002, 43--53 [[MRreview]]
-)]
+**48**, 2002, 43--53 [MRreview](mrreviews.md)
+

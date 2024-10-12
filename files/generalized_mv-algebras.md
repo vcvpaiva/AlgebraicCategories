@@ -1,14 +1,14 @@
-=====Generalized MV-algebras=====
+# Generalized MV-algebras
 
 Abbreviation: **GMV**
 
-====Definition====
-A \emph{generalized MV-algebra} is a [[residuated lattices]] 
+## Definition
+A ***generalized MV-algebra*** is a [residuated lattices](residuated_lattices.md) 
 $\mathbf{L}=\langle L,\vee, \wedge, \cdot, e, \backslash, /\rangle$ such that
 
 $x\vee y=x/(y\backslash x\wedge e)$, $x\vee y=(x/y\wedge e)\backslash y$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be generalized MV-algebras. A
 morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\rightarrow M$
 that is a homomorphism: 
@@ -17,33 +17,37 @@ $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$,
 $h(x\cdot y)=h(x)\cdot h(y)$, $h(x\backslash
 y)=h(x)\backslash h(y)$, $h(x/y)=h(x)/h(y)$, $h(e)=e$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable [http://www.chapman.edu/~jipsen/lgroups/GMVDecisionProc.html implementation] |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence regular]]  |no |
-^[[Congruence e-regular]]  |yes |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
+## Properties
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable [http://www.chapman.edu/~jipsen/lgroups/GMVDecisionProc.html implementation] |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence e-regular](congruence_e-regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -54,20 +58,20 @@ f(5)= &\\
 f(6)= &\\
 \end{array}$
 
-====Subclasses====
+## Subclasses
 
-[[Commutative generalized MV-algebras]] 
+[Commutative generalized MV-algebras](commutative_generalized_mv-algebras.md) 
 
-[[Integral generalized MV-algebras]] 
+[Integral generalized MV-algebras](integral_generalized_mv-algebras.md) 
 
-[[MV-algebras]] 
-
-
-====Superclasses====
-[[Generalized BL-algebras]] 
+[MV-algebras](mv-algebras.md) 
 
 
-====References====
+## Superclasses
+[Generalized BL-algebras](generalized_bl-algebras.md) 
 
-[(Ln19xx>
+
+## References
+
+
 )]

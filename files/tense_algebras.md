@@ -63,7 +63,7 @@ f(6)= &\\
 \end{array}$
 
 ====Subclasses====
-[[]] 
+
 
 ====Superclasses====
 [[Boolean algebras with operators]] 

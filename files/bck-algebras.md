@@ -1,8 +1,8 @@
-=====BCK-algebras=====
+# BCK-algebras
 
 Abbreviation: **BCK**
-====Definition====
-A \emph{BCK-algebra} is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
+## Definition
+A ***BCK-algebra*** is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
 
 (1):  $((x\cdot y)\cdot (x\cdot z))\cdot (z\cdot y) = 0$
 
@@ -15,44 +15,48 @@ A \emph{BCK-algebra} is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of ty
 Remark: 
 $x\le y \iff x\cdot y=0$ is a partial order, with $0$ as least element.
 
-BCK-algebras provide [[algebraic semantics]] for BCK-logic, named after
-the combinators B, C, and K by C. A. Meredith, see [(Prior1962)].
+BCK-algebras provide [algebraic semantics](algebraic_semantics.md) for BCK-logic, named after
+the combinators B, C, and K by C. A. Meredith, see [Prior1962].
 
-====Definition====
-A \emph{BCK-algebra} is a [[BCI-algebra]] 
+## Definition
+A ***BCK-algebra*** is a [BCI-algebra](bci-algebras.md) 
 $\mathbf{A}=\langle A,\cdot ,0\rangle$ such that
 
 $x\cdot 0 = x$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be BCK-algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(x\cdot y)=h(x)\cdot h(y)$ and $h(0)=0$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]                        |quasivariety [(Wronski1983)] |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               |undecidable |
-^[[Locally finite]]                   |no |
-^[[Residual size]]                    |unbounded |
-^[[Congruence distributive]]          |no |
-^[[Congruence modular]]               |no |
-^[[Congruence n-permutable]]          |no |
-^[[Congruence regular]]               |no |
-^[[Congruence uniform]]               |no |
-^[[Congruence extension property]]    |no |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]      |no |
-^[[Amalgamation property]]            |yes |
-^[[Strong amalgamation property]]     |yes [(Wronski1984)] |
-^[[Epimorphisms are surjective]]      | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |quasivariety [Wronski1983] |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               |undecidable |
+|[Locally finite](locally_finite.md)                   |no |
+|[Residual size](residual_size.md)                    |unbounded |
+|[Congruence distributive](congruence_distributive.md)          |no |
+|[Congruence modular](congruence_modular.md)               |no |
+|[Congruence n-permutable](congruence_n-permutable.md)          |no |
+|[Congruence regular](congruence_regular.md)               |no |
+|[Congruence uniform](congruence_uniform.md)               |no |
+|[Congruence extension property](congruence_extension_property.md)    |no |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      |no |
+|[Amalgamation property](amalgamation_property.md)            |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)     |yes [Wronski1984] |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -63,26 +67,26 @@ f(5)= &88\\
 f(6)= &775\\
 \end{array}$
 
-====Subclasses====
-[[Commutative BCK-algebras]] 
+## Subclasses
+[Commutative BCK-algebras](commutative_bck-algebras.md) 
 
-====Superclasses====
-[[BCI-algebras]] 
+## Superclasses
+[BCI-algebras](bci-algebras.md) 
 
 
-====References====
+## References
 
-[(Prior1962>
-A. N. Prior, \emph{Formal logic},
-Second edition, Clarendon Press, Oxford, 1962, p.316)]
 
-[(Wronski1983>
-Andrzej Wronski,\emph{BCK-algebras do not form a variety},
-Math. Japon., \textbf{28}, 1983, 211--213)]
+A. N. Prior, ***Formal logic***,
+Second edition, Clarendon Press, Oxford, 1962, p.316
 
-[(Wronski1984>
-Andrzej Wronski,\emph{Interpolation and amalgamation properties of BCK-algebras},
-Math. Japon., \textbf{29}, 1984, 115--121)]
+
+Andrzej Wronski,***BCK-algebras do not form a variety***,
+Math. Japon., **28**, 1983, 211--213
+
+
+Andrzej Wronski,***Interpolation and amalgamation properties of BCK-algebras***,
+Math. Japon., **29**, 1984, 115--121
 
 
 

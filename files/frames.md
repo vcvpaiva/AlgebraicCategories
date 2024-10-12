@@ -1,13 +1,13 @@
-=====Frames=====
+# Frames
 
 Abbreviation: **Frm**
 
-====Definition====
-A \emph{frame} is a structure $\mathbf{A}=\langle A, \bigvee, \wedge, e, 0\rangle$ of type $\langle\infty, 2, 0, 0\rangle$ such that
+## Definition
+A ***frame*** is a structure $\mathbf{A}=\langle A, \bigvee, \wedge, e, 0\rangle$ of type $\langle\infty, 2, 0, 0\rangle$ such that
 
-$\langle A, \bigvee, 0\rangle$ is a [[complete semilattice]] with $0=\bigvee\emptyset$,
+$\langle A, \bigvee, 0\rangle$ is a [complete semilattice](complete_semilattices.md) with $0=\bigvee\emptyset$,
 
-$\langle A, \wedge, e\rangle$ is a [[meet semilattice with identity]], and
+$\langle A, \wedge, e\rangle$ is a [meet semilattice with identity](meet_semilattice_with_identitys.md), and
 
 $\wedge$ distributes over $\bigvee$:  $x\wedge(\bigvee Y)=\bigvee_{y\in Y}(x\wedge y)$
 
@@ -16,48 +16,52 @@ If you know something about this class, click on the 'Edit text of this page' li
 
 It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be frames. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(\bigvee X)=\bigvee h[X]$ for all $X\subseteq A$ (hence $h(0)=0$),
 $h(x \wedge y)=h(x) \wedge h(y)$ and
 $h(e)=e$.
 
-====Definition====
-A \emph{...} is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
+## Definition
+A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
 ...\rangle$ such that
 
 $...$ is ...:  $axiom$
   
 $...$ is ...:  $axiom$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
 
-^[[Classtype]]                        |(value, see description) [(Ln19xx)]  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |(value, see description) [Ln19xx]  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
   Epimorphisms are surjective     &no \\\hline
 
-====Finite members====
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -75,22 +79,22 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-  [[...]] subvariety
+## Subclasses
+  [...](...s.md) subvariety
 
-  [[...]] expansion
-
-
-====Superclasses====
-  [[...]] supervariety
-
-  [[...]] subreduct
+  [...](...s.md) expansion
 
 
-====References====
+## Superclasses
+  [...](...s.md) supervariety
 
-[(Ln19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+  [...](...s.md) subreduct
+
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 
