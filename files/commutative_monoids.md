@@ -56,15 +56,7 @@ zero. The finitely generated free commutative monoids are direct products of thi
 |[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
 ## Finite members
 
-$\begin{array}{lr}
-f(1)= &1\\
-f(2)= &2\\
-f(3)= &5\\
-f(4)= &19\\
-f(5)= &78\\
-f(6)= &421\\
-f(7)= &2637\\
-\end{array}$
+$\begin{array}{lr}f(1)= &1\\f(2)= &2\\f(3)= &5\\f(4)= &19\\f(5)= &78\\f(6)= &421\\f(7)= &2637\\\end{array}$
 
 ## Subclasses
 [Abelian groups](abelian_groups.md) 
