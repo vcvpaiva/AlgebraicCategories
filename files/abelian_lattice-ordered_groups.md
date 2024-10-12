@@ -18,7 +18,7 @@ Remark: It follows that $f(x\wedge y)=f(x)\wedge f(y)$, $f(x^{-1})=f(x)^{-1}$, a
 
 
 ## Definition
-An ***abelian lattice-ordered group*** (or ***abelian $\ell$-group***) is a 
+An ***abelian lattice-ordered group*** (or ***abelian*** $\ell$***-group***) is a 
 [commutative residuated lattice](commutative_residuated_lattices.md) 
 $\mathbf{L}=\langle L, \vee, \wedge, \cdot, \to, e\rangle$ that satisfies the identity 
 $x\cdot(x\to e)=e$.
