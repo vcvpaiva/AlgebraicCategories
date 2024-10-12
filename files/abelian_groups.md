@@ -60,7 +60,7 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 |[Strong amalgamation property](strong_amalgamation_property.md)    |yes |
 
 
-### Finite members
+## Finite members
 |$n$       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 |---       |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 |# of algs | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 3 | 2 |  1 |  1 |  2 |  1 |  1 |  1 |  5 |  1 |  2 |  1 | 1  |  1 |  1 |  1 |  3 |  2 |
@@ -69,19 +69,19 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 see also http://www.research.att.com/projects/OEIS?Anum=A000688
 
 
-### Subclasses
+## Subclasses
 [Boolean groups](boolean_groups.md)
 
 [Commutative rings](commutative_rings.md)
 
 
-### Superclasses
+## Superclasses
 [Groups](groups.md)
 
 [Commutative monoids](commutative_monoids.md)
 
 
-### References
+## References
 W. Szmielew: Decision problem in group theory,
 Library of the Tenth International Congress of Philosophy, 
 Amsterdam, August 11--18, 1948, Vol.1, Proceedings of the Congress,
