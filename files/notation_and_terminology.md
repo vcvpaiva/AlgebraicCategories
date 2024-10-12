@@ -1,21 +1,29 @@
 # Notation and Terminology
 
-### = This page describes the conventions that are used for the entries in the database =
+### This page describes the conventions that are used for the entries in the database
 
-***Sets *** are denoted by upper-case roman letters, usually $A, B, C,\ldots, U, V, W$. 
+***Sets*** are denoted by upper-case roman letters, usually $A, B, C,\ldots, U, V, W$. 
 
-$\mathbb{N}=$ the set of natural numbers $=\{0,1,2,\ldots\}$,\\
-$\mathbb{Z}=$ the set of integers $=\mathbb{N}\cup\{-n:n\in\mathbb{N}\}$,\\
-$\mathbb{Q}=$ the set of rationals $=\{m/n:m,n\in\mathbb{Z}, n>0\}$,\\
-$\mathbb{R}=$ the set of real numbers,\\
-$\mathbb{C}=$ the set of complex numbers $=\{x+iy:x,y\in\mathbb{R}\}$.\\
+$\mathbb{N}=$ the set of natural numbers $=\{0,1,2,\ldots\}$.
 
-$\mathcal P(A)=\{S:S\subseteq A\}$, the power set of $A$.\\
+$\mathbb{Z}=$ the set of integers $=\mathbb{N}\cup\{-n:n\in\mathbb{N}\}$.
+
+$\mathbb{Q}=$ the set of rationals $=\{m/n:m,n\in\mathbb{Z}, n>0\}$.
+
+$\mathbb{R}=$ the set of real numbers.
+
+$\mathbb{C}=$ the set of complex numbers $=\{x+iy:x,y\in\mathbb{R}\}$.
+
+$\mathcal P(A)=\{S:S\subseteq A\}$, the power set of $A$.
+
 $A^n=\{\langle a_0,\ldots,a_{n-1}\rangle:a_0,\ldots,a_{n-1}\in A\}$, the set of all $n$-tuples of elements of $A$.
 
-***Elements of sets*** are denoted by lower-case roman letters, usually $a, b, c, d, e$.\\
-***Variables that range over elements*** are denoted by lower-case roman letters, usually $x, y, z, u, v, w, x_0, x_1, \ldots$.\\
-***Integer variables*** are usually denoted by $i,j,k,m,n$.\\
+***Elements of sets*** are denoted by lower-case roman letters, usually $a, b, c, d, e$.
+
+***Variables that range over elements*** are denoted by lower-case roman letters, usually $x, y, z, u, v, w, x_0, x_1, \ldots$.
+
+***Integer variables*** are usually denoted by $i,j,k,m,n$.
+
 ***Variables that range over sets*** are denoted by upper-case roman letters, usually $X, Y, Z, X_0, X_1, \ldots$
 
 ***Functions*** are denoted by lower-case roman letters, usually $f, g, h$.
