@@ -1,45 +1,49 @@
-=====Partial groupoids=====
+# Partial groupoids
 
 Abbreviation: **Pargoid**
 
-====Definition====
-A \emph{partial groupoid} is a structure $\mathbf{A}=\langle A,\cdot\rangle$, where 
+## Definition
+A ***partial groupoid*** is a structure $\mathbf{A}=\langle A,\cdot\rangle$, where 
 
-$\cdot$ is a \emph{partial binary operation}, i.e., $\cdot: A\times A\to A+\{*\}$.
+$\cdot$ is a ***partial binary operation***, i.e., $\cdot: A\times A\to A+\{*\}$.
 
 Remark: The domain of definition of $\cdot$ is Dom$(\cdot)=\{\langle x,y\rangle\in A^2 \mid x\cdot y\ne *\}$ 
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be partial groupoids. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 if $x\cdot y\ne *$ then $h(x \cdot y)=h(x) \cdot h(y)$
 
-====Examples====
+## Examples
 Example 1: The empty partial binary operation on any set $A$ gives a partial groupoid.
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 
-^[[Classtype]]                        |first-order  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |first-order  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &2\\
@@ -51,20 +55,20 @@ $\begin{array}{lr}
 
 See http://oeis.org/A090601
 
-====Subclasses====
-[[Groupoids]]
+## Subclasses
+[Groupoids](groupoids.md)
 
-[[Partial semigroups]]
-
-
-====Superclasses====
-[[Ternary relations]]
+[Partial semigroups](partial_semigroups.md)
 
 
-====References====
+## Superclasses
+[Ternary relations](ternary_relations.md)
 
-[(Ljapin1997>
-E. S. Ljapin and A. E. Evseev, \emph{The theory of partial algebraic operations}, Kluwer, 1997 
-)]
+
+## References
+
+
+E. S. Ljapin and A. E. Evseev, ***The theory of partial algebraic operations***, Kluwer, 1997 
+
 
 

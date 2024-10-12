@@ -1,4 +1,4 @@
-=====Canvas pictures=====
+# Canvas pictures
 
 <html>
 Modular lattice <canvas id="c1" width="120" height="120"></canvas>
@@ -66,5 +66,5 @@ function chain2d(m,n){
 chain2d(11,11)
 </script>
 </html>
-==5-element modular lattice==
+### 5-element modular lattice
 $M_3$

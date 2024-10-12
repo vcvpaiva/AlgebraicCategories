@@ -1,33 +1,33 @@
-=====Semilattices=====
+# Semilattices
 
 Abbreviation: **Slat**
-====Definition====
-A \emph{semilattice} is a structure $\mathbf{S}=\langle S,\cdot
-\rangle $, where $\cdot $ is an infix binary operation, called the 
-\emph{semilattice operation}, such that
+## Definition
+A ***semilattice*** is a structure $\mathbf{S}=\langle S,\cdot
+\rangle$, where $\cdot$ is an infix binary operation, called the 
+***semilattice operation***, such that
 
 
-$\cdot $ is associative:  $(xy)z=x(yz)$
+$\cdot$ is associative:  $(xy)z=x(yz)$
 
 
-$\cdot $ is commutative:  $xy=yx$
+$\cdot$ is commutative:  $xy=yx$
 
 
-$\cdot $ is idempotent:  $xx=x$
+$\cdot$ is idempotent:  $xx=x$
 
 
 Remark: 
 This definition shows that semilattices form a variety.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{S}$ and $\mathbf{T}$ be semilattices. A morphism from $\mathbf{S}$ to $\mathbf{T}$ is a function $h:S\to T$ that is a homomorphism: 
 
 $h(xy)=h(x)h(y)$
 
-====Definition====
-A \emph{join-semilattice} is a structure $\mathbf{S}=\langle S,\leq,\vee\rangle$, where $\vee $ is an infix binary operation, called the \emph{join}, such that
+## Definition
+A ***join-semilattice*** is a structure $\mathbf{S}=\langle S,\leq,\vee\rangle$, where $\vee$ is an infix binary operation, called the ***join***, such that
 
-$\leq $ is a partial order,
+$\leq$ is a partial order,
 
 $x\leq y\implies x\vee z\leq y\vee z$ and $z\vee x\leq z\vee y$,
 
@@ -36,51 +36,55 @@ $x\le x\vee y$ and $y\leq x\vee y$,
 $x\vee x\leq x$.
 
 This definition shows that semilattices form a partially-ordered variety.
-====Definition====
-A \emph{join-semilattice} is a structure $\mathbf{S}=\langle S,\vee
-\rangle $, where $\vee $ is an infix binary operation, called the \emph{join}, such that
+## Definition
+A ***join-semilattice*** is a structure $\mathbf{S}=\langle S,\vee
+\rangle$, where $\vee$ is an infix binary operation, called the ***join***, such that
 
 
-$\leq $ is a partial order, where $x\leq y\Longleftrightarrow x\vee y=y$
+$\leq$ is a partial order, where $x\leq y\Longleftrightarrow x\vee y=y$
 
 
 $x\vee y$ is the least upper bound of $\{x,y\}$.
-====Definition====
-A \emph{meet-semilattice} is a structure $\mathbf{S}=\langle S,\wedge
-\rangle $, where $\wedge $ is an infix binary operation, called the \emph{meet}, such that
+## Definition
+A ***meet-semilattice*** is a structure $\mathbf{S}=\langle S,\wedge
+\rangle$, where $\wedge$ is an infix binary operation, called the ***meet***, such that
 
 
-$\leq $ is a partial order, where $x\leq y\Longleftrightarrow x\wedge y=x$
+$\leq$ is a partial order, where $x\leq y\Longleftrightarrow x\wedge y=x$
 
 
 $x\wedge y$ is the greatest lower bound of $\{x,y\}$.
 
-====Examples====
-Example 1: $\langle \mathcal{P}_\omega(X)-\{\emptyset\},\cup\rangle $, the set of finite nonempty subsets of a set $X$, with union, is the free join-semilattice with singleton subsets of $X$ as generators.
+## Examples
+Example 1: $\langle \mathcal{P}_\omega(X)-\{\emptyset\},\cup\rangle$, the set of finite nonempty subsets of a set $X$, with union, is the free join-semilattice with singleton subsets of $X$ as generators.
 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable in polynomial time |
-^[[Quasiequational theory]]  |decidable |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |yes |
-^[[Residual size]]  |2 |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |no |
-^[[Congruence meet-semidistributive]]  |yes |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |yes |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  |yes |
-^[[Strong amalgamation property]]  |yes |
-^[[Epimorphisms are surjective]]  |yes |
-\end{table}====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable in polynomial time |
+|[Quasiequational theory](quasiequational_theory.md)  |decidable |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |yes |
+|[Residual size](residual_size.md)  |2 |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |no |
+|[Congruence meet-semidistributive](congruence_meet-semidistributive.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |yes |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |yes |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |yes |
+\end{table}## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -105,24 +109,24 @@ f(17)= &165269824761\\
 These results follow from the paper below and the observation that semilattices with $n$ elements 
 are in 1-1 correspondence to lattices with $n+1$ elements.
 
-Jobst Heitzig,J\"urgen Reinhold,\emph{Counting finite lattices},
+Jobst Heitzig,J\"urgen Reinhold,***Counting finite lattices***,
 Algebra Universalis,
-\textbf{48}2002,43--53[[MRreview]]
+**48**2002,43--53[MRreview](mrreviews.md)
 
-====Subclasses====
-[[Semilattices with zero]] 
+## Subclasses
+[Semilattices with zero](semilattices_with_zeros.md) 
 
-[[Semilattices with identity]] 
+[Semilattices with identity](semilattices_with_identitys.md) 
 
-====Superclasses====
-[[Bands]]
+## Superclasses
+[Bands](bands.md)
 
-[[Commutative semigroups]] 
+[Commutative semigroups](commutative_semigroups.md) 
 
-[[Partial semilattices]] 
+[Partial semilattices](partial_semilattices.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+

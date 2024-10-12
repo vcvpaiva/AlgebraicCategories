@@ -1,46 +1,50 @@
-=====Boolean spaces=====
+# Boolean spaces
 
 Abbreviation: **BSp**
 
-====Definition====
-A \emph{Boolean space} is a [[compact Hausdorff topological space]] $\mathbf{X}=\langle X,\Omega\rangle$ that is \emph{totally disconnected}:
+## Definition
+A ***Boolean space*** is a [compact Hausdorff topological space](compact_hausdorff_topological_spaces.md) $\mathbf{X}=\langle X,\Omega\rangle$ that is ***totally disconnected***:
 
 any two distinct points are separated by a clopen set ($\forall x\ne y\in X\exists U\in\Omega (x\in X\text{ and }y\in X\setminus U\in\Omega)$).
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{X}$ and $\mathbf{Y}$ be Boolean spaces. A morphism from $\mathbf{X}$ to $\mathbf{X}$ is a function $h:X\rightarrow Y$ that is continious: 
 $\forall V\in\Omega_{\mathbf{Y}}\ h^{-1}[V]\in\Omega_{\mathbf{X}}$.
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]                        |second-order  |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
-
-====Finite members====
-
-====Subclasses====
-  [[...]] subvariety
-
-  [[...]] expansion
+## Properties
 
 
-====Superclasses====
-  [[...]] supervariety
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |second-order  |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
 
-  [[...]] subreduct
+## Finite members
+
+## Subclasses
+  [...](...s.md) subvariety
+
+  [...](...s.md) expansion
 
 
-====References====
+## Superclasses
+  [...](...s.md) supervariety
 
-[(Ln19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+  [...](...s.md) subreduct
+
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

@@ -1,72 +1,76 @@
-=====Distributive lattices=====
+# Distributive lattices
 
 Abbreviation: **DLat**
-====Definition====
-A \emph{distributive lattice} is a lattice $\mathbf{L}=\langle L,\vee
-,\wedge\rangle $ such that
+## Definition
+A ***distributive lattice*** is a lattice $\mathbf{L}=\langle L,\vee
+,\wedge\rangle$ such that
 
-$\wedge $ distributes over $\vee $:  $x\wedge (y\vee z) = (x\wedge y) \vee (x\wedge z)$
+$\wedge$ distributes over $\vee$:  $x\wedge (y\vee z) = (x\wedge y) \vee (x\wedge z)$
 
-====Definition====
-A \emph{distributive lattice} is a lattice $\mathbf{L}=\langle L,\vee
-,\wedge\rangle $ such that
+## Definition
+A ***distributive lattice*** is a lattice $\mathbf{L}=\langle L,\vee
+,\wedge\rangle$ such that
 
-$\vee $ distributes over $\wedge $:  $x\vee (y\wedge z) = (x\vee y) \wedge (x\vee z)$
+$\vee$ distributes over $\wedge$:  $x\vee (y\wedge z) = (x\vee y) \wedge (x\vee z)$
 
-====Definition====
-A \emph{distributive lattice} is a lattice $\mathbf{L}=\langle L,\vee
-,\wedge \rangle $ such that
+## Definition
+A ***distributive lattice*** is a lattice $\mathbf{L}=\langle L,\vee
+,\wedge \rangle$ such that
 
 $(x\wedge y) \vee (x\wedge z) \vee (y\wedge z) = (x\vee y) \wedge (x\vee z) \wedge (y\vee z)$
 
-====Definition====
-A \emph{distributive lattice} is a lattice $\mathbf{L}=\langle L,\vee
-,\wedge \rangle $ such that $\mathbf{L}$ has no sublattice isomorphic
+## Definition
+A ***distributive lattice*** is a lattice $\mathbf{L}=\langle L,\vee
+,\wedge \rangle$ such that $\mathbf{L}$ has no sublattice isomorphic
 to the diamond $\mathbf{M}_{3}$ or the pentagon $\mathbf{N}_{5}$
 
-====Definition====
-A \emph{distributive lattice} is a structure $\mathbf{L}=\langle L,\vee ,\wedge
-\rangle $ of type $\langle 2,2\rangle $ such that
+## Definition
+A ***distributive lattice*** is a structure $\mathbf{L}=\langle L,\vee ,\wedge
+\rangle$ of type $\langle 2,2\rangle$ such that
 
 $x\wedge(x\vee y)=x$ and
 
-$x\wedge(y\vee z)=(z\wedge x)\vee(y\wedge x)$.[(Sholander1951)] 
+$x\wedge(y\vee z)=(z\wedge x)\vee(y\wedge x)$.[Sholander1951] 
 
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be distributive lattices. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\to M$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$
 
-====Examples====
-Example 1: $\langle P(S),\cup ,\cap ,\subseteq \rangle $, the collection of
+## Examples
+Example 1: $\langle P(S),\cup ,\cap ,\subseteq \rangle$, the collection of
 subsets of a sets $S$, ordered by inclusion.
 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  |decidable |
-^[[First-order theory]]  |undecidable |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |no |
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |decidable |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
 Equationally def. pr. cong. & yes, $\begin{array}{c}\langle c,d\rangle\in \text{Cg}(a,b)\iff \\
 (a\wedge b)\wedge c=(a\wedge b)\wedge d\\ (a\vee b)\vee c=(a\vee b)\vee d\end{array}$\\\hline
-^[[Amalgamation property]]  |yes |
-^[[Strong amalgamation property]]  |no |
-^[[Epimorphisms are surjective]]  |no |
-^[[Locally finite]]  |yes |
-^[[Residual size]]  |2 |
-====Finite members====
+|[Amalgamation property](amalgamation_property.md)  |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |no |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |no |
+|[Locally finite](locally_finite.md)  |yes |
+|[Residual size](residual_size.md)  |2 |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -91,31 +95,31 @@ f(19)= &10006\\
 f(20)= &18428\\
 \end{array}$
 
-Values known up to size 49 [(ErneHeitigReinhold2002)]
+Values known up to size 49 [ErneHeitigReinhold2002]
 
-====Subclasses====
-[[One-element algebras]] 
+## Subclasses
+[One-element algebras](one-element_algebras.md) 
 
-[[Bounded distributive lattices]] 
+[Bounded distributive lattices](bounded_distributive_lattices.md) 
 
-[[Complete distributive lattices]] 
+[Complete distributive lattices](complete_distributive_lattices.md) 
 
-====Superclasses====
-[[Modular lattices]] 
+## Superclasses
+[Modular lattices](modular_lattices.md) 
 
-[[Semidistributive lattices]] 
+[Semidistributive lattices](semidistributive_lattices.md) 
 
 
-====References====
+## References
 
-[(ErneHeitigReinhold2002>
+
 M. Ern\'e, J. Heitzig, J. Reinhold,
-\emph{On the number of distributive lattices},
+***On the number of distributive lattices***,
 Electronic J. Combinatorics 9 (2002), no. 1, Research Paper 24, 23 pp.
-)]
 
-[(Sholander1951>
+
+
 M. Sholander, 
-\emph{Postulates for distributive lattices}. 
+***Postulates for distributive lattices***. 
 Canadian J. Math. 3, (1951). 28–30.
 )]

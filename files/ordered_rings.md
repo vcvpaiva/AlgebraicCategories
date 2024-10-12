@@ -1,83 +1,87 @@
-=====Ordered rings=====
+# Ordered rings
 
 Abbreviation: **ORng**
 
-====Definition====
-An \emph{ordered ring} is a structure $\mathbf{A}=\langle A,+,-,0,\cdot,1,\le\rangle$ such that
+## Definition
+An ***ordered ring*** is a structure $\mathbf{A}=\langle A,+,-,0,\cdot,1,\le\rangle$ such that
 
-$\langle A,+,-,0,\cdot,1\rangle$ is a [[ring]]
+$\langle A,+,-,0,\cdot,1\rangle$ is a [ring](rings.md)
 
-$\langle A,\le\rangle$ is a [[linear order]]
+$\langle A,\le\rangle$ is a [linear order](linear_orders.md)
 
-$+$ is \emph{order-preserving}: $x\le y\Longrightarrow x+z\le y+z$
+$+$ is ***order-preserving***: $x\le y\Longrightarrow x+z\le y+z$
 
-$\cdot$ is \emph{order-preserving} for positive elements: $x\le y\text{ and }0\le z\Longrightarrow xz\le yz$
+$\cdot$ is ***order-preserving*** for positive elements: $x\le y\text{ and }0\le z\Longrightarrow xz\le yz$
 
 Remark: This is a template.
 If you know something about this class, click on the 'Edit text of this page' link at the bottom and fill out this page.
 
 It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be ... . A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(x ... y)=h(x) ... h(y)$
 
-====Definition====
-An \emph{...} is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
+## Definition
+An ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
 ...\rangle$ such that
 
 $...$ is ...:  $axiom$
   
 $...$ is ...:  $axiom$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
 
-^[[Classtype]]                        |universal  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |universal  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
  None
 
-====Subclasses====
-  [[Complete ordered rings]]
+## Subclasses
+  [Complete ordered rings](complete_ordered_rings.md)
 
-  [[Ordered fields]]
-
-
-====Superclasses====
-  [[Abelian ordered groups]] reduced type
-
-  [[Ordered monoids]] reduced type
-
-  [[Rings]] reduced type
+  [Ordered fields](ordered_fields.md)
 
 
-====References====
+## Superclasses
+  [Abelian ordered groups](abelian_ordered_groups.md) reduced type
 
-[(Lastname19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+  [Ordered monoids](ordered_monoids.md) reduced type
+
+  [Rings](rings.md) reduced type
+
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

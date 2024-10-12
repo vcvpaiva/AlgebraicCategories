@@ -1,21 +1,21 @@
-=====Gödel algebras=====
+# Gödel algebras
 
 Abbreviation: **GödA**
 
-====Definition====
-A \emph{Gödel algebra} is a [[Heyting algebras]] $\mathbf{A}=\langle A,\vee,0,\wedge,1,\rightarrow\rangle$ such that
+## Definition
+A ***Gödel algebra*** is a [Heyting algebras](heyting_algebras.md) $\mathbf{A}=\langle A,\vee,0,\wedge,1,\rightarrow\rangle$ such that
 
 $(x\to y)\vee(y\to x)=1$
 
 Remark: 
-Gödel algebras are also called \emph{linear Heyting algebras} since subdirectly irreducible Gödel algebras are linearly ordered Heyting algebras.
+Gödel algebras are also called ***linear Heyting algebras*** since subdirectly irreducible Gödel algebras are linearly ordered Heyting algebras.
 
-====Definition====
-A \emph{Gödel algebra} is a [[representable FLew-algebra]] $\mathbf{A}=\langle A, \vee, 0, \wedge, 1, \cdot, \rightarrow\rangle$ such that
+## Definition
+A ***Gödel algebra*** is a [representable FLew-algebra](representable_flew-algebras.md) $\mathbf{A}=\langle A, \vee, 0, \wedge, 1, \cdot, \rightarrow\rangle$ such that
 
 $x\wedge y=x\cdot y$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be Gödel algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a
 homomorphism: 
 
@@ -23,30 +23,34 @@ $h(x\vee y)=h(x)\vee h(y)$, $h(0)=0$, $h(x\wedge
 y)=h(x)\wedge h(y)$, $h(1)=1$, $h(x\rightarrow
 y)=h(x)\rightarrow h(y)$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  |decidable |
-^[[First-order theory]]  | |
-^[[Locally finite]]  | |
-^[[Residual size]]  |countable |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence e-regular]]  |yes, $e=1$ |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |yes |
-^[[Equationally def. pr. cong.]]  |yes |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |decidable |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  | |
+|[Residual size](residual_size.md)  |countable |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence e-regular](congruence_e-regular.md)  |yes, $e=1$ |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |yes |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |yes |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -61,14 +65,14 @@ f(9)= &1\\
 f(10)= &2\\
 \end{array}$
 
-====Subclasses====
-[[Boolean algebras]] 
+## Subclasses
+[Boolean algebras](boolean_algebras.md) 
 
-====Superclasses====
-[[Heyting algebras]] 
+## Superclasses
+[Heyting algebras](heyting_algebras.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

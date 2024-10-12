@@ -1,4 +1,4 @@
-=====Finite nonisomorphic commutative semigroups=====
+# Finite nonisomorphic commutative semigroups
 <html>
 <div id="insert"></div>
 <script src="http://math.chapman.edu/~jipsen/structures/ua.js"></script>

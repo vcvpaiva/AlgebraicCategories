@@ -1,9 +1,9 @@
-=====Brouwerian algebras=====
+# Brouwerian algebras
 
 Abbreviation: **BrA**
 
-====Definition====
-A \emph{Brouwerian algebra} is a structure $\mathbf{A}=\langle A, \vee, \wedge, 1, \rightarrow\rangle$ such that
+## Definition
+A ***Brouwerian algebra*** is a structure $\mathbf{A}=\langle A, \vee, \wedge, 1, \rightarrow\rangle$ such that
 
 
 $\langle A, \vee, \wedge, 1\rangle$ is a distributive lattice
@@ -12,41 +12,41 @@ with top
 
 $\rightarrow$ gives the residual of $\wedge$:  $x\wedge y\leq z\Longleftrightarrow y\leq x\rightarrow z$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be Brouwerian algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(1)=1$, $h(x\rightarrow y)=h(x)\rightarrow h(y)$
 
-====Definition====
-A \emph{Brouwerian algebra} is a BL-algebra $\mathbf{A}=\langle A, \vee, \wedge, 1, \cdot, \rightarrow\rangle$ such that
+## Definition
+A ***Brouwerian algebra*** is a BL-algebra $\mathbf{A}=\langle A, \vee, \wedge, 1, \cdot, \rightarrow\rangle$ such that
 
 $x\wedge y=x\cdot y$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  |decidable |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence e-regular]]  |yes, $e=1$ |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |yes |
-^[[Equationally def. pr. cong.]]  |yes |
-^[[Amalgamation property]]  |yes |
-^[[Strong amalgamation property]]  |yes |
-^[[Epimorphisms are surjective]]  |yes |
-====Finite members====
+## Properties
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |decidable |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence e-regular](congruence_e-regular.md)  |yes, $e=1$ |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |yes |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |yes |
+|[Amalgamation property](amalgamation_property.md)  |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |yes |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |yes |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -69,23 +69,23 @@ f(17)= &2978\\
 f(18)= &5483\\
 f(19)= &10006\\
 f(20)= &18428\\
-Values known up to size 49 [Erne, Heitzig, Reinhold (2002)]
+Values known up to size 49 [Erne, Heitzig, Reinhold (2002
 \end{array}$
 
 
-====Subclasses====
-[[Generalized Boolean algebras]] 
+## Subclasses
+[Generalized Boolean algebras](generalized_boolean_algebras.md) 
 
-[[Heyting algebras]] 
-
-
-====Superclasses====
-[[Distributive lattices]] 
-
-[[Basic logic algebras]] 
+[Heyting algebras](heyting_algebras.md) 
 
 
-====References====
+## Superclasses
+[Distributive lattices](distributive_lattices.md) 
 
-[(Ln19xx>
+[Basic logic algebras](basic_logic_algebras.md) 
+
+
+## References
+
+
 )]

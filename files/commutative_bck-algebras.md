@@ -1,8 +1,8 @@
-=====Commutative BCK-algebras=====
+# Commutative BCK-algebras
 
 Abbreviation: **ComBCK**
-====Definition====
-A \emph{commutative BCK-algebra} is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
+## Definition
+A ***commutative BCK-algebra*** is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
 
 
 (1):  $((x\cdot y)\cdot (x\cdot z))\cdot (z\cdot y) = 0$
@@ -26,14 +26,14 @@ to the following partial order:
 
 $x\le y \iff x\cdot y=0$, with $0$ as least element.
 
-====Definition====
-A \emph{commutative BCK-algebra} is a [[BCK-algebra]] 
+## Definition
+A ***commutative BCK-algebra*** is a [BCK-algebra](bck-algebras.md) 
 $\mathbf{A}=\langle A,\cdot ,0\rangle$ such that
 
 $x\cdot (x\cdot y) = y\cdot (y\cdot x)$
 
-====Definition====
-A \emph{commutative BCK-algebra} is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
+## Definition
+A ***commutative BCK-algebra*** is a structure $\mathbf{A}=\langle A,\cdot ,0\rangle$ of type $\langle 2,0\rangle$ such that
 
 (1):  $(x\cdot y)\cdot z = (x\cdot z)\cdot y$
 
@@ -45,36 +45,40 @@ A \emph{commutative BCK-algebra} is a structure $\mathbf{A}=\langle A,\cdot ,0\r
 
 This definition shows that commutative BCK algebras form a variety.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be commutative BCK-algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 
-$h(x\cdot y)=h(x)\cdot h(y) \mbox{ and } h(0)=0$
+$h(x\cdot y)=h(x)\cdot h(y) \text{ and } h(0)=0$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]                        |variety |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   |no |
-^[[Residual size]]                    |unbounded |
-^[[Congruence distributive]]          |yes |
-^[[Congruence modular]]               |yes |
-^[[Congruence n-permutable]]          |yes, $n=3$ |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]      |no |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |variety |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   |no |
+|[Residual size](residual_size.md)                    |unbounded |
+|[Congruence distributive](congruence_distributive.md)          |yes |
+|[Congruence modular](congruence_modular.md)               |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)          |yes, $n=3$ |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      |no |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -87,19 +91,19 @@ f(7)= &72\\
 f(8)= &192\\
 \end{array}$
 
-====Subclasses====
-[[Tarski algebras]]
+## Subclasses
+[Tarski algebras](tarski_algebras.md)
 
-[[MV-algebras]]
+[MV-algebras](mv-algebras.md)
 
-====Superclasses====
-[[BCK-algebras]] 
+## Superclasses
+[BCK-algebras](bck-algebras.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+
 
 
 

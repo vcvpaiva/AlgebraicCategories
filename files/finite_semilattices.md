@@ -1,4 +1,4 @@
-=====Finite nonisomorphic semilattices=====
+# Finite nonisomorphic semilattices
 <html>
 <div id="insert"></div>
 <script src="http://math.chapman.edu/~jipsen/structures/ua.js"></script>

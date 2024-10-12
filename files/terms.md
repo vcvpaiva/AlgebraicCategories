@@ -1,18 +1,18 @@
-[[Syntax]] | [[Terms]] | [[Equations]] | [[Horn formulas]] | [[Universal formulas]] | [[First-order formulas]] | [[Theories]]
+[Syntax](syntaxs.md) | [Terms](terms.md) | [Equations](equations.md) | [Horn formulas](horn_formulas.md) | [Universal formulas](universal_formulas.md) | [First-order formulas](first-order_formulas.md) | [Theories](theories.md)
 
 Here we list distinct terms with no constant subterms other than $0, 1$.
 
 Any variables, constant symbols or operation symbols can be substituted instead of $x$ $y$ $z$ $w$ $1$ $f$ $g$ $*$ $+$ $-$ respectively.
 
-=== Terms of depth 0 ===
+### = Terms of depth 0 =
 
 $x$
 
-=== Terms of depth 1 ===
+### = Terms of depth 1 =
 
 $f(x) \qquad x*y \qquad x*x \qquad 1*x \qquad x*1$
 
-=== Terms of depth 2 ===
+### = Terms of depth 2 =
 
 $f(g(x)) \qquad f(f(x)) \qquad f(x*y) \qquad f(x*x) \qquad f(1*x) \qquad f(x*1) \qquad f(x)*y \qquad f(x)*x \qquad$ 
 $f(x)*1 \qquad x*f(y) \qquad x*f(x) \qquad 1*f(x) \qquad f(x)*g(y) \qquad f(x)*g(x) \qquad f(x)*f(y) \qquad f(x)*f(x) \qquad$ 16 terms
@@ -35,7 +35,7 @@ $(x*y)*f(z) \qquad (x*x)*f(y) \qquad (x*y)*f(x) \qquad (y*x)*f(x) \qquad (x*x)*f
 
 $(x*y)+(z-w)$ and all substitution instances with $x$ $y$ $z$ $1$ $*$ $+$
 
-=== Terms of depth 3 ===
+### = Terms of depth 3 =
 
 Only terms of the form that actually occur in practice are listed below.
 

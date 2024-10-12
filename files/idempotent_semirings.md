@@ -1,43 +1,47 @@
-=====Idempotent semirings=====
+# Idempotent semirings
 
 Abbreviation: **ISRng**
-====Definition====
-An \emph{idempotent semiring} is a semiring $\mathbf{S}=\langle S,\vee
-,\cdot \rangle $ such that
+## Definition
+An ***idempotent semiring*** is a semiring $\mathbf{S}=\langle S,\vee
+,\cdot \rangle$ such that
 
 
-$\vee $ is idempotent:  $x\vee x=x$
+$\vee$ is idempotent:  $x\vee x=x$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{S}$ and $\mathbf{T}$ be idempotent semirings. A morphism from $\mathbf{S}$ to $\mathbf{T}$ is a function $h:S\to T$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\cdot y)=h(x)\cdot h(y)$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |Variety |
-^[[Equational theory]]  |Decidable |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  |Undecidable |
-^[[Locally finite]]  |No |
-^[[Residual size]]  |Unbounded |
-^[[Congruence distributive]]  |No |
-^[[Congruence modular]]  |No |
-^[[Congruence n-permutable]]  | |
-^[[Congruence regular]]  | |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |Variety |
+|[Equational theory](equational_theory.md)  |Decidable |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  |Undecidable |
+|[Locally finite](locally_finite.md)  |No |
+|[Residual size](residual_size.md)  |Unbounded |
+|[Congruence distributive](congruence_distributive.md)  |No |
+|[Congruence modular](congruence_modular.md)  |No |
+|[Congruence n-permutable](congruence_n-permutable.md)  | |
+|[Congruence regular](congruence_regular.md)  | |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -48,16 +52,16 @@ f(5)= &\\
 f(6)= &\\
 \end{array}$
 
-====Subclasses====
-[[Idempotent semirings with identity]] 
+## Subclasses
+[Idempotent semirings with identity](idempotent_semirings_with_identitys.md) 
 
-[[Idempotent semirings with zero]] 
+[Idempotent semirings with zero](idempotent_semirings_with_zeros.md) 
 
-====Superclasses====
-[[Semirings]] 
+## Superclasses
+[Semirings](semirings.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

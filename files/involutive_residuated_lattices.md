@@ -1,56 +1,60 @@
-=====Involutive residuated lattices=====
+# Involutive residuated lattices
 
 Abbreviation: **InRL**
 
-====Definition====
-An \emph{involutive residuated lattice} is a structure $\mathbf{A}=\langle A, \vee, \wedge, \cdot, 1, \sim, -\rangle$ of type $\langle 2, 2, 2, 0, 1, 1\rangle$ such that
+## Definition
+An ***involutive residuated lattice*** is a structure $\mathbf{A}=\langle A, \vee, \wedge, \cdot, 1, \sim, -\rangle$ of type $\langle 2, 2, 2, 0, 1, 1\rangle$ such that
 
-$\langle A, \vee, \wedge, \neg\rangle$ is an [[involutive lattice]]
+$\langle A, \vee, \wedge, \neg\rangle$ is an [involutive lattice](involutive_lattices.md)
 
-$\langle A, \cdot, 1\rangle$ is a [[monoid]]
+$\langle A, \cdot, 1\rangle$ is a [monoid](monoids.md)
 
 $xy\le z\iff x\le \neg(y(\neg z))\iff y\le \neg((\neg z)x)$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be involutive residuated lattices. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(x \vee y)=h(x) \vee h(y)$, $h(x \cdot y)=h(x) \cdot h(y)$, $h({\sim}x)={\sim}h(x)$ and $h(1)=1$. 
 
-====Definition====
-An \emph{...} is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
+## Definition
+An ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
 ...\rangle$ such that
 
 $...$ is ...:  $axiom$
   
 $...$ is ...:  $axiom$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
 
-^[[Classtype]]                        |(value, see description) [(Ln19xx)]  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |(value, see description) [Ln19xx]  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -68,22 +72,22 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-[[...]] subvariety
+## Subclasses
+[...](...s.md) subvariety
 
-[[...]] expansion
-
-
-====Superclasses====
-[[...]] supervariety
-
-[[...]] subreduct
+[...](...s.md) expansion
 
 
-====References====
+## Superclasses
+[...](...s.md) supervariety
 
-[(Ln19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+[...](...s.md) subreduct
+
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

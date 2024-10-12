@@ -1,44 +1,48 @@
-=====Integral residuated lattices=====
+# Integral residuated lattices
 
 Abbreviation: **IRL**
 
-====Definition====
-An \emph{integral residuated lattice} is a [[residuated lattice]] $\mathbf{L}=\langle L, \vee, \wedge, \cdot, 1, \backslash, /\rangle$ that is
+## Definition
+An ***integral residuated lattice*** is a [residuated lattice](residuated_lattices.md) $\mathbf{L}=\langle L, \vee, \wedge, \cdot, 1, \backslash, /\rangle$ that is
 
-\emph{integral}:  $x\le 1$
+***integral***:  $x\le 1$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be integal residuated lattices. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(x\cdot y)=h(x)\cdot h(y)$, $h(x\backslash
 y)=h(x)\backslash h(y)$, $h(x/y)=h(x)/h(y)$, $h(1)=1$
 
-====Examples====
+## Examples
 Example 1: The negative cone of any l-group, e.g., $\mathbb Z^-$
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 
-^[[Classtype]]                        |variety  |
-^[[Equational theory]]                |decidable |
-^[[Quasiequational theory]]           |decidable |
-^[[First-order theory]]               |undecidable |
-^[[Locally finite]]                   |no  |
-^[[Residual size]]                    |unbounded  |
-^[[Congruence distributive]]          |yes  |
-^[[Congruence modular]]               |yes  |
-^[[Congruence $n$-permutable]]        |yes  |
-^[[Congruence regular]]               |no  |
-^[[Congruence $e$-regular]]           |yes  |
-^[[Congruence uniform]]               |no  |
-^[[Congruence extension property]]    |no  |
-^[[Definable principal congruences]]  |no  |
-^[[Equationally def. pr. cong.]]      |no |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |variety  |
+|[Equational theory](equational_theory.md)                |decidable |
+|[Quasiequational theory](quasiequational_theory.md)           |decidable |
+|[First-order theory](first-order_theory.md)               |undecidable |
+|[Locally finite](locally_finite.md)                   |no  |
+|[Residual size](residual_size.md)                    |unbounded  |
+|[Congruence distributive](congruence_distributive.md)          |yes  |
+|[Congruence modular](congruence_modular.md)               |yes  |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        |yes  |
+|[Congruence regular](congruence_regular.md)               |no  |
+|[Congruence $e$-regular](congruence_$e$-regular.md)           |yes  |
+|[Congruence uniform](congruence_uniform.md)               |no  |
+|[Congruence extension property](congruence_extension_property.md)    |no  |
+|[Definable principal congruences](definable_principal_congruences.md)  |no  |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      |no |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -56,22 +60,22 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-[[commutative integral residuated lattices]]
+## Subclasses
+[commutative integral residuated lattices](commutative_integral_residuated_lattices.md)
 
-[[bounded integral residuated lattices]]
-
-
-====Superclasses====
-[[residuated lattices]]
-
-[[integral lattice-ordered monoids]]
+[bounded integral residuated lattices](bounded_integral_residuated_lattices.md)
 
 
-====References====
+## Superclasses
+[residuated lattices](residuated_lattices.md)
 
-[(Ln19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+[integral lattice-ordered monoids](integral_lattice-ordered_monoids.md)
+
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

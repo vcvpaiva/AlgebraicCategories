@@ -1,8 +1,8 @@
-=====Fields=====
+# Fields
 
 Abbreviation: **Fld**
-====Definition====
-A \emph{field} is a [[commutative rings with identity]] $\mathbf{F}=\langle F,+,-,0,\cdot,1
+## Definition
+A ***field*** is a [commutative rings with identity](commutative_rings_with_identitys.md) $\mathbf{F}=\langle F,+,-,0,\cdot,1
 \rangle$ such that
 
 
@@ -16,7 +16,7 @@ Remark:
 The inverse of $x$ is unique, and is usually denoted by $x^{-1}$.
 
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{F}$ and $\mathbf{G}$ be fields. A morphism from $\mathbf{F}$
 to $\mathbf{G}$ is a function $h:F\rightarrow G$ that is a homomorphism: 
 
@@ -25,32 +25,36 @@ $h(x+y)=h(x)+h(y)$, $h(x\cdot y)=h(x)\cdot h(y)$, $h(1)=1$
 Remark: 
 It follows that $h(0)=0$ and $h(-x)=-h(x)$.
 
-====Examples====
+## Examples
 Example 1: $\langle\mathbb{Q},+,-,0,\cdot,1\rangle$, the field of rational numbers with addition, subtraction, zero, multiplication, and one.
 
 
-====Basic results====
+## Basic results
 $0$ is a zero for $\cdot$: $0\cdot x=x$ and $x\cdot 0=0$.
 
-====Properties====
-^[[Classtype]]  |first-order |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence regular]]  |yes |
-^[[Congruence uniform]]  |yes |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |first-order |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |yes |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &0\\
@@ -63,16 +67,16 @@ f(6)= &0\\
 
 There exists one field, called the Galois field $GF(p^m)$ of each prime-power order $p^m$.
 
-====Subclasses====
-[[Fields of characteristic zero]] 
+## Subclasses
+[Fields of characteristic zero](fields_of_characteristic_zeros.md) 
 
-[[Algebraically closed fields]] 
+[Algebraically closed fields](algebraically_closed_fields.md) 
 
-====Superclasses====
-[[Integral domains]] 
+## Superclasses
+[Integral domains](integral_domains.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

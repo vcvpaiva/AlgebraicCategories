@@ -1,20 +1,20 @@
-=====Orthomodular lattices=====
+# Orthomodular lattices
 
 Abbreviation: **OMLat**
-====Definition====
-An \emph{orthomodular lattice} is an [[ortholattice]] $\mathbf{L}=\langle L,\vee,0,\wedge,1,'\rangle$ such that
+## Definition
+An ***orthomodular lattice*** is an [ortholattice](ortholattices.md) $\mathbf{L}=\langle L,\vee,0,\wedge,1,'\rangle$ such that
 
 the orthomodular law holds:  $x\le y \implies x\vee(x'\wedge y)=y$.
 
 This law is equivalent to satisfying the identity $x\vee(x'\wedge (x\vee y))=x\vee y$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be orthomodular lattices. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\rightarrow M$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(x')=h(x)'$
 
-====Examples====
+## Examples
 Example 1: The closed subspaces of (countably dimensional) Hilbert Space form an orthomodular lattice that is not modular (for finite dimensional vector spaces all subspaces are closed, hence the lattice of closed subspaces is modular).
 
 Example 2: The smallest nonmodular orthomodular lattice has 10 elements and is isomorphic to a parallel sum of a 4-element Boolean algebra and an 8-element Boolean algebra. A failure of the modular law $x\vee(y\wedge(x\vee z))=(x\vee y)\wedge(x\vee z)$ occurs when $x$, $z$ are atoms of the 8-element algebra and $y$ is an atom of the 4-element algebra.
@@ -58,28 +58,32 @@ edges([0,8,7,9,0]);
 </script>
 </html>
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  | |
-^[[Congruence regular]]  | |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  |no |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  |no |
-^[[Strong amalgamation property]]  |no |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  | |
+|[Congruence regular](congruence_regular.md)  | |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  |no |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  |no |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |no |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -95,15 +99,15 @@ f(8)= &2\\
 Many Greechie diagrams of orthomodular lattices with blocks containing 3 atoms have been computed at http://cs.anu.edu.au/~Brendan.McKay/nauty/greechie.html
 
 
-====Subclasses====
-[[Modular ortholattices]] 
+## Subclasses
+[Modular ortholattices](modular_ortholattices.md) 
 
 
-====Superclasses====
-[[Ortholattices]] 
+## Superclasses
+[Ortholattices](ortholattices.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+

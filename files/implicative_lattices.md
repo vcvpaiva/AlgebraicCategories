@@ -1,10 +1,10 @@
-=====Implicative lattices=====
+# Implicative lattices
 
 Abbreviation: **ImpLat**
-====Definition====
-An \emph{implicative lattice} is a structure $\mathbf{A}=\langle A,\vee,\wedge,\to\rangle$ such that 
+## Definition
+An ***implicative lattice*** is a structure $\mathbf{A}=\langle A,\vee,\wedge,\to\rangle$ such that 
 
-$\langle A,\vee,\wedge\rangle$ is a [[distributive lattices]]
+$\langle A,\vee,\wedge\rangle$ is a [distributive lattices](distributive_lattices.md)
 $\to$ is an implication: 
 
 
@@ -18,44 +18,48 @@ $(x\vee y)\to z = (x\to z)\wedge(y\to z)$
 
 
 $(x\wedge y)\to z = (x\to z)\vee(y\to z)$
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be involutive lattices. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\vee y)=h(x)\wedge h(y)$, $h(x\to y)=h(x)\to h(y)$
 
-Nestor G. Martinez,H. A. Priestley,\emph{On Priestley spaces of lattice-ordered algebraic structures},
+Nestor G. Martinez,H. A. Priestley,***On Priestley spaces of lattice-ordered algebraic structures***,
 Order,
-\textbf{15}1998,297--323[[http://www.ams.org/mathscinet-getitem?mr=2001b:06013|MRreview]]
+**15**1998,297--323[http://www.ams.org/mathscinet-getitem?mr=2001b:06013|MRreview](http://www.ams.org/mathscinet-getitem?mr=2001b:06013|mrreviews.md)
 
-Nestor G. Martinez,\emph{A simplified duality for implicative lattices and $l$-groups},
+Nestor G. Martinez,***A simplified duality for implicative lattices and $l$-groups***,
 Studia Logica,
-\textbf{56}1996,185--204[[http://www.ams.org/mathscinet-getitem?mr=97g:06014|MRreview]]
+**56**1996,185--204[http://www.ams.org/mathscinet-getitem?mr=97g:06014|MRreview](http://www.ams.org/mathscinet-getitem?mr=97g:06014|mrreviews.md)
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  | |
-^[[Congruence regular]]  | |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  | |
+|[Congruence regular](congruence_regular.md)  | |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -70,18 +74,18 @@ f(9)= &\\
 f(10)= &\\
 \end{array}$
 
-====Subclasses====
-[[Goedel algebras]] 
+## Subclasses
+[Goedel algebras](goedel_algebras.md) 
 
-[[MV-algebras]] 
+[MV-algebras](mv-algebras.md) 
 
-[[Lattice-ordered groups]] 
+[Lattice-ordered groups](lattice-ordered_groups.md) 
 
-====Superclasses====
-[[Distributive lattices]] 
+## Superclasses
+[Distributive lattices](distributive_lattices.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

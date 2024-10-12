@@ -1,50 +1,54 @@
-=====Partially ordered monoids=====
+# Partially ordered monoids
 
 Abbreviation: **PoMon**
 
-====Definition====
-A \emph{partially ordered monoid} is a structure $\mathbf{A}=\langle A,\cdot,1,\le\rangle$ such that
+## Definition
+A ***partially ordered monoid*** is a structure $\mathbf{A}=\langle A,\cdot,1,\le\rangle$ such that
 
-$\langle A,\cdot,1\rangle$ is a [[monoid]]
+$\langle A,\cdot,1\rangle$ is a [monoid](monoids.md)
 
-$\langle G,\le\rangle$ is a [[partially ordered set]]
+$\langle G,\le\rangle$ is a [partially ordered set](partially_ordered_sets.md)
 
-$\cdot$ is \emph{orderpreserving}:  $x\le y\Longrightarrow wxz\le wyz$
+$\cdot$ is ***orderpreserving***:  $x\le y\Longrightarrow wxz\le wyz$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be partially ordered monoids. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is an orderpreserving homomorphism: 
 $h(x \cdot y)=h(x) \cdot h(y)$, $h(1)=1$,
 $x\le y\Longrightarrow h(x)\le h(y)$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 Every monoid with the discrete partial order is a po-monoid. 
 
-====Properties====
+## Properties
 
 
-^[[Classtype]]                        |quasivariety  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |quasivariety  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -55,20 +59,20 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-[[Commutative partially ordered monoids]]
+## Subclasses
+[Commutative partially ordered monoids](commutative_partially_ordered_monoids.md)
 
-[[Lattice-ordered monoids]] expanded type
-
-
-====Superclasses====
-[[Partially ordered semigroups]] reduced type
+[Lattice-ordered monoids](lattice-ordered_monoids.md) expanded type
 
 
-====References====
+## Superclasses
+[Partially ordered semigroups](partially_ordered_semigroups.md) reduced type
 
-[(Lastname19xx>
-F. Lastname, \emph{Title}, Journal, \textbf{1}, 23--45 [[MRreview]] 
-)]
+
+## References
+
+
+F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+
 
 

@@ -1,4 +1,4 @@
-=====Finite nonisomorphic binars with identity and zero=====
+# Finite nonisomorphic binars with identity and zero
 <html>
 <div id="insert"></div>
 <script src="http://math.chapman.edu/~jipsen/structures/ua.js"></script>

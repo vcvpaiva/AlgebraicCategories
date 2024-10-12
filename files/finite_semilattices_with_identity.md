@@ -1,4 +1,4 @@
-=====Finite nonisomorphic semilattices with identity=====
+# Finite nonisomorphic semilattices with identity
 These algebras are reducts of finite lattices.
 <html>
 <div id="insert"></div>

@@ -1,14 +1,14 @@
-=====Lattice-ordered groups=====
+# Lattice-ordered groups
 
 Abbreviation: **LGrp**
 
 
-====Definition====
-A \emph{lattice-ordered group} (or $\ell $\emph{-group}) is a structure $\mathbf{L}=\langle L, \vee, \wedge, \cdot, ^{-1}, e\rangle$ such that 
+## Definition
+A ***lattice-ordered group*** (or $\ell$***-group***) is a structure $\mathbf{L}=\langle L, \vee, \wedge, \cdot, ^{-1}, e\rangle$ such that 
 
-$\langle L, \vee, \wedge\rangle$ is a [[lattice]]
+$\langle L, \vee, \wedge\rangle$ is a [lattice](lattices.md)
 
-$\langle L, \cdot, ^{-1}, e\rangle$ is a [[group]]
+$\langle L, \cdot, ^{-1}, e\rangle$ is a [group](groups.md)
 
 $\cdot$ is order-preserving:  $x\leq y\Longrightarrow uxv\leq uyv$
 
@@ -16,93 +16,97 @@ Remark:
 $xy=x\cdot y$, $x\leq y\Longleftrightarrow x\wedge y=x$ and $x\leq y\Longleftrightarrow x\vee y=y$
 
 
-====Definition====
-A \emph{lattice-ordered group} (or $\ell $\emph{-group}) is a structure $\mathbf{L}=\langle L,\vee ,\cdot ,^{-1},e\rangle $ such that
+## Definition
+A ***lattice-ordered group*** (or $\ell$***-group***) is a structure $\mathbf{L}=\langle L,\vee ,\cdot ,^{-1},e\rangle$ such that
 
-$\langle L,\vee\rangle $ is a [[semilattice]]
+$\langle L,\vee\rangle$ is a [semilattice](semilattices.md)
 
-$\langle L,\cdot,^{-1},e\rangle $ is a [[group]]
+$\langle L,\cdot,^{-1},e\rangle$ is a [group](groups.md)
 
 $\cdot$ is join-preserving:  $u(x\vee y)v=uxv\vee uyv$
 
 Remark: $x\wedge y=( x^{-1}\vee y^{-1}) ^{-1}$
 
 
-====Definition====
-A \emph{lattice-ordered group} (or $\ell $\emph{-group}) is a residuated
+## Definition
+A ***lattice-ordered group*** (or $\ell$***-group***) is a residuated
 lattice $\mathbf{L}=\langle L,\vee ,\wedge ,\cdot ,\backslash
-,/,e\rangle $ that satisfies the identity $x(e/x)=e$.
+,/,e\rangle$ that satisfies the identity $x(e/x)=e$.
 
 Remark: $x^{-1}=e/x=x\backslash e$, $x/y=xy^{-1}$ and $x\backslash y=x^{-1}y$
 
-==Morphisms==
-Let $\mathbf{L}$ and $\mathbf{M}$ be $\ell $-groups. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $f:L\to M$ that is a
+### Morphisms
+Let $\mathbf{L}$ and $\mathbf{M}$ be $\ell$-groups. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $f:L\to M$ that is a
 homomorphism: $f(x\vee y)=f(x)\vee f(y)$, $f(x\wedge y)=f(x)\wedge f(y)$, $f(x\cdot y)=f(x)\cdot f(y)$, $f(x^{-1})=f(x)^{-1}$, and $f(e)=e$.
 
 
-====Examples====
-$\langle Aut(\mathbf{C}),\mbox{max},\mbox{min},\circ,^{-1},id_{\mathbf{C}}\rangle$, 
-the group of order-automorphisms of a [[Chains]] $\mathbf{C}$, with $\mbox{max}$ and $\mbox{min}$ 
+## Examples
+$\langle Aut(\mathbf{C}),\text{max},\text{min},\circ,^{-1},id_{\mathbf{C}}\rangle$, 
+the group of order-automorphisms of a [Chains](chains.md) $\mathbf{C}$, with $\text{max}$ and $\text{min}$ 
 (applied pointwise), composition, inverse, and identity automorphism.
 
 
-====Basic results====
-The lattice reducts of lattice-ordered groups are [[distributive lattices]].
+## Basic results
+The lattice reducts of lattice-ordered groups are [distributive lattices](distributive_lattices.md).
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable[(HollandMcCleary1979)] |
-^[[Quasiequational theory]]  |undecidable[(GlassGurevich1983)] |
-^[[First-order theory]]  |hereditarily undecidable[(Gurevic1967)] [(Burris1985)] |
-^[[Congruence distributive]]  |yes, see [[lattices]] |
-^[[Congruence extension property]]  | |
-^[[Congruence n-permutable]]  |yes, $n=2$, see [[groups]] |
-^[[Congruence regular]]  |yes, see [[groups]] |
-^[[Congruence uniform]]  |yes, see [[groups]] |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  |no |
-^[[Strong amalgamation property]]  |no |
-^[[Epimorphisms are surjective]]  | |
+## Properties
 
-====Finite nontrivial members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable[HollandMcCleary1979] |
+|[Quasiequational theory](quasiequational_theory.md)  |undecidable[GlassGurevich1983] |
+|[First-order theory](first-order_theory.md)  |hereditarily undecidable[Gurevic1967] [Burris1985] |
+|[Congruence distributive](congruence_distributive.md)  |yes, see [lattices](lattices.md) |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$, see [groups](groups.md) |
+|[Congruence regular](congruence_regular.md)  |yes, see [groups](groups.md) |
+|[Congruence uniform](congruence_uniform.md)  |yes, see [groups](groups.md) |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  |no |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |no |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+
+## Finite nontrivial members
 
 None 
 
-====Subclasses====
-[[Normal valued lattice-ordered groups]] 
+## Subclasses
+[Normal valued lattice-ordered groups](normal_valued_lattice-ordered_groups.md) 
 
-====Superclasses====
-[[Cancellative residuated lattices]] 
+## Superclasses
+[Cancellative residuated lattices](cancellative_residuated_lattices.md) 
 
 
-====References====
-[(Burris1985>
-Stanley Burris, \emph{A simple proof of the hereditary undecidability of the theory of lattice-ordered abelian groups},
+## References
+
+Stanley Burris, ***A simple proof of the hereditary undecidability of the theory of lattice-ordered abelian groups***,
 Algebra Universalis,
-\textbf{20}, 1985, 400--401, http://www.math.uwaterloo.ca/~snburris/htdocs/MYWORKS/PAPERS/HerUndecLOAG.pdf)]
+**20**, 1985, 400--401, http://www.math.uwaterloo.ca/~snburris/htdocs/MYWORKS/PAPERS/HerUndecLOAG.pdf
 
-[(GlassGurevich1983>
+
 A. M. W. Glass, Yuri Gurevich,
-\emph{The word problem for lattice-ordered groups},
-Trans. Amer. Math. Soc., \textbf{280} 1983, 127--138
-[[http://www.ams.org/mathscinet-getitem?mr=85d:06015|MRreview]][[http://www.emis.de/MATH-item?0586.03037|ZMATH]])]
+***The word problem for lattice-ordered groups***,
+Trans. Amer. Math. Soc., **280** 1983, 127--138
+[http://www.ams.org/mathscinet-getitem?mr=85d:06015|MRreview](http://www.ams.org/mathscinet-getitem?mr=85d:06015|mrreviews.md)[http://www.emis.de/MATH-item?0586.03037|ZMATH](http://www.emis.de/math-item?0586.03037|zmaths.md)
 
-[(Gurevic1967>
-Yuri Gurevic, \emph{Hereditary undecidability of a class of lattice-ordered Abelian groups},
+
+Yuri Gurevic, ***Hereditary undecidability of a class of lattice-ordered Abelian groups***,
 Algebra i Logika Sem.,
-\textbf{6}, 1967, 45--62)]
+**6**, 1967, 45--62
 
-[(HollandMcCleary1979>
+
 W. Charles Holland, Stephen H. McCleary,
-\emph{Solvability of the word problem in free lattice-ordered groups},
-Houston J. Math., \textbf{5} 1979, 99--105
-[[http://www.ams.org/mathscinet-getitem?mr=80f:06018|MRreview]][[http://www.emis.de/MATH-item?0404.06009|ZMATH]]
-[http://www.chapman.edu/~jipsen/lgroups/lgroupDecisionProc.html implementation])]
+***Solvability of the word problem in free lattice-ordered groups***,
+Houston J. Math., **5** 1979, 99--105
+[http://www.ams.org/mathscinet-getitem?mr=80f:06018|MRreview](http://www.ams.org/mathscinet-getitem?mr=80f:06018|mrreviews.md)[http://www.emis.de/MATH-item?0404.06009|ZMATH](http://www.emis.de/math-item?0404.06009|zmaths.md)
+[http://www.chapman.edu/~jipsen/lgroups/lgroupDecisionProc.html implementation]
 
-[(Pierce1972>
+
 Keith R. Pierce,
-\emph{Amalgamations of lattice ordered groups},
-Trans. Amer. Math. Soc., \textbf{172} 1972, 249--260
-[[http://www.ams.org/mathscinet-getitem?mr=48 :3835|MRreview]][[http://www.emis.de/MATH-item?0259.06017|ZMATH]])]
+***Amalgamations of lattice ordered groups***,
+Trans. Amer. Math. Soc., **172** 1972, 249--260
+[http://www.ams.org/mathscinet-getitem?mr=48 :3835|MRreview](http://www.ams.org/mathscinet-getitem?mr=48_:3835|mrreviews.md)[http://www.emis.de/MATH-item?0259.06017|ZMATH](http://www.emis.de/math-item?0259.06017|zmaths.md)

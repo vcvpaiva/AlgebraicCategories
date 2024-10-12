@@ -1,44 +1,48 @@
-=====Generalized pseudo-effect algebras=====
+# Generalized pseudo-effect algebras
 
 Abbreviation: **GPEAlg**
 
-====Definition====
-A \emph{generalized pseudo-effect algebra} is a [[generalized separation algebra]] that is
+## Definition
+A ***generalized pseudo-effect algebra*** is a [generalized separation algebra](generalized_separation_algebras.md) that is
 
-\emph{postive}: $x\cdot y=e$ implies $x=e=y$.
+***postive***: $x\cdot y=e$ implies $x=e=y$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be generalized pseudo-effect algebra. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(e)=e$ and
 if $x\cdot y\ne *$ then $h(x \cdot y)=h(x) \cdot h(y)$.
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 
-^[[Classtype]]                        |first-order  |
-^[[Equational theory]]                | |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   | |
-^[[Residual size]]                    | |
-^[[Congruence distributive]]          | |
-^[[Congruence modular]]               | |
-^[[Congruence $n$-permutable]]        | |
-^[[Congruence regular]]               | |
-^[[Congruence uniform]]               | |
-^[[Congruence extension property]]    | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |first-order  |
+|[Equational theory](equational_theory.md)                | |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   | |
+|[Residual size](residual_size.md)                    | |
+|[Congruence distributive](congruence_distributive.md)          | |
+|[Congruence modular](congruence_modular.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
+|[Congruence regular](congruence_regular.md)               | |
+|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence extension property](congruence_extension_property.md)    | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -53,17 +57,17 @@ $\begin{array}{lr}
   f(10)= &\\
 \end{array}$
 
-====Subclasses====
-[[Generalized effect algebras]]
+## Subclasses
+[Generalized effect algebras](generalized_effect_algebras.md)
 
-[[Generalized pseudo-orthoalgebras]]
+[Generalized pseudo-orthoalgebras](generalized_pseudo-orthoalgebras.md)
 
-[[Pseudo-effect algebras]]
+[Pseudo-effect algebras](pseudo-effect_algebras.md)
 
-====Superclasses====
-[[Generalized separation algebras]]
+## Superclasses
+[Generalized separation algebras](generalized_separation_algebras.md)
 
 
-====References====
+## References
 
 

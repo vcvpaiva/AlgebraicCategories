@@ -1,51 +1,55 @@
-=====Medial groupoids=====
+# Medial groupoids
 
-====Definition====
-A \emph{medial groupoid} is a structure $\mathbf{G}=\langle G,\cdot\rangle$, where $\cdot $ is an infix binary operation such that
+## Definition
+A ***medial groupoid*** is a structure $\mathbf{G}=\langle G,\cdot\rangle$, where $\cdot$ is an infix binary operation such that
 
 
 $\cdot$ mediates:  $(x\cdot y)\cdot(z\cdot w)=(x\cdot z)\cdot (y\cdot w)$
-==Morphisms==
+### Morphisms
 Let $\mathbf{G}$ and $\mathbf{H}$ be medial groupoids. A morphism from $\mathbf{G}$
 to $\mathbf{H}$ is a function $h:G\rightarrow H$ that is a homomorphism: 
 
 $h(xy)=h(x)h(y)$
 
 
-Jaroslav Jezek, Tomas Kepka,\emph{Equational theories of medial groupoids},
+Jaroslav Jezek, Tomas Kepka,***Equational theories of medial groupoids***,
 Algebra Universalis,
-\textbf{17}1983,174--190[[MRreview]]
+**17**1983,174--190[MRreview](mrreviews.md)
 
-Jaroslav Jezek, Tomas Kepka,\emph{Medial groupoids},
+Jaroslav Jezek, Tomas Kepka,***Medial groupoids***,
 Rozpravy Ceskoslovenske Akad. Ved Rada Mat. Prirod. Ved,
-\textbf{93}1983,93[[MRreview]]
+**93**1983,93[MRreview](mrreviews.md)
 
 
-====Examples====
+## Examples
 Example 1: $\langle S,*\rangle$, where $\langle S,+,\cdot\rangle$ is any commutative semiring, $a,b\in S$, and $x*y=a\cdot x+b\cdot y$.
 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |no |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |no |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -57,16 +61,16 @@ f(6)= &\\
 f(7)= &\\
 \end{array}$
 
-====Subclasses====
-[[Medial semigroups]] 
+## Subclasses
+[Medial semigroups](medial_semigroups.md) 
 
-[[Commutative medial groupoids]] 
+[Commutative medial groupoids](commutative_medial_groupoids.md) 
 
-====Superclasses====
-[[Groupoids]] 
+## Superclasses
+[Groupoids](groupoids.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

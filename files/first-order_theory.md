@@ -1,17 +1,17 @@
-=====First-order Theory=====
+# First-order Theory
 
-A \emph{first-order formula} is an expression constructed from atomic formulas combined with logical connectives 
-$\mbox{not}, \mbox{and}, \mbox{or}, \Longrightarrow, \iff$ and quantifiers $\forall$, $\exists$ followed by
+A ***first-order formula*** is an expression constructed from atomic formulas combined with logical connectives 
+$\text{not}, \text{and}, \text{or}, \Longrightarrow, \iff$ and quantifiers $\forall$, $\exists$ followed by
 variables. 
 
-The \emph{first-order theory} of a class of structures is the set of first-order formulas that hold in all members of the class.
+The ***first-order theory*** of a class of structures is the set of first-order formulas that hold in all members of the class.
 
-The \emph{decision problem} for the first-order theory of a class of structures is the problem with input: a first-order formula
+The ***decision problem*** for the first-order theory of a class of structures is the problem with input: a first-order formula
 of length $n$ (as a string) and output: "true" if the formula holds in all members of the class, and "false" otherwise.
 
-A first-order theory is \emph{decidable} if there is an algorithm that solves the decision problem, otherwise it is \emph{undecidable}.
+A first-order theory is ***decidable*** if there is an algorithm that solves the decision problem, otherwise it is ***undecidable***.
 
-A first-order theory is \emph{hereditarily undecidable} if every consistent subtheory is undecidable.
+A first-order theory is ***hereditarily undecidable*** if every consistent subtheory is undecidable.
 
 The complexity of the decision problem (if known) is one of PTIME, NPTIME, PSPACE, EXPTIME, ...
 

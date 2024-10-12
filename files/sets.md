@@ -1,51 +1,55 @@
-=====Sets=====
+# Sets
 
 Abbreviation: **Set**
-====Definition====
-A \emph{set} is a structure $\mathbf{A}=\langle A\rangle$ with no operations or relations defined on $A$.
+## Definition
+A ***set*** is a structure $\mathbf{A}=\langle A\rangle$ with no operations or relations defined on $A$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be sets. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$.
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |  variety |
-^[[Equational theory]]  |  decidable |
-^[[Quasiequational theory]]  |  decidable |
-^[[First-order theory]]  |  decidable |
-^[[Locally finite]]  |  yes |
-^[[Residual size]]  |  2 |
-^[[Congruence distributive]]  |  no |
-^[[Congruence modular]]  |  no |
-^[[Congruence n-permutable]]  |  no |
-^[[Congruence regular]]  |  no |
-^[[Congruence uniform]]  |  no |
-^[[Congruence extension property]]  |  yes |
-^[[Definable principal congruences]]  |  yes |
-^[[Equationally def. pr. cong.]]  |  no |
-^[[Amalgamation property]]  |  yes |
-^[[Strong amalgamation property]]  |  yes |
-^[[Epimorphisms are surjective]]  |  yes |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |  variety |
+|[Equational theory](equational_theory.md)  |  decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |  decidable |
+|[First-order theory](first-order_theory.md)  |  decidable |
+|[Locally finite](locally_finite.md)  |  yes |
+|[Residual size](residual_size.md)  |  2 |
+|[Congruence distributive](congruence_distributive.md)  |  no |
+|[Congruence modular](congruence_modular.md)  |  no |
+|[Congruence n-permutable](congruence_n-permutable.md)  |  no |
+|[Congruence regular](congruence_regular.md)  |  no |
+|[Congruence uniform](congruence_uniform.md)  |  no |
+|[Congruence extension property](congruence_extension_property.md)  |  yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |  yes |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |  no |
+|[Amalgamation property](amalgamation_property.md)  |  yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |  yes |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |  yes |
+## Finite members
 
 $\begin{array}{lr}
   f(n)= &1\\
 \end{array}$
 
-====Subclasses====
-  [[One-element structures]] 
+## Subclasses
+  [One-element structures](one-element_structures.md) 
 
-====Superclasses====
+## Superclasses
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+
 
 
 

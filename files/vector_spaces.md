@@ -1,11 +1,11 @@
-=====Vector spaces=====
+# Vector spaces
 
 Abbreviation: **FVec**
-====Definition====
-A \emph{vector space} over a [[fields|field]] $\mathbf{F}$ is a structure $\mathbf{V}=\langle V,+,-,0,f_a\ (a\in F)\rangle$ such that
+## Definition
+A ***vector space*** over a [fields|field](fields|fields.md) $\mathbf{F}$ is a structure $\mathbf{V}=\langle V,+,-,0,f_a\ (a\in F)\rangle$ such that
 
 
-$\langle V,+,-,0\rangle $ is an [[abelian groups]]
+$\langle V,+,-,0\rangle$ is an [abelian groups](abelian_groups.md)
 
 
 scalar product $f_a$ distributes over vector addition:  
@@ -21,38 +21,42 @@ scalar product distributes over scalar addition:  $(a+b)x=ax+bx$
 scalar product associates:  $(a\cdot b)x=a(bx)$
 
 Remark: 
-$f_a(x)=ax$ is called \emph{scalar multiplication by $a$}.
+$f_a(x)=ax$ is called ***scalar multiplication by $a$***.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{V}$ and $\mathbf{W}$ be vector spaces over a field $\mathbf{F}$. 
-A morphism from $\mathbf{V}$ to $\mathbf{W}$ is a function $h:V\rightarrow W$ that is \emph{linear}:
+A morphism from $\mathbf{V}$ to $\mathbf{W}$ is a function $h:V\rightarrow W$ that is ***linear***:
 
 $h(x+y)=h(x)+h(y)$, $h(ax)=ah(x)$ for all $a\in F$
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  | |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence regular]]  |yes |
-^[[Congruence uniform]]  |yes |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  | |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |yes |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -63,15 +67,15 @@ f(5)= &\\
 f(6)= &\\
 \end{array}$
 
-====Subclasses====
-====Superclasses====
-[[Abelian groups]] 
+## Subclasses
+## Superclasses
+[Abelian groups](abelian_groups.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
-)]
+
+
 
 
 

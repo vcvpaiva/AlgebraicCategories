@@ -1,8 +1,8 @@
-[[Syntax]] | [[Terms]] | [[Equations]] | [[Horn formulas]] | [[Universal formulas]] | [[First-order formulas]] | [[Theories]]
+[Syntax](syntaxs.md) | [Terms](terms.md) | [Equations](equations.md) | [Horn formulas](horn_formulas.md) | [Universal formulas](universal_formulas.md) | [First-order formulas](first-order_formulas.md) | [Theories](theories.md)
 
 Here we list equations, with the shorter term on the right (if possible).
 
-|1  |trivial equations:  | $x = y$ $\quad f(x) = y$ $\quad x*y = z$  | $\Rightarrow$ one-element algebras  ||
+|1  |trivial equations:  | $x= y$ $\quad f(x) = y$ $\quad x*y = z$  | $\Rightarrow$ one-element algebras  ||
 |2  |identity operation:  | $f(x) = x$  |||
 |3  |involutive operation:  | $f(f(x)) = x$  |||
 |4  |inverse operations:  | $f(g(x)) = x$  |||

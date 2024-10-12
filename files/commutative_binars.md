@@ -1,42 +1,46 @@
-=====Commutative binars=====
+# Commutative binars
 
 Abbreviation: **CBin**
-====Definition====
-A \emph{commutative binar} is a [[binar]] $\mathbf{A}=\langle A,\cdot\rangle$ such that
+## Definition
+A ***commutative binar*** is a [binar](binars.md) $\mathbf{A}=\langle A,\cdot\rangle$ such that
 
 $\cdot$ is commutative: $x\cdot y=y\cdot x$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be commutative binars. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
   
 $h(x\cdot y)=h(x)\cdot h(y)$
 
-====Examples====
+## Examples
 Example 1: $\langle\mathbb N,|\cdot|\rangle$ is the distance binar of the natural numbers, where the binary operation is $|x-y|$. 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |  variety |
-^[[Equational theory]]  |  decidable |
-^[[Quasiequational theory]]  |   |
-^[[First-order theory]]  |  undecidable |
-^[[Locally finite]]  |  no |
-^[[Residual size]]  |  unbounded |
-^[[Congruence distributive]]  |  no |
-^[[Congruence modular]]  |  no |
-^[[Congruence n-permutable]]  |  no |
-^[[Congruence regular]]  |  no |
-^[[Congruence uniform]]  |  no |
-^[[Congruence extension property]]  |  no |
-^[[Definable principal congruences]]  |  no |
-^[[Equationally def. pr. cong.]]  |  no |
-^[[Amalgamation property]]  |  yes |
-^[[Strong amalgamation property]]  |  yes |
-^[[Epimorphisms are surjective]]  |  yes |
+## Properties
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |  variety |
+|[Equational theory](equational_theory.md)  |  decidable |
+|[Quasiequational theory](quasiequational_theory.md)  |   |
+|[First-order theory](first-order_theory.md)  |  undecidable |
+|[Locally finite](locally_finite.md)  |  no |
+|[Residual size](residual_size.md)  |  unbounded |
+|[Congruence distributive](congruence_distributive.md)  |  no |
+|[Congruence modular](congruence_modular.md)  |  no |
+|[Congruence n-permutable](congruence_n-permutable.md)  |  no |
+|[Congruence regular](congruence_regular.md)  |  no |
+|[Congruence uniform](congruence_uniform.md)  |  no |
+|[Congruence extension property](congruence_extension_property.md)  |  no |
+|[Definable principal congruences](definable_principal_congruences.md)  |  no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |  no |
+|[Amalgamation property](amalgamation_property.md)  |  yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |  yes |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |  yes |
+
+## Finite members
 
 ^n  ^  # of algebras^
 |1  |  1|
@@ -50,17 +54,17 @@ Example 1: $\langle\mathbb N,|\cdot|\rangle$ is the distance binar of the natura
 |9  |  24051927835861852500932966021650993560|
 |10  |  2755731922430783367615449408031031255131879354330|
 
-see [[finite commutative binars]] and http://www.research.att.com/~njas/sequences/A001425
+see [finite commutative binars](finite_commutative_binars.md) and http://www.research.att.com/~njas/sequences/A001425
 
-====Subclasses====
-[[Commutative idempotent binars]] 
+## Subclasses
+[Commutative idempotent binars](commutative_idempotent_binars.md) 
 
-[[Commutative semigroups]] 
+[Commutative semigroups](commutative_semigroups.md) 
 
-====Superclasses====
-[[Binars]]
+## Superclasses
+[Binars](binars.md)
 
-====References====
+## References
 
 
 

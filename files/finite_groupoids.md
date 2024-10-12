@@ -1,4 +1,4 @@
-=====Finite nonisomorphic groupoids=====
+# Finite nonisomorphic groupoids
 <html>
 <style>
 td {padding-left:3px;padding-right:3px;}

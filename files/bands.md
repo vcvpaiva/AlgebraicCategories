@@ -1,41 +1,45 @@
-=====Bands=====
+# Bands
 
-====Definition====
-A \emph{band} is a [[semigroup]] $\mathbf{B}=\langle B,\cdot
-\rangle $ such that
+## Definition
+A ***band*** is a [semigroup](semigroups.md) $\mathbf{B}=\langle B,\cdot
+\rangle$ such that
 
-$\cdot $ is idempotent:  $x\cdot x=x$.
+$\cdot$ is idempotent:  $x\cdot x=x$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{B}$ and $\mathbf{C}$ be bands. A morphism from $\mathbf{B}$
 to $\mathbf{C}$ is a function $h:B\to C$ that is a homomorphism: 
 $h(xy)=h(x)h(y)$
 
-====Examples====
+## Examples
 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable in polynomial time |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Locally finite]]  |yes |
-^[[Residual size]]  | |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |no |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |no |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  |no |
-^[[Strong amalgamation property]]  |no |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable in polynomial time |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Locally finite](locally_finite.md)  |yes |
+|[Residual size](residual_size.md)  | |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |no |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |no |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  |no |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |no |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -47,19 +51,19 @@ f(6)= &1682\\
 f(7)= &13213\\
 \end{array}$
 
-see also [[finite bands]] and http://www.research.att.com/projects/OEIS?Anum=A058112
+see also [finite bands](finite_bands.md) and http://www.research.att.com/projects/OEIS?Anum=A058112
 
 
-====Subclasses====
-[[Rectangular bands]] 
+## Subclasses
+[Rectangular bands](rectangular_bands.md) 
 
-[[Semilattices]] 
+[Semilattices](semilattices.md) 
 
-====Superclasses====
-[[Semigroups]] 
+## Superclasses
+[Semigroups](semigroups.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

@@ -1,4 +1,4 @@
-=====Finite nonisomorphic ordered commutative semigroups=====
+# Finite nonisomorphic ordered commutative semigroups
 <html>
 <style>
 td {padding-left:3px;padding-right:3px;}
@@ -64,7 +64,7 @@ function checkRelation(A,rel) {//rel is a partial binary relation
                         if (rel[x][z]==0)
                             return false; //not transitive
                 for (var z=x+1; z<y; z++)
-                    if (rel[x][z]==0 || rel[y][z]==0)
+                    if (rel[x][z]### 0 || rel[y][z]0)
                          return false;    //not order convex
 		for (var r in A.op) {
 		    op = A.op[r];

@@ -11,7 +11,7 @@ $\mathbf{L}=\langle L, \vee, \wedge, \cdot, ^{-1}, e\rangle$ such that
 $\cdot$ is commutative:  $x\cdot y=y\cdot x$
 
 ### Morphisms
-Let $\mathbf{L}$ and $\mathbf{M}$ be $\ell $-groups. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $f:L\rightarrow M$ that is a
+Let $\mathbf{L}$ and $\mathbf{M}$ be $\ell$-groups. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $f:L\rightarrow M$ that is a
 homomorphism: $f(x\vee y)=f(x)\vee f(y)$ and $f(x\cdot y)=f(x)\cdot f(y)$.
 
 Remark: It follows that $f(x\wedge y)=f(x)\wedge f(y)$, $f(x^{-1})=f(x)^{-1}$, and $f(e)=e$

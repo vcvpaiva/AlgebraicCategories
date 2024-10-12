@@ -1,54 +1,58 @@
-=====Algebraic semilattices=====
+# Algebraic semilattices
 
 Abbreviation: **ASlat**
 
-====Definition====
-An \emph{algebraic semilattice} is a [[complete semilattice]] $\mathbf{P}=\langle P,\leq \rangle $
+## Definition
+An ***algebraic semilattice*** is a [complete semilattice](complete_semilattices.md) $\mathbf{P}=\langle P,\leq \rangle$
 such that
 
 the set of compact elements below any element is directed and
 
 every element is the join of all compact elements below it.
 
-An element $c\in P$ is \emph{compact} if for every subset $S\subseteq P$ such that $c\le\bigvee S$, there exists
+An element $c\in P$ is ***compact*** if for every subset $S\subseteq P$ such that $c\le\bigvee S$, there exists
 a finite subset $S_0$ of $S$ such that $c\le\bigvee S_0$.
 
 The set of compact elements of $P$ is denoted by $K(P)$.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{P}$ and $\mathbf{Q}$ be algebraic semilattices. A morphism from $\mathbf{P}$ to 
-$\mathbf{Q}$ is a function $f:P\rightarrow Q$ that is \emph{Scott-continuous}, which means that $f$ preserves all directed joins: 
+$\mathbf{Q}$ is a function $f:P\rightarrow Q$ that is ***Scott-continuous***, which means that $f$ preserves all directed joins: 
 
 $z=\bigvee D\Longrightarrow f(z)= \bigvee f[D]$
 
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
-^[[Classtype]]  |second-order |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |second-order |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
 \end{array}$
 
 
-====Subclasses====
-[[Algebraic lattices]] 
+## Subclasses
+[Algebraic lattices](algebraic_lattices.md) 
 
 
-====Superclasses====
-[[Algebraic posets]] 
+## Superclasses
+[Algebraic posets](algebraic_posets.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

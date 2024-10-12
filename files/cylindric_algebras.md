@@ -1,9 +1,9 @@
-=====Cylindric algebras=====
+# Cylindric algebras
 
 Abbreviation: **CA$_\alpha$**
 
-====Definition====
-A \emph{cylindric algebra} of dimension $\alpha$ is a [[Boolean algebra with operators]] $\mathbf{A}=\langle A,
+## Definition
+A ***cylindric algebra*** of dimension $\alpha$ is a [Boolean algebra with operators](boolean_algebra_with_operators.md) $\mathbf{A}=\langle A,
 \vee, 0, \wedge, 1, -, c_i, d_{ij}: i,j<\alpha\rangle$ such that for all $i,j<\alpha$
 
 the $c_i$ are increasing: $x\le c_i x$
@@ -23,46 +23,50 @@ Click on the 'Edit text of this page' link at the bottom to add some information
 
 It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be ... . A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(x ... y)=h(x) ... h(y)$
 
-====Definition====
-An \emph{...} is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
+## Definition
+An ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
 ...\rangle$ such that
 
 $...$ is ...:  $axiom$
   
 $...$ is ...:  $axiom$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
 
-====Properties====
+## Properties
 Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
 
-^[[Classtype]]                        |variety  |
-^[[Equational theory]]                |undecidable for $\alpha\ge 3$, decidable otherwise |
-^[[Quasiequational theory]]           | |
-^[[First-order theory]]               | |
-^[[Locally finite]]                   |no |
-^[[Residual size]]                    |unbounded |
-^[[Congruence distributive]]          |yes |
-^[[Congruence modular]]               |yes |
-^[[Congruence $n$-permutable]]        |yes, $n=2$ |
-^[[Congruence regular]]               |yes |
-^[[Congruence uniform]]               |yes |
-^[[Congruence extension property]]    |yes |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]      | |
-^[[Amalgamation property]]            | |
-^[[Strong amalgamation property]]     | |
-^[[Epimorphisms are surjective]]      | |
 
-====Finite members====
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)                        |variety  |
+|[Equational theory](equational_theory.md)                |undecidable for $\alpha\ge 3$, decidable otherwise |
+|[Quasiequational theory](quasiequational_theory.md)           | |
+|[First-order theory](first-order_theory.md)               | |
+|[Locally finite](locally_finite.md)                   |no |
+|[Residual size](residual_size.md)                    |unbounded |
+|[Congruence distributive](congruence_distributive.md)          |yes |
+|[Congruence modular](congruence_modular.md)               |yes |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)               |yes |
+|[Congruence uniform](congruence_uniform.md)               |yes |
+|[Congruence extension property](congruence_extension_property.md)    |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
+|[Amalgamation property](amalgamation_property.md)            | |
+|[Strong amalgamation property](strong_amalgamation_property.md)     | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+
+## Finite members
 
 $\begin{array}{lr}
   f(1)= &1\\
@@ -80,22 +84,22 @@ $\begin{array}{lr}
 \end{array}$
 
 
-====Subclasses====
-  [[Representable cylindric algebras]] subvariety
+## Subclasses
+  [Representable cylindric algebras](representable_cylindric_algebras.md) subvariety
 
 
-====Superclasses====
-  [[Diagonal free cylindric algebras]] subreduct
+## Superclasses
+  [Diagonal free cylindric algebras](diagonal_free_cylindric_algebras.md) subreduct
 
-  [[Two-dimensional cylindric algebras]] subreduct
+  [Two-dimensional cylindric algebras](two-dimensional_cylindric_algebras.md) subreduct
 
 
-====References====
+## References
 
-[(Maddux1991>
-Roger Maddux, \emph{Introductory course on relation algebras, finite-dimensional cylindric algebras, and their interconnections}, Algebraic Logic (Proc. Conf. Budapest 1988) ed. by H. Andreka, J. D. Monk, and I. Nemeti, Colloq. Math. Soc. J. Bolyai 54 North-Holland Amsterdam, 1991, 361--392 
+
+Roger Maddux, ***Introductory course on relation algebras, finite-dimensional cylindric algebras, and their interconnections***, Algebraic Logic (Proc. Conf. Budapest 1988) ed. by H. Andreka, J. D. Monk, and I. Nemeti, Colloq. Math. Soc. J. Bolyai 54 North-Holland Amsterdam, 1991, 361--392 
 see also http://www.math.iastate.edu/maddux/papers/raca.ps
-)]
+
 
 
 

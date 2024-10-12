@@ -1,19 +1,19 @@
-=====Modular lattices=====
+# Modular lattices
 
 Abbreviation: **MLat**
 
-====Definition====
-A \emph{modular lattice} is a [[lattice]] $\mathbf{L}=\langle L, \vee, \wedge\rangle$ that satisfies the
+## Definition
+A ***modular lattice*** is a [lattice](lattices.md) $\mathbf{L}=\langle L, \vee, \wedge\rangle$ that satisfies the
 
-\emph{modular identity}:  $((x\wedge z) \vee y) \wedge z = (x\wedge z) \vee (y\wedge z)$
+***modular identity***:  $((x\wedge z) \vee y) \wedge z = (x\wedge z) \vee (y\wedge z)$
 
-====Definition====
-A \emph{modular lattice} is a [[lattice]] $\mathbf{L}=\langle L, \vee, \wedge\rangle$ that satisfies the
+## Definition
+A ***modular lattice*** is a [lattice](lattices.md) $\mathbf{L}=\langle L, \vee, \wedge\rangle$ that satisfies the
 
-\emph{modular law}: $x\le z\Longrightarrow (x\vee y) \wedge z\le x\vee (y\wedge z)$
+***modular law***: $x\le z\Longrightarrow (x\vee y) \wedge z\le x\vee (y\wedge z)$
 
-====Definition====
-A \emph{modular lattice} is a lattice $\mathbf{L}=\langle L,\vee,\wedge\rangle $ such that $\mathbf{L}$ has no sublattice isomorphic
+## Definition
+A ***modular lattice*** is a lattice $\mathbf{L}=\langle L,\vee,\wedge\rangle$ such that $\mathbf{L}$ has no sublattice isomorphic
 to the pentagon $\mathbf{N}_{5}$ <html><canvas id="c1" width="60" height="60"></canvas>
 <script>
 unit=20;
@@ -40,14 +40,14 @@ edge(0,0);
 </script>
 </html>
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be modular lattices. 
 A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\rightarrow M$ that is a
 homomorphism: 
 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$
 
-====Examples====
+## Examples
 Example 1: $M_3$ <html><canvas id="c2" width="60" height="60"></canvas>
 <script>
 nodes=new Array;c=document.getElementById('c2').getContext('2d');c.translate(10,-4);
@@ -58,32 +58,36 @@ edge(4,1);edge(4,2);edge(4,3);
 edge(1,0);edge(2,0);edge(3,0);
 edge(0,0);
 </script></html>
-is the smallest nondistributive modular lattice. By a result of [(Dedekind1900)]
+is the smallest nondistributive modular lattice. By a result of [Dedekind1900]
 this lattice occurs as a sublattice of every nondistributive
 modular lattice.
 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |undecidable [(Freese1980)] [(Herrmann1983)] |
-^[[Quasiequational theory]]  |undecidable [(Lipshitz1974)] |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |no |
-^[[Congruence regular]]  |no |
-^[[Congruence uniform]]  |no |
-^[[Congruence extension property]]  |no |
-^[[Definable principal congruences]]  |no |
-^[[Equationally def. pr. cong.]]  |no |
-^[[Amalgamation property]]  |no |
-^[[Strong amalgamation property]]  |no |
-^[[Epimorphisms are surjective]]  |no |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |undecidable [Freese1980] [Herrmann1983] |
+|[Quasiequational theory](quasiequational_theory.md)  |undecidable [Lipshitz1974] |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |no |
+|[Congruence regular](congruence_regular.md)  |no |
+|[Congruence uniform](congruence_uniform.md)  |no |
+|[Congruence extension property](congruence_extension_property.md)  |no |
+|[Definable principal congruences](definable_principal_congruences.md)  |no |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  |no |
+|[Amalgamation property](amalgamation_property.md)  |no |
+|[Strong amalgamation property](strong_amalgamation_property.md)  |no |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  |no |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -112,35 +116,35 @@ f(23)= &7904700\\
 f(24)= &18752942\\
 f(25)= &\\
 f(26)= &\\
-\end{array}$[(Peter Jipsen, Nathan Lawless, \emph{Generating all finite modular lattices of a given size}, 
-Algebra Universalis, \textbf{74}, 2015, 253--264)]
+\end{array}$[(Peter Jipsen, Nathan Lawless, ***Generating all finite modular lattices of a given size***, 
+Algebra Universalis, **74**, 2015, 253--264
 
 
-====Subclasses====
-[[Distributive lattices]] 
+## Subclasses
+[Distributive lattices](distributive_lattices.md) 
 
-[[Complete modular lattices]] 
+[Complete modular lattices](complete_modular_lattices.md) 
 
-====Superclasses====
-[[Semimodular lattices]] 
+## Superclasses
+[Semimodular lattices](semimodular_lattices.md) 
 
-[[Geometric lattices]] 
+[Geometric lattices](geometric_lattices.md) 
 
 
-====References====
+## References
 
-[(Dedekind1900>
-Richard Dedekind, \emph{\"Uber die von drei Moduln erzeugte Dualgruppe},
-Math. Ann., \textbf{53}, 1900, 371--403)]
 
-[(Freese1980>
-Ralph Freese, \emph{Free modular lattices},
-Trans. Amer. Math. Soc., \textbf{261}, 1980, 81--91)]
+Richard Dedekind, ***\"Uber die von drei Moduln erzeugte Dualgruppe***,
+Math. Ann., **53**, 1900, 371--403
 
-[(Herrmann1983>
-Christian Herrmann, \emph{On the word problem for the modular lattice with four free generators},
-Math. Ann., \textbf{265}, 1983, 513--527)]
 
-[(Lipshitz1974>
-L. Lipshitz, \emph{The undecidability of the word problems for projective geometries and modular lattices},
-Trans. Amer. Math. Soc., \textbf{193}, 1974, 171--180)]
+Ralph Freese, ***Free modular lattices***,
+Trans. Amer. Math. Soc., **261**, 1980, 81--91
+
+
+Christian Herrmann, ***On the word problem for the modular lattice with four free generators***,
+Math. Ann., **265**, 1983, 513--527
+
+
+L. Lipshitz, ***The undecidability of the word problems for projective geometries and modular lattices***,
+Trans. Amer. Math. Soc., **193**, 1974, 171--180

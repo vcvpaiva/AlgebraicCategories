@@ -1,20 +1,20 @@
-=====Rings=====
+# Rings
 
 Abbreviation: **Rng**
-====Definition====
-A \emph{ring} is a structure $\mathbf{R}=\langle R,+,-,0,\cdot
-\rangle $ of type $\langle 2,1,0,2\rangle $ such that
+## Definition
+A ***ring*** is a structure $\mathbf{R}=\langle R,+,-,0,\cdot
+\rangle$ of type $\langle 2,1,0,2\rangle$ such that
 
 
-$\langle R,+,-,0\rangle $ is an [[abelian groups]]
+$\langle R,+,-,0\rangle$ is an [abelian groups](abelian_groups.md)
 
 
-$\langle R,\cdot \rangle $ is a [[semigroups]]
+$\langle R,\cdot \rangle$ is a [semigroups](semigroups.md)
 
 
-$\cdot $ distributes over $+$:  $x\cdot (y+z)=x\cdot y+x\cdot z$, $(y+z)\cdot x=y\cdot x+z\cdot x$
+$\cdot$ distributes over $+$:  $x\cdot (y+z)=x\cdot y+x\cdot z$, $(y+z)\cdot x=y\cdot x+z\cdot x$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{R}$ and $\mathbf{S}$ be rings. A morphism from $\mathbf{R}$
 to $\mathbf{S}$ is a function $h:R\to S$ that is a homomorphism: 
 
@@ -23,32 +23,36 @@ $h(x+y)=h(x)+h(y)$, $h(x\cdot y)=h(x)\cdot h(y)$
 Remark: 
 It follows that $h(0)=0$ and $h(-x)=-h(x)$.
 
-====Examples====
+## Examples
 Example 1: $\langle\mathbb{Z},+,-,0,\cdot\rangle$, the ring of integers with addition, subtraction, zero, and multiplication.
 
 
-====Basic results====
+## Basic results
 $0$ is a zero for $\cdot$: $0\cdot x=0$ and $x\cdot 0=0$.
 
-====Properties====
-^[[Classtype]]  |variety |
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  |undecidable |
-^[[Locally finite]]  |no |
-^[[Residual size]]  |unbounded |
-^[[Congruence distributive]]  |no |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  |yes, $n=2$ |
-^[[Congruence regular]]  |yes |
-^[[Congruence uniform]]  |yes |
-^[[Congruence extension property]]  | |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  | |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-====Finite members====
+## Properties
+
+
+|Property|Value|
+|---|---|
+|[Classtype](classtype.md)  |variety |
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  |undecidable |
+|[Locally finite](locally_finite.md)  |no |
+|[Residual size](residual_size.md)  |unbounded |
+|[Congruence distributive](congruence_distributive.md)  |no |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  |yes, $n=2$ |
+|[Congruence regular](congruence_regular.md)  |yes |
+|[Congruence uniform](congruence_uniform.md)  |yes |
+|[Congruence extension property](congruence_extension_property.md)  | |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  | |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -59,19 +63,19 @@ f(5)= &2\\
 f(6)= &4\\
 \end{array}$
 
-[[Finite rings in the Encyclopedia of Integer Sequences]]
+[Finite rings in the Encyclopedia of Integer Sequences](finite_rings_in_the_encyclopedia_of_integer_sequences.md)
 
 
-====Subclasses====
-[[Commutative rings]] 
+## Subclasses
+[Commutative rings](commutative_rings.md) 
 
-[[Rings with identity]] 
+[Rings with identity](rings_with_identitys.md) 
 
-====Superclasses====
-[[Semirings]] 
+## Superclasses
+[Semirings](semirings.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]

@@ -1,4 +1,4 @@
-=====Finite nonisomorphic monoids=====
+# Finite nonisomorphic monoids
 <html>
 <div id="insert"></div>
 <script src="http://math.chapman.edu/~jipsen/structures/ua.js"></script>

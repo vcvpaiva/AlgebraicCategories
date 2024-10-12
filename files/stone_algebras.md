@@ -1,40 +1,40 @@
-=====Stone algebras=====
+# Stone algebras
 
 Abbreviation: **StAlg**
-====Definition====
-A \emph{Stone algebra} is a [[distributive p-algebra]] $\mathbf{L}=\langle L,\vee ,0,\wedge ,1,^*\rangle $ such that
+## Definition
+A ***Stone algebra*** is a [distributive p-algebra](distributive_p-algebras.md) $\mathbf{L}=\langle L,\vee ,0,\wedge ,1,^*\rangle$ such that
 
 $(x^*)^*\vee x^* =1$, $0^*=1$
 
-==Morphisms==
+### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be Stone algebras. A morphism from $\mathbf{L}$ to $\mathbf{M}$ is a function $h:L\rightarrow M$ that is a
 homomorphism: 
 
-$h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(0)=0 $, $h(1)=1$, $h(x^*)=h(x)^*$
+$h(x\vee y)=h(x)\vee h(y)$, $h(x\wedge y)=h(x)\wedge h(y)$, $h(0)=0$, $h(1)=1$, $h(x^*)=h(x)^*$
 
-====Examples====
+## Examples
 Example 1: 
 
-====Basic results====
+## Basic results
 
-====Properties====
-^[[Equational theory]]  |decidable |
-^[[Quasiequational theory]]  | |
-^[[First-order theory]]  | |
-^[[Congruence distributive]]  |yes |
-^[[Congruence modular]]  |yes |
-^[[Congruence n-permutable]]  | |
-^[[Congruence regular]]  | |
-^[[Congruence uniform]]  | |
-^[[Congruence extension property]]  |yes |
-^[[Definable principal congruences]]  | |
-^[[Equationally def. pr. cong.]]  | |
-^[[Amalgamation property]]  |yes |
-^[[Strong amalgamation property]]  | |
-^[[Epimorphisms are surjective]]  | |
-^[[Locally finite]]  | |
-^[[Residual size]]  | |
-====Finite members====
+## Properties
+|[Equational theory](equational_theory.md)  |decidable |
+|[Quasiequational theory](quasiequational_theory.md)  | |
+|[First-order theory](first-order_theory.md)  | |
+|[Congruence distributive](congruence_distributive.md)  |yes |
+|[Congruence modular](congruence_modular.md)  |yes |
+|[Congruence n-permutable](congruence_n-permutable.md)  | |
+|[Congruence regular](congruence_regular.md)  | |
+|[Congruence uniform](congruence_uniform.md)  | |
+|[Congruence extension property](congruence_extension_property.md)  |yes |
+|[Definable principal congruences](definable_principal_congruences.md)  | |
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)  | |
+|[Amalgamation property](amalgamation_property.md)  |yes |
+|[Strong amalgamation property](strong_amalgamation_property.md)  | |
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+|[Locally finite](locally_finite.md)  | |
+|[Residual size](residual_size.md)  | |
+## Finite members
 
 $\begin{array}{lr}
 f(1)= &1\\
@@ -49,14 +49,14 @@ f(9)= &16\\
 f(10)= &28\\
 \end{array}$
 
-====Subclasses====
-[[Double Stone algebras]] 
+## Subclasses
+[Double Stone algebras](double_stone_algebras.md) 
 
-====Superclasses====
-[[Distributive p-algebras]] 
+## Superclasses
+[Distributive p-algebras](distributive_p-algebras.md) 
 
 
-====References====
+## References
 
-[(Ln19xx>
+
 )]
