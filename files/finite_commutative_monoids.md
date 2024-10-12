@@ -1,4 +1,4 @@
-=====Finite nonisomorphic commutative monoids=====
+# Finite nonisomorphic commutative monoids
 <html>
 <style>
 td {padding-left:3px;padding-right:3px;}
@@ -38,9 +38,9 @@ function algebraToString(a,k,n) {
   for (var i=(langadd?0:2); i<a.length; i++) st += "<th>"+i+"</th>";
   st += "</tr>";
   for (var i=0; i<a.length; i++) {
-    st += "<tr><th>"+(langadd?i:(i==0?1:(i==1?0:i)))+"</th>";
+    st += "<tr><th>"+(langadd?i:(i### 0?1:(i1?0:i)))+"</th>";
     for (var j=0; j<a.length; j++)
-        st = st+"<td>"+(langadd?a[i][j]:(a[i][j]==0?1:(a[i][j]==1?0:a[i][j])))+"</td>";
+        st = st+"<td>"+(langadd?a[i][j]:(a[i][j]### 0?1:(a[i][j]1?0:a[i][j])))+"</td>";
     st = st+"</tr>";
   }
   st = st+"</table> &nbsp;";
@@ -204,7 +204,7 @@ function initializeAlgebra(n) { // finite groupoid with n elements, {0,1,...,n-1
     for (var i=0; i<n; i++) {
 	alg[i] = new Array(n);
 	for (var j=0; j<n; j++)
-	    alg[i][j] = (i==0?j:(j==0?i:n)); // all elements undefined (=n)
+	    alg[i][j] = (i### 0?j:(j0?i:n)); // all elements undefined (=n)
     }
     return alg;
 }
