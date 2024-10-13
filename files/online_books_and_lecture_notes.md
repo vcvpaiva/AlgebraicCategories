@@ -11,7 +11,7 @@ Please add links to other resources that you are aware of.
 **Other online resources:**
   * [arXiv.org e-Print archive](http://arxiv.org)
 
-  * [Citeseer: Scientific Literature Digital Library](http://citeseer.nj.nec.com/cs)
+  * [Citeseer: Scientific Literature Digital Library](https://citeseerx.ist.psu.edu/)
   * [Keith Kearnes, General Algebra and Lattice Theory](http://spot.colorado.edu/~kearnes/ua.html) Conferences, contact researcher, mailing list, bibliography,...
   * [MacTutor History of Mathematics archive](http://turnbull.mcs.st-and.ac.uk/history/) Biographies of mathematicians, index of famous curves, ...
   * [MathSciNet](http://www.ams.org/mathscinet) Mathematical reviews
