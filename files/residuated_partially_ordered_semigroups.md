@@ -1,33 +1,21 @@
-# Name of class
+# Residuated partially ordered semigroups
 
-Abbreviation: **Abbr**
+Abbreviation: **RpoSgrp**
 
 ## Definition
-A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
-...\rangle$ such that
+A ***residuated partially ordered semigroups*** is a structure $\mathbf{A}=\langle A,\le,\cdot,\backslash,/\rangle$ of signature $\langle-2,2,2,2\rangle$ such that
 
-$\langle A,...\rangle$ is a [name of class](name_of_class.md)
+$\langle A,\le\rangle$ is a [poset](partially_ordered_sets.md)
 
-$op_1$ is (name of property):  $axiom_1$
+$\backslash$ is the left residual of $\cdot$:  $xy\le z\Longleftrightarrow y\le x\backslash z$
 
-$op_2$ is ...:  $...$
-
-Remark: This is a template.
-If you know something about this class, click on the ``Edit text of this page'' link at the bottom and fill out this page.
-
-It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
+$/$ is the right residual of $\cdot$:  $xy\le z\Longleftrightarrow x\le z/y$
 
 ### Morphisms
-Let $\mathbf{A}$ and $\mathbf{B}$ be ... . A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
-$h(x ... y)=h(x) ... h(y)$
-
-## Definition
-A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
-...\rangle$ such that
-
-$...$ is ...:  $axiom$
-  
-$...$ is ...:  $axiom$
+Let $\mathbf{A}$ and $\mathbf{B}$ be residuated partially ordered semigroups. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is an order-preserving homomorphism: $x\le y\Longrightarrow h(x)\le h(y)$, 
+$h(x\cdot y)=h(x)\cdot h(y)$, 
+$h(x\backslash y)=h(x)\backslash h(y)$, 
+$h(x/y)=h(x)/h(y)$.
 
 ## Examples
 Example 1: 
@@ -36,23 +24,20 @@ Example 1:
 
 
 ## Properties
-Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
-
-
 
 |Property|Value|
 |---|---|
-|[Classtype](classtype.md)                        |(value, see description) [Ln19xx]  |
+|[Classtype](classtype.md)                        |po-variety [Pigozzi2004]  |
 |[Equational theory](equational_theory.md)                | |
 |[Quasiequational theory](quasiequational_theory.md)           | |
 |[First-order theory](first-order_theory.md)               | |
-|[Locally finite](locally_finite.md)                   | |
-|[Residual size](residual_size.md)                    | |
-|[Congruence distributive](congruence_distributive.md)          | |
+|[Locally finite](locally_finite.md)                   |no|
+|[Residual size](residual_size.md)                    |$\infty$|
+|[Congruence distributive](congruence_distributive.md)          |no|
 |[Congruence modular](congruence_modular.md)               | |
-|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
-|[Congruence regular](congruence_regular.md)               | |
-|[Congruence uniform](congruence_uniform.md)               | |
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)        |no|
+|[Congruence regular](congruence_regular.md)               |no|
+|[Congruence uniform](congruence_uniform.md)               |no|
 |[Congruence extension property](congruence_extension_property.md)    | |
 |[Definable principal congruences](definable_principal_congruences.md)  | |
 |[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
@@ -79,21 +64,13 @@ $\begin{array}{lr}
 
 
 ## Subclasses
-  [...](...s.md) subvariety
-
-  [...](...s.md) expansion
-
+  [Residuated partially ordered monoids](residuated_partially_ordered_monoids.md) subvariety
 
 ## Superclasses
-  [...](...s.md) supervariety
-
-  [...](...s.md) subreduct
+  [Partially ordered semigroups](partially_ordered_semigroups.md) supervariety
 
 
 ## References
-
-
-F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
 
 
 
