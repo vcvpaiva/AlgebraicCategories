@@ -3,19 +3,19 @@
 Abbreviation: **Abbr**
 
 ## Definition
-A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
+A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of signature $\langle
 ...\rangle$ such that
 
-$\langle A,...\rangle$ is a [name of class](name_of_class.md)
+$\langle A,...\rangle$ is a [name of class](plural_name_of_class.md)
 
 $op_1$ is ***name of property***:  $axiom_1$
 
 $op_2$ is ***...***:  $...$
 
 Remark: This is a template.
-If you know something about this class, click on the ``Edit text of this page'' link at the bottom and fill out this page.
+If you want to add a new algebraic category of structures, fork this repository, fill out this page and submit a pull request.
 
-It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
+It is not unusual to give several (equivalent) definitions. 
 
 ### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be ... . A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 

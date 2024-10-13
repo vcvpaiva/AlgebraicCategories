@@ -6,7 +6,7 @@ Abbreviation: **Top$_0$**
 A ***$T_0$-space*** is a [topological spaces](topological_spaces.md) $\mathbf{X}=\langle X,\Omega(\mathbf{X})\rangle$ such that
 
 
-for every pair of distinct points in the space, there is an open set containing one but not the other:  $x,y\in X\Longrightarrow\exists U\in\Omega(\mathbf{X})[x\in U\text{ and }y\notin U)\text{ or }(y\in U\text{ and }x\notin U]$
+for every pair of distinct points in the space, there is an open set containing one but not the other:  $x,y\in X\Longrightarrow\exists U\in\Omega(\mathbf{X})[(x\in U\text{ and }y\notin U)\text{ or }(y\in U\text{ and }x\notin U)]$
 
 ### Morphisms
 Let $\mathbf{X}$ and $\mathbf{Y}$ be $T_0$-spaces. 
@@ -49,7 +49,3 @@ see also http://www.wikipedia.org/wiki/Topology_glossary
 
 
 ## References
-
-
-)]\end{document}
-%</pre>

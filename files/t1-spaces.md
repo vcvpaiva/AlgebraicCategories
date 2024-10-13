@@ -6,7 +6,7 @@ Abbreviation: **Top$_1$**
 A ***$T_1$-space*** is a [topological spaces](topological_spaces.md) $\mathbf{X}=\langle X,\Omega(\mathbf{X})\rangle$ such that
 
 
-for every pair of distinct points in the space, there is a pair of open sets containing each point but not the other:  $x,y\in X\Longrightarrow\exists U,V\in\Omega(\mathbf{X})[x\in U\setminus V	ext{ and }y\in V\setminus U]$
+for every pair of distinct points in the space, there is a pair of open sets containing each point but not the other:  $x,y\in X\Longrightarrow\exists U,V\in\Omega(\mathbf{X})[x\in U\setminus V\text{ and }y\in V\setminus U]$
 
 ### Morphisms
 Let $\mathbf{X}$ and $\mathbf{Y}$ be $T_1$-spaces. 
@@ -54,7 +54,3 @@ see also http://www.wikipedia.org/wiki/Topology_glossary
 
 
 ## References
-
-
-)]\end{document}
-%</pre>

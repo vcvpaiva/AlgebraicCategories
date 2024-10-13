@@ -9,7 +9,7 @@ every element is a product of irreducibles:  $\forall a\in D \exists p_1,...,p_r
 $p_i$ is irreducible for $i=1,\ldots,r$
 
 
-the product is unique up to associates:  $\forall 	ext{ irreducibles } p_i,q_j$ if 
+the product is unique up to associates:  $\forall \text{ irreducibles } p_i,q_j$ if 
 $a=p_1^{n_1}\cdot p_2^{n_2}...p_r^{n_r}=q_1^{m_1}\cdot q_2^{m_2}...q_s^{m_s}$
 then $r=s$ and each $p_i$ is an associate of some $q_j$
 
@@ -62,6 +62,3 @@ f(6)= &0\\
 
 
 ## References
-
-
-)]

@@ -8,7 +8,7 @@ A ***Euclidean domain*** is an [integral domains](integral_domains.md) $\langle 
 $\forall a,b\ (a\ne 0$, $b\neq 0 \Longrightarrow d(a)\le d(ab))$
 
 
-$\forall a,b \exists q,r\ (a=b\cdot q+r$, $(r=0 	ext{or} d(r)<d(b)))$
+$\forall a,b \exists q,r\ (a=b\cdot q+r$, $(r=0 \text{ or } d(r)<d(b)))$
 
 ### Morphisms
 
@@ -59,6 +59,3 @@ f(6)= &0\\
 
 
 ## References
-
-
-)]

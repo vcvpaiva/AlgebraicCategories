@@ -6,7 +6,7 @@ A ***Boolean lattice*** is a
 [bounded distributive lattice](bounded_distributive_lattices.md) 
 $\mathbf{L}=\langle L,\vee ,0,\wedge ,1\rangle$ such that
 
-every element has a complement:  $\exists y(x\vee y=1	ext{ and }x\wedge y=0)$
+every element has a complement:  $\exists y(x\vee y=1\text{ and }x\wedge y=0)$
 
 ### Morphisms
 Let $\mathbf{L}$ and $\mathbf{M}$ be bounded distributive lattices. 
