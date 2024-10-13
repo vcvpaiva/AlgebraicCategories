@@ -23,7 +23,7 @@ Let $\mathbf{A}$ and $\mathbf{B}$ be action algebras.
 A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a
 homomorphism: 
 $h(x\vee y)=h(x)\vee h(y)$, $h(x\cdot y)=h(x)\cdot h(y)$, $h(x\backslash y)=h(x)\backslash h(y)$,
-$h(x/y)=h(x)/h(y)$, $h(x^ *)=h(x)^*$, $h(\bot)=\bot$ and $h(1)=1$.
+$h(x/y)=h(x)/h(y)$, $h(x^* )=h(x)^*$, $h(\bot)=\bot$ and $h(1)=1$.
 
 ## Examples
 Example 1: 
