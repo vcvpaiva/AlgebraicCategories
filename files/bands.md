@@ -51,7 +51,7 @@ f(6)= &1682\\
 f(7)= &13213\\
 \end{array}$
 
-see also [finite bands](finite_bands.md) and http://www.research.att.com/projects/OEIS?Anum=A058112
+see also [finite bands](finite_bands.md) and https://oeis.org/A058112
 
 
 ## Subclasses
