@@ -48,7 +48,7 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 |[First-order theory](first-order_theory.md)]              |decidable |
 |[Locally finite](locally_finite.md)                  |no |
 |[Residual size](residual_size.md)                   |$\omega$ |
-|[Congruence distributive](congruence_distributive.md)         |no ($\mathbb{Z}_{2}\times \mathbb{Z}_{2}$) |
+|[Congruence distributive](congruence_distributive.md)         |no ($\mathbb{Z}_{2}$ $\times$ $\mathbb{Z}_{2}$) |
 |[Congruence n-permutable](congruence_n-permutable.md)         |yes, $n=2$, $p(x,y,z)=x-y+z$ |
 |[Congruence regular](congruence_regular.md)              |yes, congruences are determined by subalgebras |
 |[Congruence uniform](congruence_uniform.md)              |yes |
