@@ -42,58 +42,49 @@ Feel free to add or delete properties from this list. The list below may contain
 
 |Property|Value|
 |---|---|
-|[Classtype](classtype.md)                        |(value, see description) [Lastname19xx]  |
-|[Equational theory](equational_theory.md)                | |
-|[Quasiequational theory](quasiequational_theory.md)           | |
-|[First-order theory](first-order_theory.md)               | |
-|[Locally finite](locally_finite.md)                   | |
-|[Residual size](residual_size.md)                    | |
-|[Congruence distributive](congruence_distributive.md)          | |
-|[Congruence modular](congruence_modular.md)               | |
-|[Congruence $n$-permutable](congruence_$n$-permutable.md)        | |
-|[Congruence regular](congruence_regular.md)               | |
-|[Congruence uniform](congruence_uniform.md)               | |
-|[Congruence extension property](congruence_extension_property.md)    | |
-|[Definable principal congruences](definable_principal_congruences.md)  | |
-|[Equationally def. pr. cong.](equationally_def._pr._cong..md)      | |
-|[Amalgamation property](amalgamation_property.md)            | |
-|[Strong amalgamation property](strong_amalgamation_property.md)     | |
-|[Epimorphisms are surjective](epimorphisms_are_surjective.md)      | |
+|[Classtype](classtype.md)|(see description) [Lastname19xx]|
+|[Equational theory](equational_theory.md)            ||
+|[Quasiequational theory](quasiequational_theory.md)  ||
+|[First-order theory](first-order_theory.md)          ||
+|[Locally finite](locally_finite.md)                  ||
+|[Residual size](residual_size.md)                    ||
+|[Congruence distributive](congruence_distributive.md)||
+|[Congruence modular](congruence_modular.md)          ||
+|[Congruence $n$-permutable](congruence_$n$-permutable.md)||
+|[Congruence regular](congruence_regular.md)          ||
+|[Congruence uniform](congruence_uniform.md)          ||
+|[Congruence extension property](congruence_extension_property.md)||
+|[Definable principal congruences](definable_principal_congruences.md)||
+|[Equationally def. pr. cong.](equationally_def._pr._cong..md)||
+|[Amalgamation property](amalgamation_property.md)    ||
+|[Strong amalgamation property](strong_amalgamation_property.md)||
+|[Epimorphisms are surjective](epimorphisms_are_surjective.md)||
 
 ## Finite members
 
-$\begin{array}{lr}
-  f(1)= &1\\
-  f(2)= &\\
-  f(3)= &\\
-  f(4)= &\\
-  f(5)= &\\
-\end{array}$     
-$\begin{array}{lr}
-  f(6)= &\\
-  f(7)= &\\
-  f(8)= &\\
-  f(9)= &\\
-  f(10)= &\\
-\end{array}$
+|$n=$     | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
+|---------|---|---|---|---|---|---|---|---|---|---|
+|# of algs| 1 |
 
+
+## Equivalent categories
 
 ## Subclasses
   [...](...s.md)
 
-  [...](...s.md) expanded type
+  [...](...s.md) expanded signature
 
 
 ## Superclasses
   [...](...s.md)
 
-  [...](...s.md) reduced type
+  [...](...s.md) reduced signature
 
 
 ## References
 
 
-F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
+F. Lastname, *Title*, Journal, **1**, 23--45.
 
 
 
