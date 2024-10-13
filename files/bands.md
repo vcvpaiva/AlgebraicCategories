@@ -16,6 +16,7 @@ $h(xy)=h(x)h(y)$
 
 ## Basic results
 
+Bands are locally finite (i.e., finitely generated bands are finite).
 
 ## Properties
 
@@ -64,6 +65,3 @@ see also [finite bands](finite_bands.md) and https://oeis.org/A058112
 
 
 ## References
-
-
-)]
