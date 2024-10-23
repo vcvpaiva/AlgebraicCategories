@@ -70,7 +70,7 @@ Classification of finitely generated abelian groups: Every $n$-generated abelian
 |# of algs | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 3 | 2 |  1 |  1 |  2 |  1 |  1 |  1 |  5 |  1 |  2 |  1 | 1  |  1 |  1 |  1 |  3 |  2 |
 |# of si's | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |  0 |  1 |  0 |  1 |  0 |  0 |  1 |  1 |  0 |  1 | 0  |  0 |  0 |  1 |  0 |  1 |
 
-see also http://www.research.att.com/projects/OEIS?Anum=A000688
+see also https://oeis.org/A000688
 
 
 ## Subclasses
