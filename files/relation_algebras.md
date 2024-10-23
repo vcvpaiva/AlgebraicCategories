@@ -2,7 +2,7 @@
 
 Abbreviation: **RA**
 ## Definition
-A ***relation algebra*** is a structure $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ such that
+A ***relation algebra*** is a algebra $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ such that
 
 $\langle A,\vee,0,\wedge,1,\neg\rangle$ is a [Boolean algebra](boolean_algebras.md)
 
@@ -66,7 +66,7 @@ f(5)= &0\\
 f(6)= &0\\
 \end{array}$
 
-[http://www.chapman.edu/~jipsen/gap/ramaddux.html|Small relation algebras](http://www.chapman.edu/~jipsen/gap/ramaddux.html|small_relation_algebras.md)
+[Small relation algebras](https://www1.chapman.edu/~jipsen/gap/ramaddux.html)
 
 
 ## Subclasses
@@ -86,5 +86,4 @@ f(6)= &0\\
 
 
 ## References
-
-/*[Ln19xx> ]*/
+B. Jónsson: Varieties of relation algebras. Algebra Universalis, 15, 273–298 (1982). https://doi.org/10.1007/BF02483728

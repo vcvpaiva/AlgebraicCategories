@@ -1,34 +1,16 @@
-# Name of class
-% Note: replace "Template" with Name_of_class in previous line
+# Semiassociative relation algebras
 
-Abbreviation: **Abbr**
+Abbreviation: **SA**
 
 ## Definition
-A ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
-...\rangle$ such that
+A ***semiassociative relation algebra*** is a nonassociative relation algebra $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ that satisfies the 
 
-$\langle A,...\rangle$ is a [name of class](name_of_class.md)
-
-$op_1$ is (name of property):  $axiom_1$
-
-$op_2$ is ...:  $...$
-
-Remark: This is a template.
-If you know something about this class, click on the 'Edit text of this page' link at the bottom and fill out this page.
-
-It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
+***semiassociative*** identity: $(x\circ 1)\circ 1=x\circ 1$
 
 ### Morphisms
-Let $\mathbf{A}$ and $\mathbf{B}$ be ... . A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
-$h(x ... y)=h(x) ... h(y)$
+Let $\mathbf{A}$ and $\mathbf{B}$ be semiassociative relation algebras. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a Boolean algebra homomorphism and preserves $\circ$, $^{\smile}$, $e$:
 
-## Definition
-An ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
-...\rangle$ such that
-
-$...$ is ...:  $axiom$
-  
-$...$ is ...:  $axiom$
+$h(x\circ y)=h(x)\circ h(y)$, $h(x^{\smile})=h(x)^{\smile}$, $h(e)=e$.
 
 ## Examples
 Example 1: 
@@ -80,21 +62,16 @@ $\begin{array}{lr}
 
 
 ## Subclasses
-  [...](...s.md) subvariety
+  [Relation algebras](relation_algebras.md) subvariety
 
-  [...](...s.md) expansion
 
 
 ## Superclasses
-  [...](...s.md) supervariety
-
-  [...](...s.md) subreduct
+  [Weakly associative relation algebras](weakly_associative_relation_algebras.md) supervariety
 
 
 ## References
 
-
-F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
-
+R. Maddux: Some varieties containing relation algebras. Trans. Amer. Math. Soc., 272 (1982), pp. 501-526. https://www.jstor.org/stable/pdf/1998710.pdf
 
 
