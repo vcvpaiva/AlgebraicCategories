@@ -3,20 +3,15 @@
 Abbreviation: **SymRel**
 
 ## Definition
-A ***symmetric relation*** is a structure $\mathbf{X}=\langle X,R\rangle$ such that $R$ is a ***binary relation on $X$*** 
+A ***symmetric relation*** is a structure $\mathbf{X}=\langle X,R\rangle$ such that $R$ is a ***binary relation on*** $X$ 
 (i.e. $R\subseteq X\times X$) that
 is
 
 symmetric:  $xRy\Longrightarrow yRx$
 
-Remark: This is a template.
-If you know something about this class, click on the ``Edit text of this page'' link at the bottom and fill out this page.
-
-It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
-
 ### Morphisms
 Let $\mathbf{X}$ and $\mathbf{Y}$ be symmetric relations. A morphism from $\mathbf{X}$ to $\mathbf{Y}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
-$xR^{\mathbf X} y\Longrightarrow h(x)R^{\mathbf Y}h(y)$
+$xR_ {\mathbf X} y\Longrightarrow h(x)R_{\mathbf Y}h(y)$
 
 ## Definition
 
@@ -27,9 +22,6 @@ Example 1:
 
 
 ## Properties
-Feel free to add or delete properties from this list. The list below may contain properties that are not relevant to the class that is being described.
-
-
 
 |Property|Value|
 |---|---|
@@ -75,7 +67,3 @@ $\begin{array}{lr}
 
 
 ## References
-
-
-F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
-)]
