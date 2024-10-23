@@ -84,6 +84,9 @@ f(6)= &\\
 
 ## References
 
+R. Maddux: Some varieties containing relation algebras. Trans. Amer. Math. Soc., 272 (1982), pp. 501-526. https://www.jstor.org/stable/pdf/1998710.pdf
+
+
 
 
 
