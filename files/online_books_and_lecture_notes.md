@@ -5,12 +5,11 @@ Please add links to other resources that you are aware of.
 **Encyclopedic resources:**
 [On-Line Encyclopedia of Integer Sequences](https://oeis.org) |
 [PlanetMath.org](http://planetmath.org/) |
-[Eric Weisstein's World of Mathematics](http://mathworld.wolfram.com/) |
-[Wikipedia](http://www.wikipedia.org/)
+[Wikipedia](http://www.wikipedia.org/) | [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 
 **Other online resources:**
   * [arXiv.org e-Print archive](http://arxiv.org)
-
+  * [AIM Open Textbook Initiative](https://textbooks.aimath.org/textbooks/approved-textbooks/)
   * [Citeseer: Scientific Literature Digital Library](https://citeseerx.ist.psu.edu/)
   * [Keith Kearnes, General Algebra and Lattice Theory](http://spot.colorado.edu/~kearnes/ua.html) Conferences, contact researcher, mailing list, bibliography,...
   * [MacTutor History of Mathematics archive](http://turnbull.mcs.st-and.ac.uk/history/) Biographies of mathematicians, index of famous curves, ...
