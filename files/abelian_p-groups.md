@@ -3,7 +3,7 @@
 Abbreviation: **ApGrp**
 
 ## Definition
-An ***Abelian $p$-group*** is a [$p$-group]($p$-groups.md) $\mathbf{A}=\langle A, +, -, 0\rangle$ such that
+An ***Abelian $p$-group*** is a [$p$-group](p-groups.md) $\mathbf{A}=\langle A, +, -, 0\rangle$ such that
 
 $\cdot$ is ***commutative***: $x+y=y+x$
 
