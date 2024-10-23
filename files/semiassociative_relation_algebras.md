@@ -25,7 +25,7 @@ Feel free to add or delete properties from this list. The list below may contain
 
 |Property|Value|
 |---|---|
-|[Classtype](classtype.md)                        |(value, see description) [Ln19xx]  |
+|[Classtype](classtype.md)                        | variety |
 |[Equational theory](equational_theory.md)                | |
 |[Quasiequational theory](quasiequational_theory.md)           | |
 |[First-order theory](first-order_theory.md)               | |
