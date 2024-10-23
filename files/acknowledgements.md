@@ -26,4 +26,4 @@ it aims to provide additional specialized information in a
 semi-structured format.
 
 Here is the text of a talk about the database, given at the Annual Meeting of the Association for Symbolic Logic, Chicago, June 1-4, 2003:
-[An online database of classes of algebraic structures]()
+[An online database of classes of algebraic structures](https://math.chapman.edu/~jipsen/talks/Ord03/talk20030220slides.pdf)
