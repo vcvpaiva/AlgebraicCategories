@@ -3,7 +3,7 @@
 Abbreviation: **SA**
 
 ## Definition
-A ***semiassociative relation algebra*** is a nonassociative relation algebra $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ that satisfies the 
+A ***semiassociative relation algebra*** is a [nonassociative relation algebra](nonassociative_relation_algebras.md) $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ that satisfies the 
 
 ***semiassociative*** identity: $(x\circ 1)\circ 1=x\circ 1$
 

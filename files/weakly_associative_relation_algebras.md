@@ -3,7 +3,7 @@
 Abbreviation: **WA**
 
 ## Definition
-A ***weakly associative relation algebra*** is a nonassociative relation algebra $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ that satisfies the 
+A ***weakly associative relation algebra*** is a [nonassociative relation algebra](nonassociative_relation_algebras.md) $\mathbf{A}=\langle A,\vee,0,\wedge,1,\neg,\circ,^{\smile},e\rangle$ that satisfies the 
 
 ***weakly associative*** identity: $((e\wedge x)\circ 1)\circ 1=(e\wedge x)\circ 1$
 
