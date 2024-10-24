@@ -2,7 +2,7 @@
 
 Abbreviation: **ApGrp**
 
-Wikipedia page: [$p$-group](https://en.wikipedia.org/wiki/P-group)
+Wikipedia page: [p-group](https://en.wikipedia.org/wiki/P-group)
 
 Wikidata: [p-group Q286972](https://www.wikidata.org/wiki/Q286972)
 
