@@ -2,9 +2,9 @@
 
 Abbreviation: **ApGrp**
 
-[$p$-group](https://en.wikipedia.org/wiki/P-group)
+Wikipedia page: [$p$-group](https://en.wikipedia.org/wiki/P-group)
 
-[p-group](https://www.wikidata.org/wiki/Q286972)
+Wikidata: [p-group Q286972](https://www.wikidata.org/wiki/Q286972)
 
 ## Definition
 An ***Abelian $p$-group*** is a [$p$-group](p-groups.md) $\mathbf{A}=\langle A, +, -, 0\rangle$ such that
