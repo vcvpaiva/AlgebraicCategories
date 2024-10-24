@@ -2,9 +2,9 @@
 
 Abbreviation: **AbGrp** 
 
-[Abelian group](https://en.wikipedia.org/wiki/Abelian_group) Wikipedia page
+Wikipedia page: [Abelian group](https://en.wikipedia.org/wiki/Abelian_group) 
 
-[abelian group (Q181296)](https://www.wikidata.org/wiki/Q181296) Wikidata
+Wikidata: [abelian group (Q181296)](https://www.wikidata.org/wiki/Q181296) 
 
 ## Definition
 An ***abelian group*** is a structure $\mathbf{G}=\langle
