@@ -1,4 +1,4 @@
-# Abelian p-groups
+# Abelian $p$-groups
 
 Abbreviation: **ApGrp**
 
@@ -7,22 +7,9 @@ An ***Abelian $p$-group*** is a [$p$-group](p-groups.md) $\mathbf{A}=\langle A, 
 
 $\cdot$ is ***commutative***: $x+y=y+x$
 
-Remark: This is a template.
-If you know something about this class, click on the 'Edit text of this page' link at the bottom and fill out this page.
-
-It is not unusual to give several (equivalent) definitions. Ideally, one of the definitions would give an irredundant axiomatization that does not refer to other classes.
-
 ### Morphisms
 Let $\mathbf{A}$ and $\mathbf{B}$ be Abelian $p$-groups. A morphism from $\mathbf{A}$ to $\mathbf{B}$ is a function $h:A\rightarrow B$ that is a homomorphism: 
 $h(x + y)=h(x) + h(y)$
-
-## Definition
-An ***...*** is a structure $\mathbf{A}=\langle A,...\rangle$ of type $\langle
-...\rangle$ such that
-
-$...$ is ...:  $axiom$
-  
-$...$ is ...:  $axiom$
 
 ## Examples
 Example 1: 
@@ -78,13 +65,10 @@ $\begin{array}{lr}
 
 
 ## Superclasses
-  [P-groups](p-groups.md)
+  [$p$-groups](p-groups.md)
 
 
 ## References
-
-
-F. Lastname, ***Title***, Journal, **1**, 23--45 [MRreview](mrreviews.md) 
 
 
 

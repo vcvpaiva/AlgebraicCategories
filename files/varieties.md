@@ -1,16 +1,18 @@
-### = Varieties of universal algebras =
+### Varieties of universal algebras
 
 A ***variety*** is a class of structures of the same signature that is defined by a set of identities, i.e., universally quantified
 equations or, more generally, atomic formulas.
 
 Varieties are also called ***equational classes***.
 
-By a fundamental result of Birkhoff[(Garrett Birkhoff, ***On the structure of abstract algebras***, 
-Proceedings of the Cambridge Philosophical Society, 31:433--454, 1935)] a class $\mathcal{K}$ of algebras is a 
+By a fundamental result of [Garrett Birkhoff: ***On the structure of abstract algebras***, 
+Proceedings of the Cambridge Philosophical Society, 31:433--454, 1935] a class $\mathcal{K}$ of algebras of the same signature is a 
 variety iff it is closed under the operators $H$, $S$, $P$ (i.e., $H\mathcal{K}\subseteq\mathcal{K}$, $S\mathcal{K}\subseteq\mathcal{K}$, and $P\mathcal{K}\subseteq\mathcal{K}$), where
 
-$H\mathcal{K}=\{$homomorphic images of members of $\mathcal{K}\}$\\
-$S\mathcal{K}=\{$subalgebras of members of $\mathcal{K}\}$\\
+$H\mathcal{K}=\{$homomorphic images of members of $\mathcal{K}\}$
+
+$S\mathcal{K}=\{$subalgebras of members of $\mathcal{K}\}$
+
 $P\mathcal{K}=\{$direct products of members of $\mathcal{K}\}$.
 
 Equivalently, $\mathcal K$ is a variety iff $\mathcal K=HSP\mathcal K$.
@@ -24,7 +26,7 @@ Show all pages on [http://math.chapman.edu/~jipsen/structures/doku.php/?do=searc
 
 A picture of some [http://www.chapman.edu/~jipsen/PCP/theoriesPO1.html| theories ordered by interpretability](http://www.chapman.edu/~jipsen/pcp/theoriespo1.html|_theories_ordered_by_interpretabilitys.md)
 
-### = Some varieties and quasivarieties listed by signature and (first) subclass relation =
+### Some varieties and quasivarieties listed by signature and (first) subclass relation
 Proper quasivarieties are marked by a *
 
 $\langle \rangle$ [Sets](sets.md)
