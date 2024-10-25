@@ -25,5 +25,5 @@ links above. It will link to these resources when appropriate, and
 it aims to provide additional specialized information in a
 semi-structured format.
 
-Here is the text of a talk about the database, given at the Annual Meeting of the Association for Symbolic Logic, Chicago, June 1-4, 2003:
+Here is the abstract and slides of a talk about the database, given at the Annual Meeting of the Association for Symbolic Logic, Chicago, June 1-4, 2003: [Abstract](jipsenASL2003.pdf),
 [An online database of classes of algebraic structures](https://math.chapman.edu/~jipsen/talks/ASL2003/ASL2003slides.pdf)
