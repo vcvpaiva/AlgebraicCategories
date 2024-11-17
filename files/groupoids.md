@@ -8,7 +8,7 @@ A ***groupoid*** is a [category](categorys.md) $\mathbf{C}=\langle C,\circ,\text
 every morphism is an isomorphism: $\forall x\exists y\ x\circ y=\text{dom}(x)\text{ and }y\circ x=\text{cod}(x)$ 
 
 ### Morphisms
-Let $\mathbf{C}$ and $\mathbf{D}$ be Schroeder categories. A morphism from $\mathbf{C}$ to $\mathbf{D}$ is a function $h:C\rightarrow D$ that is a ***functor***: $h(x\circ y)=h(x)\circ h(y)$, $h(\text{dom}(x))=\text{dom}(h(x))$ and $h(\text{cod}(x))=\text{cod}(h(x))$.
+Let $\mathbf{C}$ and $\mathbf{D}$ be groupoids. A morphism from $\mathbf{C}$ to $\mathbf{D}$ is a function $h:C\rightarrow D$ that is a ***functor***: $h(x\circ y)=h(x)\circ h(y)$, $h(\text{dom}(x))=\text{dom}(h(x))$ and $h(\text{cod}(x))=\text{cod}(h(x))$.
 
 Remark: These categories are also called ***Brandt groupoids***.
 
