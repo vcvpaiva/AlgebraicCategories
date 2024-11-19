@@ -12,7 +12,7 @@ Let $\mathbf{A}$ and $\mathbf{B}$ be commutative binars. A morphism from $\mathb
 $h(x\cdot y)=h(x)\cdot h(y)$
 
 ## Examples
-Example 1: $\langle\mathbb N,|\cdot|\rangle$ is the distance binar of the natural numbers, where the binary operation is $|x-y|$. 
+Example 1: $\langle\mathbb N,\cdot\rangle$ is the distance binar of the natural numbers, where the binary operation is $x\cdot y=|x-y|$. 
 
 ## Basic results
 
