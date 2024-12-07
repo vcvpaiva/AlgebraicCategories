@@ -1,12 +1,12 @@
-# Algebraic Categories
+# Algebras and Logics
 
-The pages collected here list information about concrete categories of
-algebraic structures (and some other related concrete categories). The aim is to have a central place to check
+The pages collected here list information about classes of
+algebraic structures and related logics as well as other relevant categories. The aim is to have a central place to check
 what properties are known about these classes of algebraic structures. 
 
 The main content concerns mostly first-order classes of 
 structures and, more particularly, equationally defined classes of algebraic structures.
-If you are familiar with some of these classes of structures and would like some information added, please clone this repository, edit it and subit a pull request.
+If you are familiar with some of these classes of structures and would like some information added, please clone this repository, edit it and submit a pull request.
 
 **Boldface links** below display lists of finite algebras in a particular class (calculated locally in the browser).
 
