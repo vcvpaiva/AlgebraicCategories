@@ -30,7 +30,7 @@ If you are familiar with some of these classes of structures and would like some
 1. [Allegories](allegories.md)
 1. [Almost distributive lattices](almost_distributive_lattices.md)
 1. [Associative algebras](associative_algebras.md)
-1. [Bands](bands.md), **[Finite bands](finite_bands.md)**
+1. [Bands](bands.md), **[Finite bands](https://math.chapman.edu/~jipsen/uajs/Band.html)**
 1. [Basic logic algebras](basic_logic_algebras.md)
 1. [BCI-algebras](bci-algebras.md)
 1. [BCK-algebras](bck-algebras.md)
@@ -39,7 +39,7 @@ If you are familiar with some of these classes of structures and would like some
 1. [BCK-meet-semilattices](bck-meet-semilattices.md)
 1. [Bilattices](bilattices.md)
 1. [Bilinear algebras](bilinear_algebras.md)
-1. [Binars](magmas.md), **[Finite binars](finite_binars.md), [with identity](finite_binars_with_identity.md), [with zero](finite_binars_with_zero.md), [with identity and zero](finite_binars_with_identity_and_zero.md)**, 
+1. [Binars](magmas.md), **[Finite binars](https://math.chapman.edu/~jipsen/uajs/Binar.html), [with zero](https://math.chapman.edu/~jipsen/uajs/BinarZ.html)**
 1. [BL-algebras](basic_logic_algebras.md)
 1. [Boolean algebras](boolean_algebras.md)
 1. [Boolean algebras with operators](boolean_algebras_with_operators.md)
@@ -69,7 +69,7 @@ If you are familiar with some of these classes of structures and would like some
 1. [Clifford algebras](clifford_algebras.md)
 1. [Closure algebras](closure_algebras.md)
 1. [Commutative BCK-algebras](commutative_BCK-algebras.md)
-1. [Commutative binars](commutative_binars.md), **[Finite commutative binars](finite_commutative_binars.md), [with identity](finite_commutative_binars_with_identity.md), [with zero](finite_commutative_binars_with_zero.md), [with identity and zero](finite_commutative_binars_with_identity_and_zero.md)** 
+1. [Commutative binars](commutative_binars.md), **[Finite commutative binars](https://math.chapman.edu/~jipsen/uajs/CBinar.html)** 
 1. [Commutative idempotent involutive residuated lattices](commutative_idempotent_involutive_residuated_lattices.md)
 1. [Commutative integral ordered monoids](commutative_integral_ordered_monoids.md), **[Finite commutative integral ordered monoids](finite_commutative_integral_ordered_monoids.md)**
 1. [Commutative inverse semigroups](commutative_inverse_semigroups.md)
