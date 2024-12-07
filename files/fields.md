@@ -2,7 +2,7 @@
 
 Abbreviation: **Fld**
 ## Definition
-A ***field*** is a [commutative rings with identity](commutative_rings_with_identitys.md) $\mathbf{F}=\langle F,+,-,0,\cdot,1
+A ***field*** is a [commutative ring with identity](commutative_rings_with_identity.md) $\mathbf{F}=\langle F,+,-,0,\cdot,1
 \rangle$ such that
 
 
@@ -32,6 +32,8 @@ Example 1: $\langle\mathbb{Q},+,-,0,\cdot,1\rangle$, the field of rational numbe
 ## Basic results
 $0$ is a zero for $\cdot$: $0\cdot x=x$ and $x\cdot 0=0$.
 
+Fields are exactly the commutative rings with identity that are simple, i.e., have only two ideals.
+
 ## Properties
 
 
@@ -54,18 +56,14 @@ $0$ is a zero for $\cdot$: $0\cdot x=x$ and $x\cdot 0=0$.
 |[Amalgamation property](amalgamation_property.md)  | |
 |[Strong amalgamation property](strong_amalgamation_property.md)  | |
 |[Epimorphisms are surjective](epimorphisms_are_surjective.md)  | |
+
 ## Finite members
+|$n$       | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+|---       |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+|# of algs | 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |  0 |  1 |  0 |  1 |  0 |  0 |  1 |  1 |  0 |  1 | 0  |  0 |  0 |  1 |  0 |  1 |
 
-$\begin{array}{lr}
-f(1)= &0\\
-f(2)= &1\\
-f(3)= &1\\
-f(4)= &1\\
-f(5)= &1\\
-f(6)= &0\\
-\end{array}$
 
-There exists one field, called the Galois field $GF(p^m)$ of each prime-power order $p^m$.
+For every prime $p$ and positive integer $m$ there exists, up to isomorphism, exactly one field of cardinality $p^m$, called the Galois field $GF(p^m)$.
 
 ## Subclasses
 [Fields of characteristic zero](fields_of_characteristic_zeros.md) 
@@ -75,8 +73,3 @@ There exists one field, called the Galois field $GF(p^m)$ of each prime-power or
 ## Superclasses
 [Integral domains](integral_domains.md) 
 
-
-## References
-
-
-)]
