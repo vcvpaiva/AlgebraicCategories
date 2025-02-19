@@ -8,7 +8,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
 
   [Arrow logic](logics/arrow_logic.md) 
   
-  [Basic logic](basic_logics.md) 
+  [Basic logic](basic_logics.md) (404 too many basic logics)
   
   [BCI logic](bci_logics.md)
   
