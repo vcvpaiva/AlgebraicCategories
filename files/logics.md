@@ -6,7 +6,7 @@ This list is still **very much under construction**, so feel free to add further
 
 Many of the propositional logics on this page have algebraic semantics given by a class of structures on the [http://math.chapman.edu/~jipsen/structures/doku.php/|main page](http://math.chapman.edu/~jipsen/structures/doku.php/|main_pages.md). Algebraic logic is the area that investigates the connections between logics and their algebraic counterparts.
 
-  [Arrow logic](arrow_logics.md) 
+  [Arrow logic](logics/arrow_logics.md) 
   
   [Basic logic](basic_logics.md) 
   
