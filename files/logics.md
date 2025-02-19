@@ -10,9 +10,9 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Basic logic](basic_logics.md) (404, too many basic logics)
   
-  [BCI logic](bci_logics.md) (404, see BCL logic)
+  [BCI logic](bci_logics.md) (404, see BCK logic)
   
-  [BCK logic](bck_logics.md)
+  [BCK logic](bck_logics.md) 
   
   [Classical full Lambek calculus](classical_full_lambek_calculus.md)
   
