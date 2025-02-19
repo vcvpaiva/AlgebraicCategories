@@ -6,6 +6,8 @@ whose type-change rules show a close similarity with the inference rules of non-
 The calculus was originally described by Lambek in `The mathematics of sentence structure', Amer. Math. Monthly 65, 154–170 (1958).
 A fundamental result was proved by Mati Pentus, who has shown that the Lambek calculus has the generative capacity of context-free grammars.
 
+Encyclopedia: 
+
 References:
 * [The Lambek Calculus](https://link.springer.com/chapter/10.1007/978-94-015-6878-4_3), Johan van Benthem,
   Categorial Grammars and Natural Language Structures , 1988.
