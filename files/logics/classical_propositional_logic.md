@@ -10,7 +10,7 @@ truth-functional propositional logic is considered to be zeroth-order logic.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Propositional_calculus)
 
-[BooleanALgebras](https://en.wikipedia.org/wiki/Boolean_algebra_(structure))
+[BooleanAlgebras](https://en.wikipedia.org/wiki/Boolean_algebra_(structure))
 
 Encyclopedia of Proof Systems:
 
