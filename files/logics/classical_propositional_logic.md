@@ -15,5 +15,5 @@ truth-functional propositional logic is considered to be zeroth-order logic.
 Encyclopedia of Proof Systems:
 
 * [Gentzen sequent calculus LK](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/GentzenLK.tex)
-* [Kleene's classical G3](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/KleeneG3classical.tex)
-* [Parigot's LambdaMu](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/LambdaMu.tex)
+* [Kleene classical G3](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/KleeneG3classical.tex)
+* [Parigot LambdaMu](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/LambdaMu.tex)
