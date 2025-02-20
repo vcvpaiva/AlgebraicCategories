@@ -16,56 +16,54 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Lambek calculus](logics/lambek_calculus.md)
   
-  [Classical propositional logic](logics/classical_propositional_logics.md)
+  [Classical propositional logic](logics/classical_propositional_logic.md)
   
-  [Classical predicate logic](classical_predicate_logics.md)
+  [Classical predicate logic](logics/classical_predicate_logic.md)
   
-  [Classical predicate logic|First order logic](classical_predicate_logic|first_order_logics.md)
+  [Classical predicate logic](logics/classical_predicate_logic|first_order_logic.md)
   
-  [Full Lambek calculus](full_lambek_calculus.md)
+  [Full Lambek calculus with contraction](full_lambek_calculus_with_contractions.md) (404 for the time being)
   
-  [Full Lambek calculus with contraction](full_lambek_calculus_with_contractions.md)
+  [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchanges.md)
   
-  [Full Lambek calculus with exchange](full_lambek_calculus_with_exchanges.md)
+  [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakenings.md)
   
-  [Full Lambek calculus with weakening](full_lambek_calculus_with_weakenings.md)
+  [Goedel logic](logics/goedel_logics.md)
   
-  [Goedel logic](goedel_logics.md)
+  [Intuitionistic logic](logics/intuitionistic_logic.md)
   
-  [Intuitionistic logic](intuitionistic_logics.md)
+  [Intuitionistic multiplicative additive linear logic](logics/intuitionistic_multiplicative_additive_linear_logics.md)
   
-  [Intuitionistic multiplicative additive linear logic](intuitionistic_multiplicative_additive_linear_logics.md)
+  [Linear logic](logics/linear_logics.md)
   
-  [Linear logic](linear_logics.md)
+  [Lukasiewicz logic](logics/lukasiewicz_logics.md)
   
-  [Lukasiewicz logic](lukasiewicz_logics.md)
+  [Modal logic K](logics/modal_logic_ks.md)
   
-  [Modal logic K](modal_logic_ks.md)
+  [Modal logic T](\logics/modal_logic_ts.md)
   
-  [Modal logic T](modal_logic_ts.md)
+  [Modal logic S4](logics/modal_logic_s4s.md)
   
-  [Modal logic S4](modal_logic_s4s.md)
+  [Modal logic S5](\logics/modal_logic_s5s.md)
   
-  [Modal logic S5](modal_logic_s5s.md)
+  [Multiplicative additive linear logic](logics/multiplicative_additive_linear_logics.md)
   
-  [Multiplicative additive linear logic](multiplicative_additive_linear_logics.md)
-  
-  [Lukasiewicz logic|Multivalued logic](lukasiewicz_logic|multivalued_logics.md)
+  [Lukasiewicz logic|Multivalued logic](logics/lukasiewicz_logic|multivalued_logics.md)
   
   [Orthologic](orthologics.md)
   
   [Quantum computational logic](quantum_computational_logics.md)
   
-  [Quantum logic](quantum_logics.md)
+  [Quantum logic](logics/quantum_logics.md)
   
-  [Positive modal logic](positive_modal_logics.md)
+  [Positive modal logic](logics/positive_modal_logics.md)
   
-  [Product logic](product_logics.md)
+  [Product logic](logics/product_logics.md)
   
-  [Relevance logic](relevance_logics.md)
+  [Relevance logic](logics/relevance_logics.md)
   
-  [Substructural logic](substructural_logics.md)
+  [Substructural logic](logics/substructural_logics.md)
   
-  [Temporal logic](temporal_logics.md)
+  [Temporal logic](logics/temporal_logics.md)
   
-  -[Tense logic](tense_logics.md)
+  [Tense logic](logics/tense_logics.md)
