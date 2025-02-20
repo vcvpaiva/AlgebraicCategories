@@ -26,7 +26,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakening.md) (404 for the time being)
   
-  [Gödel logic](logics/(gödel_logic.md)
+  [Gödel logic](logics/gödel_logic.md)
   
   [Intuitionistic logic](logics/intuitionistic_logic.md)
   
