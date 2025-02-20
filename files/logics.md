@@ -16,7 +16,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Lambek calculus](logics/lambek_calculus.md)
   
-  [Classical propositional logic](classical_propositional_logics.md)
+  [Classical propositional logic](logics/classical_propositional_logics.md)
   
   [Classical predicate logic](classical_predicate_logics.md)
   
