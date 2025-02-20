@@ -20,13 +20,13 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Classical predicate logic](logics/classical_predicate_logic.md)
   
-  [Full Lambek calculus with contraction](full_lambek_calculus_with_contractions.md) (404 for the time being)
+  [Full Lambek calculus with contraction](full_lambek_calculus_with_contraction.md) (404 for the time being)
   
-  [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchanges.md)
+  [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchange.md) (404 for the time being)
   
-  [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakenings.md)
+  [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakening.md) (404 for the time being)
   
-  [Goedel logic](logics/goedel_logics.md)
+  [Goedel logic](logics/goedel_logic.md)
   
   [Intuitionistic logic](logics/intuitionistic_logic.md)
   
