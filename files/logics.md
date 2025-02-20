@@ -30,7 +30,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Intuitionistic logic](logics/intuitionistic_logic.md)
   
-  [Intuitionistic multiplicative additive linear logic](logics/intuitionistic_multiplicative_additive_linear_logics.md) (404 for the time being)
+  [Intuitionistic linear logic](logics/intuitionistic_linear_logic.md) 
   
   [Linear logic](logics/linear_logic.md)
   
