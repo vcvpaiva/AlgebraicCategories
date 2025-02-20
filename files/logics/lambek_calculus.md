@@ -3,7 +3,7 @@ that syntactic constituents combine as functions and arguments.
 One fundamental system of this kind is the so-called ‘Lambek Calculus’, 
 whose type-change rules show a close similarity with the inference rules of non-commutative intuitionistic LinearLogic.
 
-The calculus was originally described by Lambek in `The mathematics of sentence structure', Amer. Math. Monthly 65, 154–170 (1958).
+The calculus was originally described by Lambek in `[The mathematics of sentence structure](https://www.cs.cmu.edu/~fp/courses/15816-f16/misc/Lambek58.pdf)', Amer. Math. Monthly 65, 154–170 (1958).
 A fundamental result was proved by Mati Pentus, who has shown that the Lambek calculus has the generative capacity of context-free grammars.
 
 [Encyclopedia of Proof Systems](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/LambekCalc.tex)
