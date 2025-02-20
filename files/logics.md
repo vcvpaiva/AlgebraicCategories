@@ -20,8 +20,6 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Classical predicate logic](logics/classical_predicate_logic.md)
   
-  [Classical predicate logic](logics/classical_predicate_logic|first_order_logic.md)
-  
   [Full Lambek calculus with contraction](full_lambek_calculus_with_contractions.md) (404 for the time being)
   
   [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchanges.md)
