@@ -60,7 +60,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Relevance logic](logics/relevance_logics.md)
   
-  [Substructural logic](logics/substructural_logics.md)
+  [Substructural logics](logics/substructural_logics.md)
   
   [Temporal logic](logics/temporal_logics.md)
   
