@@ -1,4 +1,4 @@
-Many-valued logic 
+Multivalued logic 
 
 Many-valued logic (also multi- or multiple-valued logic) is a propositional calculus in which there are more than two truth values. 
 Traditionally, in Aristotle's logical calculus, there were only two possible values (i.e., "true" and "false") for any proposition. 
