@@ -36,19 +36,19 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Lukasiewicz logic](logics/lukasiewicz_logics.md)
   
-  [Modal logic K](logics/modal_logic_ks.md)
+  [Modal logic K](logics/modal_logic_ks.md) (see classical modal cube)
   
-  [Modal logic T](\logics/modal_logic_ts.md)
+  [Modal logic T](\logics/modal_logic_ts.md)  (see classical modal cube)
   
-  [Modal logic S4](logics/modal_logic_s4s.md)
+  [Modal logic S4](logics/modal_logic_s4s.md) (see classical modal cube)
   
-  [Modal logic S5](\logics/modal_logic_s5s.md)
+  [Modal logic S5](\logics/modal_logic_s5s.md) (see classical modal cube)
   
-  [Multiplicative additive linear logic](logics/multiplicative_additive_linear_logics.md)
+  [Multiplicative additive linear logic (MALL)](logics/multiplicative_additive_linear_logic.md)
   
   [Lukasiewicz logic|Multivalued logic](logics/lukasiewicz_logic|multivalued_logics.md)
   
-  [Orthologic](orthologics.md)
+  [Orthologic](orthologic.md)
   
   [Quantum computational logic](quantum_computational_logics.md)
   
