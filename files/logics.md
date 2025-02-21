@@ -2,9 +2,11 @@
 
 This page is intended to contain an alphabetical list of propositional and predicate logics that have been investigated in the published literature.
 
-This list is still **very much under construction**, so feel free to add further logics, and to add information about individual entries.
+This list is **very much under construction**, so feel free to add further logics, and to add information about individual entries.
 
-Many of the propositional logics on this page have algebraic semantics given by a class of structures on the [http://math.chapman.edu/~jipsen/structures/doku.php/|main page](http://math.chapman.edu/~jipsen/structures/doku.php/|main_pages.md). Algebraic logic is the area that investigates the connections between logics and their algebraic counterparts.
+Many of the propositional logics on this page have algebraic semantics given by a class of structures on https://github.com/vcvpaiva/AlgebraicCategories/blob/main/files/index.html.md. 
+
+Algebraic logic is the area that investigates the connections between logics and their algebraic counterparts.
 
   [Arrow logic](logics/arrow_logic.md) 
   
