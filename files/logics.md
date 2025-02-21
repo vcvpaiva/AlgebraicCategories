@@ -46,7 +46,7 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Multiplicative additive linear logic (MALL)](logics/multiplicative_additive_linear_logic.md)
   
-  [Lukasiewicz logic|Multivalued logic](logics/lukasiewicz_logic|multivalued_logics.md)
+  [Multivalued logic](logics/multivalued_logic.md)
   
   [Orthologic](orthologic.md)
   
