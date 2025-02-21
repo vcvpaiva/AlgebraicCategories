@@ -8,9 +8,9 @@ Many of the propositional logics on this page have algebraic semantics given by 
 
   [Arrow logic](logics/arrow_logic.md) 
   
-  [Basic logic](basic_logics.md) (404, too many basic logics)
+  [Basic logic](basic_logics.md) (which basic logic?)
   
-  [BCI logic](bci_logics.md) (404, see BCK logic)
+  [BCI logic](bci_logics.md) (see BCK logic)
   
   [BCK logic](logics/bck_logic.md) 
   
@@ -20,11 +20,11 @@ Many of the propositional logics on this page have algebraic semantics given by 
   
   [Classical predicate logic](logics/classical_predicate_logic.md)
   
-  [Full Lambek calculus with contraction](full_lambek_calculus_with_contraction.md) (404 for the time being)
+  [Full Lambek calculus with contraction](full_lambek_calculus_with_contraction.md) (see substructural logics)
   
-  [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchange.md) (404 for the time being)
+  [Full Lambek calculus with exchange](logics/full_lambek_calculus_with_exchange.md) (see substructural logics)
   
-  [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakening.md) (404 for the time being)
+  [Full Lambek calculus with weakening](logics/full_lambek_calculus_with_weakening.md) (see substructural logics)
   
   [Gödel logic](logics/gödel_logic.md)
   
