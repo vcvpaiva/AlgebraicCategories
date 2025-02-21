@@ -10,5 +10,5 @@ Wikipedia
 
 Encyclopedia of Proof Systems
   * [Classical linear logic (CLL)](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/LL.tex)
-  * [Intuitionistic linear logic (ILL)]()
+  * [Intuitionistic linear logic (ILL)](https://github.com/vcvpaiva/AlgebraicCategories/blob/main/files/logics/intuitionistic_linear_logic.md)
   * [Full Intuitionistic linear logic (FILL)](https://github.com/ProofSystem/Encyclopedia/blob/master/Source/mainmatter/FILL.tex)
