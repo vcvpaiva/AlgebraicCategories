@@ -4,7 +4,7 @@ This page is intended to contain an alphabetical list of propositional and predi
 
 This list is **very much under construction**, so feel free to add further logics, and to add information about individual entries.
 
-Many of the propositional logics on this page have algebraic semantics given by a class of structures on https://github.com/vcvpaiva/AlgebraicCategories/blob/main/files/index.html.md. 
+Many of the propositional logics on this page have algebraic semantics given by a class of structures on https://github.com/vcvpaiva/AlgebraicCategories/blob/main/files/index.md. 
 
 Algebraic logic is the area that investigates the connections between logics and their algebraic counterparts.
 
