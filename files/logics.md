@@ -56,14 +56,14 @@ Algebraic logic is the area that investigates the connections between logics and
   
   [Quantum logic](logics/quantum_logic.md)
   
-  [Positive modal logic](logics/positive_modal_logics.md)
+  [Positive modal logic](logics/positive_modal_logic.md)
   
-  [Product logic](logics/product_logics.md)
+  [Product logic](logics/product_logic.md)
   
-  [Relevance logic](logics/relevance_logics.md)
+  [Relevance logic](logics/relevance_logic.md)
   
-  [Substructural logics](logics/substructural_logics.md)
+  [Substructural logics](logics/substructural_logic.md)
   
-  [Temporal logic](logics/temporal_logics.md)
+  [Temporal logic](logics/temporal_logic.md)
   
-  [Tense logic](logics/tense_logics.md)
+  [Tense logic](logics/tense_logic.md)
