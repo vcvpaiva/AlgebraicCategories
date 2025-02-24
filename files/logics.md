@@ -52,9 +52,9 @@ Algebraic logic is the area that investigates the connections between logics and
   
   [Orthologic](logics/orthologic.md)
   
-  [Quantum computational logic](quantum_computational_logics.md)
+  [Quantum computational logic](quantum_computational_logics.md) (see Quantum Logic)
   
-  [Quantum logic](logics/quantum_logics.md)
+  [Quantum logic](logics/quantum_logic.md)
   
   [Positive modal logic](logics/positive_modal_logics.md)
   
