@@ -50,7 +50,7 @@ Algebraic logic is the area that investigates the connections between logics and
   
   [Multivalued logic](logics/multivalued_logic.md)
   
-  [Orthologic](orthologic.md)
+  [Orthologic](logics/orthologic.md)
   
   [Quantum computational logic](quantum_computational_logics.md)
   
