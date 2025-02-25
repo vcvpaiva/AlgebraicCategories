@@ -3,7 +3,7 @@
 The idea for this database goes back to an influential paper 
 
 E. W. Kiss, L. Márki, P. Pröhle, W. Tholen:
-Categorical algebraic properties. A compendium on amalgamation, congruence extension, epimorphisms, residual smallness, and injectivity, Studia Sci. Math. Hungar., 18, 1982, 79-140
+[Categorical algebraic properties. A compendium on amalgamation, congruence extension, epimorphisms, residual smallness, and injectivity](https://www.renyi.hu/~marki/kmpt_pp79-111.pdf), Studia Sci. Math. Hungar., 18, 1982, 79-140
 
 This paper lists the status of 8 properties for ~100 concrete categories (the [amalgamation property](amalgamation_property.md), intersection property of amalgamations, [epimorphisms are surjective](epimorphisms_are_surjective.md), 
 the [congruence extension property](congruence_extension_property.md), existence of a cogenerating set, [residual smallness](residual_size.md), enough absolute retracts, 
