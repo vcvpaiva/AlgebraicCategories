@@ -2,7 +2,7 @@ Contents from http://web.archive.org/web/20190401005732/http://www.cc.utah.edu/~
 
 I will reformat the contents to make them easier to cite, as time allows me.
 
-<h2> Logic Systems</h2>>
+<h2> Logic Systems</h2>
 
 This page is the actual full page of serious references. If you are looking for just a few systems but lots of flashy diagrams, 
 you want http://www.cc.utah.edu/~nahaj/logic/structures/ which also gives an explaination of notations used and other housekeeping information.
@@ -19,7 +19,7 @@ I'm not aware of any other such cross reference on the net (or anywhere else). I
 
 [Bibliography]()
 
-    0p is called the Trivial System
+    0p is called the [Trivial System]()
     "10 modalities calculus" (Becker) =[Parry, 1953, p150]= S5 (Lewis)
     2' (Feys) =[Feys, 1965, p123]= T (Feys)
     2r (Pledger) =[Pledger 1972 p270]= S5 (Lewis)
