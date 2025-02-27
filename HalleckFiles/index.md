@@ -1,7 +1,8 @@
-Contents from http://web.archive.org/web/20190401005732/http://www.cc.utah.edu/~nahaj/logic/structures/systems/index.html
+Contents from http://web.archive.org/web/20190401005732/http://www.cc.utah.edu/~nahaj/logic/structures/systems/index.html.
+
 I will reformat the contents to make them easier to cite, as time allows me.
 
-Logic Systems
+<h2> Logic Systems</h2>>
 
 This page is the actual full page of serious references. If you are looking for just a few systems but lots of flashy diagrams, 
 you want http://www.cc.utah.edu/~nahaj/logic/structures/ which also gives an explaination of notations used and other housekeeping information.
