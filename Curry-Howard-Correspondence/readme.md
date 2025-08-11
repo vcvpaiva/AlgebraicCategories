@@ -31,4 +31,47 @@ Project scope & goals
 
     Why this is useful: makes explicit the web of models for programming-language and logic phenomena; helpful for researchers building formalizations, semantics, or educational material.
 
+--------------------------------------------
 
+Recommended repository layout and data model
+
+Suggested new top-level folders (minimal, composable):
+
+/files/               # existing content area (repo already uses files/)
+  index.md
+  categories/         # one file per category (markdown + frontmatter)
+  logics/             # short pages describing the logics
+  mappings/           # JSON-LD/YAML files: explicit Curry–Howard mappings
+  examples/           # concrete examples and formalization links
+  bibliographies/     # bibtex / recommended reading per entry
+  templates/          # PR/Issue/entry templates
+
+Example frontmatter schema (YAML) for categories/ccc.md
+
+id: ccc
+name: "Cartesian closed category"
+definition: "A category with finite products and exponentials..."
+associated_logics:
+  - simply_typed_lambda_calculus
+  - propositional_intuitionistic_logic
+curry_howard:
+  implication: "exponentials (A ⇒ B or B^A)"
+  conjunction: "product"
+  truth: "terminal object"
+examples:
+  - Set (category of sets)
+  - FinSet
+references:
+  - "Curry–Howard–Lambek"  # point to canonical refs
+formalizations:
+  - Coq: "https://github.com/..."
+tags: ["lambda-calculus", "intuitionistic", "CCC"]
+license: "Apache-2.0"
+
+Mapping files
+
+    mappings/ccc-mapping.yaml — record the exact syntactic ↔ categorical correspondence and short equational laws used in the proof.
+
+    Use JSON-LD context so later you can export RDF/OWL if desired for semantic-web linking.
+
+-----------------------------------------------------    
