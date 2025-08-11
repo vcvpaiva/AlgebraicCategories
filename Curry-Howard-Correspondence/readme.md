@@ -5,7 +5,7 @@ Tailored so the knowledge-base contains only categories that have a clear Curry�
 Includes:
 * (1) scope and goals,
 * (2) a recommended data model and file layout,
-* (3) the canonical category ↔ logic mappings to include, with references,
+* (3) canonical category ↔ logic mappings to include, with references,
 * (4) an ingestion / curation pipeline, and
 * (5) concrete first tasks one can assign as issues.
 
@@ -13,8 +13,7 @@ Includes:
 Add canonical references for the mappings so one can check sources. 
 
 ------------------------------------------
-
-Project scope & goals
+(1) Project scope & goals
 
     Scope: add, standardize, and interlink entries for categories that serve as models of logics (via Curry–Howard or its extensions) — e.g. cartesian closed categories, locally cartesian closed categories, *-autonomous categories, toposes, categories-with-families, monoidal closed categories, etc. 
     Exclude categories that have no recognized correspondence to a logic/lambda calculus.
@@ -34,7 +33,7 @@ Project scope & goals
 
 --------------------------------------------
 
-Repository layout and data model
+(2) Repository layout and data model
 
 New top-level folders (minimal, composable):
 
@@ -77,7 +76,7 @@ Mapping files
 
 -----------------------------------------------------    
 
-Canonical categories & their logic correspondences (starter list)
+(3) Canonical categories & their logic correspondences (starter list)
 
 Each item below should have an entry in categories/, a summary in logics/, and a mappings/ file describing the Curry–Howard translation.
 
@@ -126,4 +125,34 @@ Each item below should have an entry in categories/, a summary in logics/, and a
 (For every item, include: definition, minimal axioms, explicit Curry–Howard mapping, canonical examples, formalizations, references.)
 
 --------------------------------------------------------
+(4) Ingestion, validation, and curation pipeline
 
+A dual human + automated workflow:
+
+    Seed entries (manual): start with the list above and create high-quality markdown + YAML frontmatter files from canonical references. (This establishes structure.)
+
+    Automated literature harvesting (optional):
+
+        Scripts that query arXiv / CrossRef / Semantic Scholar for canonical papers (e.g., Barr on *-autonomous categories, Lambek & Scott, Seely, Cartmell, Dybjer).
+
+        Use heuristics to extract DOI / title / abstract to pre-fill bibliographies/.
+
+    NLP-assisted extraction (optional advanced):
+
+        Use your MathGloss pipeline (or similar) to extract definitions and descriptive sentences from textbooks/chapters; present as PR suggestions for human review.
+
+    Curation & review:
+
+        Require a short human-checked verification step before merging a new category: confirm the mapping and at least one authoritative reference.
+
+        Create a VALIDATION.md describing minimal acceptance criteria (definition, mapping, at least one ref, example, license).
+
+    Linking to formalizations:
+
+        Encourage contributors to add links to Coq/Agda/Lean formalizations; provide a formalizations/ checklist for what metadata to include (library name, file, theorem names).
+
+    Exports & APIs:
+
+        Provide a script to export the repository content as JSON-LD and a small restful API (e.g. /api/categories) so other projects can query it.
+
+----------------------------------------------------------
