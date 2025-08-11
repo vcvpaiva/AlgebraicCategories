@@ -156,3 +156,21 @@ A dual human + automated workflow:
         Provide a script to export the repository content as JSON-LD and a small restful API (e.g. /api/categories) so other projects can query it.
 
 ----------------------------------------------------------
+(5) Concrete deliverables & first issues
+
+Create small, actionable issues for early momentum:
+
+    Issue A (seed): Add categories/ccc.md and mappings/ccc-mapping.yaml (use the frontmatter schema above). Assign to you or a trusted contributor. (Good first PR.)
+
+    Issue B (seed): Add categories/star-autonomous.md plus references to Barr paper and Seely.
+    math.mcgill.ca
+    Cambridge University Press & Assessment
+
+    Issue C (tooling): Add a scripts/export_jsonld.py that reads markdown frontmatter and emits JSON-LD.
+
+    Issue D (templates): Add PR template requiring (a) mapping YAML, (b) reference(s), (c) example.
+
+    Issue E (example formalization): Add an examples/ entry linking to at least one Coq/Lean formalization that demonstrates the CCC ↔ simply-typed λ-calculus correspondence.
+
+ ----------------------------------------------------------
+ 
