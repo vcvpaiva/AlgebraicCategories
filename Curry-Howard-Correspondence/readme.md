@@ -33,9 +33,9 @@ Project scope & goals
 
 --------------------------------------------
 
-Recommended repository layout and data model
+Repository layout and data model
 
-Suggested new top-level folders (minimal, composable):
+New top-level folders (minimal, composable):
 
 /files/               # existing content area (repo already uses files/)
   index.md
@@ -75,3 +75,54 @@ Mapping files
     Use JSON-LD context so later you can export RDF/OWL if desired for semantic-web linking.
 
 -----------------------------------------------------    
+
+Canonical categories & their logic correspondences (starter list)
+
+Each item below should have an entry in categories/, a summary in logics/, and a mappings/ file describing the Curry–Howard translation.
+
+    Cartesian Closed Categories (CCC)
+
+        Models: simply-typed λ-calculus / intuitionistic propositional logic (implication = exponentials, conjunction = product, truth = terminal).
+
+        Use as canonical citation: Curry–Howard–Lambek correspondence.
+        Wikipedia
+
+    Toposes
+
+        Models: higher-order intuitionistic logic / internal language of a topos; subobject classifier Ω implements propositions.
+
+        Useful for: predicate logic, higher-order reasoning, internal set-like semantics.
+        NCAT Lab
+
+    Locally Cartesian Closed Categories (LCCC)
+
+        Models: dependent type theories with Π (dependent product) and Σ (dependent sum) types — the categorical semantics for dependent types and (some) Martin-Löf type theory variants.
+        NCAT Lab
+        math.mcgill.ca
+
+    Categories with Families / Contextual Categories / Comprehension Categories
+
+        Models: syntactic/dependent type theory; these are the categorical structures that express syntax (contexts, substitution) more explicitly than LCCC in some settings. (Add references to Cartmell, Dybjer, Awodey et al. in the entry.)
+
+    *-Autonomous / Symmetric Monoidal Closed Categories
+
+        Models: (fragments of) linear logic; dualizing objects capture linear negation and resource-sensitivity. Include Barr and Seely references.
+        math.mcgill.ca
+        Stanford Encyclopedia of Philosophy
+
+    Heyting algebras / Locales
+
+        Models: propositional intuitionistic logic (algebraic semantics). Good entry for simpler propositional correspondences (proofs ↔ order relations). (Include nLab / standard textbooks.)
+
+    Cartesian closed bicategories, monoidal categories with modalities, and categorical models for modal logics
+
+        Modalities ↔ monads/comonads or indexed adjoints. (Add references and examples; these are often higher/2-categorical.)
+
+    (Optional/Advanced) ∞-Categorical models (∞-toposes)
+
+        Models: Homotopy Type Theory (HoTT) and higher inductive types — link to ∞-toposes and ∞-groupoid semantics. Mark as advanced and require specialized references.
+
+(For every item, include: definition, minimal axioms, explicit Curry–Howard mapping, canonical examples, formalizations, references.)
+
+--------------------------------------------------------
+
